@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python on fgaublog</title>
+    <link>https://fgau.github.io/tags/python/</link>
+    <description>Recent content in Python on fgaublog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy;2017</copyright>
+    <lastBuildDate>Thu, 12 Jun 2014 18:35:22 +0200</lastBuildDate>
+    
+	<atom:link href="https://fgau.github.io/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>python and the facebook api</title>
+      <link>https://fgau.github.io/posts/python-and-facebook-api/</link>
+      <pubDate>Thu, 12 Jun 2014 18:35:22 +0200</pubDate>
+      
+      <guid>https://fgau.github.io/posts/python-and-facebook-api/</guid>
+      <description>to run this example, you need at first a facebook app. this video shows the simple setup. pick the App ID and App Secret from there and insert it in the python code below.
+the program returns all comments from a single facebook post. you can limited the request and you can change the facebook post ID. the graph api explorer is the perfect starting point to learn more about the fb api.</description>
+    </item>
+    
+  </channel>
+</rss>

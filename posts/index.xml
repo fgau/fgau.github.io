@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy;2017</copyright>
-    <lastBuildDate>Wed, 11 Jun 2014 08:45:23 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 12 Jun 2014 18:35:22 +0200</lastBuildDate>
     
 	<atom:link href="https://fgau.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>python and the facebook api</title>
+      <link>https://fgau.github.io/posts/python-and-facebook-api/</link>
+      <pubDate>Thu, 12 Jun 2014 18:35:22 +0200</pubDate>
+      
+      <guid>https://fgau.github.io/posts/python-and-facebook-api/</guid>
+      <description>to run this example, you need at first a facebook app. this video shows the simple setup. pick the App ID and App Secret from there and insert it in the python code below.
+the program returns all comments from a single facebook post. you can limited the request and you can change the facebook post ID. the graph api explorer is the perfect starting point to learn more about the fb api.</description>
+    </item>
     
     <item>
       <title>what a night</title>
