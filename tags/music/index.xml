@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Music on fgaublog</title>
+    <link>https://fgau.github.io/tags/music/</link>
+    <description>Recent content in Music on fgaublog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy;2017</copyright>
+    <lastBuildDate>Wed, 11 Jun 2014 08:45:23 +0200</lastBuildDate>
+    
+	<atom:link href="https://fgau.github.io/tags/music/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>what a night</title>
+      <link>https://fgau.github.io/posts/what-a-night/</link>
+      <pubDate>Wed, 11 Jun 2014 08:45:23 +0200</pubDate>
+      
+      <guid>https://fgau.github.io/posts/what-a-night/</guid>
+      <description>  metallica in da house II   </description>
+    </item>
+    
+    <item>
+      <title>here we go</title>
+      <link>https://fgau.github.io/posts/here-we-go/</link>
+      <pubDate>Wed, 04 Jun 2014 15:59:10 +0200</pubDate>
+      
+      <guid>https://fgau.github.io/posts/here-we-go/</guid>
+      <description>  metallica in da house I   </description>
+    </item>
+    
+  </channel>
+</rss>
