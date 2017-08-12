@@ -7,10 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy;2017</copyright>
-    <lastBuildDate>Thu, 12 Jun 2014 18:35:22 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 11 Jul 2014 23:05:18 +0200</lastBuildDate>
     
 	<atom:link href="https://fgau.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>guitar hero</title>
+      <link>https://fgau.github.io/posts/guitar-hero/</link>
+      <pubDate>Fri, 11 Jul 2014 23:05:18 +0200</pubDate>
+      
+      <guid>https://fgau.github.io/posts/guitar-hero/</guid>
+      <description>zakk wylde from black label society presented new songs from the new album &amp;lsquo;Catacombs Of The Black Vatican&amp;rsquo; in berlin &amp;lsquo;huxleys neue welt&amp;rsquo; on july 1st. the show and the sound was impressive. the berlin chapter says thank you for a great show!</description>
+    </item>
+    
+    <item>
+      <title>adminer - alternative to phpmyadmin</title>
+      <link>https://fgau.github.io/posts/adminer-alternative-phpmyadmin/</link>
+      <pubDate>Sun, 29 Jun 2014 20:45:34 +0200</pubDate>
+      
+      <guid>https://fgau.github.io/posts/adminer-alternative-phpmyadmin/</guid>
+      <description>more security, more performance, better interface, which promises the database management tool adminer. the single php script can handle mysql, postgresql, sqlite, ms sql, mongodb and other. i have tested the functionality, and it does what it promise. a cool tool!</description>
+    </item>
     
     <item>
       <title>python and the facebook api</title>
