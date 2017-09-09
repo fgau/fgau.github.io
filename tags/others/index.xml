@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Others on fgaublog</title>
+    <link>https://fgau.github.io/tags/others/</link>
+    <description>Recent content in Others on fgaublog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy;2017</copyright>
+    <lastBuildDate>Sat, 08 Nov 2014 19:13:28 +0200</lastBuildDate>
+    
+	<atom:link href="https://fgau.github.io/tags/others/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>autumn 2014 berlin</title>
+      <link>https://fgau.github.io/posts/autumn-2014-berlin/</link>
+      <pubDate>Sat, 08 Nov 2014 19:13:28 +0200</pubDate>
+      
+      <guid>https://fgau.github.io/posts/autumn-2014-berlin/</guid>
+      <description>  this image is composed of 2 photos, and showing the gartenstrasse in northerly and southerly direction. and it is not the berlin wall.
+ </description>
+    </item>
+    
+  </channel>
+</rss>

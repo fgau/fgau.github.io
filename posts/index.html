@@ -43,6 +43,108 @@
     <div class="container">
       
       <article>
+        <h2 class="subtitle is-6">March 3, 2015</h2>
+        <h1 class="title"><a href="https://fgau.github.io/posts/django-allow-only-requests-from-specific-ip/">django allow only requests from specific IP</a></h1>
+        
+        <div class="tags">
+    
+        <a class="button is-link" href="/tags/programming">programming</a>
+    
+        <a class="button is-link" href="/tags/python">python</a>
+    
+        <a class="button is-link" href="/tags/django">django</a>
+    
+</div>
+
+        
+        <div class="content">
+          for a django project i needed a exception for the rss feed requests. they are only allowed to request for a set of specific IP addresses. django&rsquo;s feed syndication framework is the base, and i have added a little snippet for receiving the remote address. the HttpRequest.META method reads all available HTTP header informations and for that case we read REMOTE_ADDR. only ip addresses in ip_allow are ready to receive the feed objects.
+          
+          ...<a class="button is-link" href="https://fgau.github.io/posts/django-allow-only-requests-from-specific-ip/" style="height:28px">
+            Read more
+            <span class="icon is-small">
+              <i class="fa fa-angle-double-right"></i>
+            </span>
+          </a>
+          
+        </div>
+      </article>
+      
+      <article>
+        <h2 class="subtitle is-6">January 9, 2015</h2>
+        <h1 class="title"><a href="https://fgau.github.io/posts/31c3-is-over/">31c3 is over</a></h1>
+        
+        <div class="tags">
+    
+        <a class="button is-link" href="/tags/events">events</a>
+    
+</div>
+
+        
+        <div class="content">
+          the pyneo project is very happy to be part of the 31c3 in hamburg. our small team had a lot of fun with hard and software. samsung phones, a special tizen phone, gps tracker with gsm modems, bus pirates, serial consol finder workshop and so on. cool guys on a cool loacation with very interesting talks, thats the spirit during entertaining congress. i like it and i&rsquo;m looking forward to the next year.
+          
+          ...<a class="button is-link" href="https://fgau.github.io/posts/31c3-is-over/" style="height:28px">
+            Read more
+            <span class="icon is-small">
+              <i class="fa fa-angle-double-right"></i>
+            </span>
+          </a>
+          
+        </div>
+      </article>
+      
+      <article>
+        <h2 class="subtitle is-6">November 30, 2014</h2>
+        <h1 class="title"><a href="https://fgau.github.io/posts/android-http-post-to-django-server/">android http post to django server</a></h1>
+        
+        <div class="tags">
+    
+        <a class="button is-link" href="/tags/programming">programming</a>
+    
+        <a class="button is-link" href="/tags/python">python</a>
+    
+        <a class="button is-link" href="/tags/android">android</a>
+    
+        <a class="button is-link" href="/tags/django">django</a>
+    
+</div>
+
+        
+        <div class="content">
+          for an android/server gps project, i have need to send some data to a server. in my case a django server. on my android app a HttpPost sends data to http://epydial.pyneo.org/receiver/. The HttpPost is embedded in a AsyncTask. After sucessfully post, a toast message is genereated.
+ the receiver method on my django server:
+ further information about the @csrf_exempt decorator you can find here. the rest of the receiver method is self-explanatory.
+          
+          ...<a class="button is-link" href="https://fgau.github.io/posts/android-http-post-to-django-server/" style="height:28px">
+            Read more
+            <span class="icon is-small">
+              <i class="fa fa-angle-double-right"></i>
+            </span>
+          </a>
+          
+        </div>
+      </article>
+      
+      <article>
+        <h2 class="subtitle is-6">November 8, 2014</h2>
+        <h1 class="title"><a href="https://fgau.github.io/posts/autumn-2014-berlin/">autumn 2014 berlin</a></h1>
+        
+        <div class="tags">
+    
+        <a class="button is-link" href="/tags/others">others</a>
+    
+</div>
+
+        
+        <div class="content">
+            this image is composed of 2 photos, and showing the gartenstrasse in northerly and southerly direction. and it is not the berlin wall.
+ 
+          
+        </div>
+      </article>
+      
+      <article>
         <h2 class="subtitle is-6">July 11, 2014</h2>
         <h1 class="title"><a href="https://fgau.github.io/posts/guitar-hero/">guitar hero</a></h1>
         
@@ -165,23 +267,6 @@ the program returns all comments from a single facebook post. you can limited th
         </div>
       </article>
       
-      <article>
-        <h2 class="subtitle is-6">April 29, 2014</h2>
-        <h1 class="title"><a href="https://fgau.github.io/posts/initial-commit/">initial commit</a></h1>
-        
-        <div class="tags">
-    
-        <a class="button is-link" href="/tags/other">other</a>
-    
-</div>
-
-        
-        <div class="content">
-            Berlin, Hackerstrasse   
-          
-        </div>
-      </article>
-      
     </div>
   </section>
   <section class="section">
@@ -202,7 +287,7 @@ the program returns all comments from a single facebook post. you can limited th
       <div class="level-right is-marginless">
         <div class="level-item">
           
-          <a class="button is-disabled">
+          <a class="button" href="/posts/page/2/">
             Older
             <span class="icon is-small is-marginless">
               <i class="fa fa-angle-right"></i>

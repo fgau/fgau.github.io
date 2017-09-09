@@ -7,10 +7,49 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy;2017</copyright>
-    <lastBuildDate>Fri, 11 Jul 2014 23:05:18 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 03 Mar 2015 16:58:03 +0200</lastBuildDate>
     
 	<atom:link href="https://fgau.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>django allow only requests from specific IP</title>
+      <link>https://fgau.github.io/posts/django-allow-only-requests-from-specific-ip/</link>
+      <pubDate>Tue, 03 Mar 2015 16:58:03 +0200</pubDate>
+      
+      <guid>https://fgau.github.io/posts/django-allow-only-requests-from-specific-ip/</guid>
+      <description>for a django project i needed a exception for the rss feed requests. they are only allowed to request for a set of specific IP addresses. django&amp;rsquo;s feed syndication framework is the base, and i have added a little snippet for receiving the remote address. the HttpRequest.META method reads all available HTTP header informations and for that case we read REMOTE_ADDR. only ip addresses in ip_allow are ready to receive the feed objects.</description>
+    </item>
+    
+    <item>
+      <title>31c3 is over</title>
+      <link>https://fgau.github.io/posts/31c3-is-over/</link>
+      <pubDate>Fri, 09 Jan 2015 21:17:47 +0200</pubDate>
+      
+      <guid>https://fgau.github.io/posts/31c3-is-over/</guid>
+      <description>the pyneo project is very happy to be part of the 31c3 in hamburg. our small team had a lot of fun with hard and software. samsung phones, a special tizen phone, gps tracker with gsm modems, bus pirates, serial consol finder workshop and so on. cool guys on a cool loacation with very interesting talks, thats the spirit during entertaining congress. i like it and i&amp;rsquo;m looking forward to the next year.</description>
+    </item>
+    
+    <item>
+      <title>android http post to django server</title>
+      <link>https://fgau.github.io/posts/android-http-post-to-django-server/</link>
+      <pubDate>Sun, 30 Nov 2014 00:16:50 +0200</pubDate>
+      
+      <guid>https://fgau.github.io/posts/android-http-post-to-django-server/</guid>
+      <description>for an android/server gps project, i have need to send some data to a server. in my case a django server. on my android app a HttpPost sends data to http://epydial.pyneo.org/receiver/. The HttpPost is embedded in a AsyncTask. After sucessfully post, a toast message is genereated.
+ the receiver method on my django server:
+ further information about the @csrf_exempt decorator you can find here. the rest of the receiver method is self-explanatory.</description>
+    </item>
+    
+    <item>
+      <title>autumn 2014 berlin</title>
+      <link>https://fgau.github.io/posts/autumn-2014-berlin/</link>
+      <pubDate>Sat, 08 Nov 2014 19:13:28 +0200</pubDate>
+      
+      <guid>https://fgau.github.io/posts/autumn-2014-berlin/</guid>
+      <description>  this image is composed of 2 photos, and showing the gartenstrasse in northerly and southerly direction. and it is not the berlin wall.
+ </description>
+    </item>
     
     <item>
       <title>guitar hero</title>

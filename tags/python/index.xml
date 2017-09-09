@@ -7,10 +7,30 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy;2017</copyright>
-    <lastBuildDate>Thu, 12 Jun 2014 18:35:22 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 03 Mar 2015 16:58:03 +0200</lastBuildDate>
     
 	<atom:link href="https://fgau.github.io/tags/python/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>django allow only requests from specific IP</title>
+      <link>https://fgau.github.io/posts/django-allow-only-requests-from-specific-ip/</link>
+      <pubDate>Tue, 03 Mar 2015 16:58:03 +0200</pubDate>
+      
+      <guid>https://fgau.github.io/posts/django-allow-only-requests-from-specific-ip/</guid>
+      <description>for a django project i needed a exception for the rss feed requests. they are only allowed to request for a set of specific IP addresses. django&amp;rsquo;s feed syndication framework is the base, and i have added a little snippet for receiving the remote address. the HttpRequest.META method reads all available HTTP header informations and for that case we read REMOTE_ADDR. only ip addresses in ip_allow are ready to receive the feed objects.</description>
+    </item>
+    
+    <item>
+      <title>android http post to django server</title>
+      <link>https://fgau.github.io/posts/android-http-post-to-django-server/</link>
+      <pubDate>Sun, 30 Nov 2014 00:16:50 +0200</pubDate>
+      
+      <guid>https://fgau.github.io/posts/android-http-post-to-django-server/</guid>
+      <description>for an android/server gps project, i have need to send some data to a server. in my case a django server. on my android app a HttpPost sends data to http://epydial.pyneo.org/receiver/. The HttpPost is embedded in a AsyncTask. After sucessfully post, a toast message is genereated.
+ the receiver method on my django server:
+ further information about the @csrf_exempt decorator you can find here. the rest of the receiver method is self-explanatory.</description>
+    </item>
     
     <item>
       <title>python and the facebook api</title>

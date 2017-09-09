@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Programming on fgaublog</title>
-    <link>https://fgau.github.io/tags/programming/</link>
-    <description>Recent content in Programming on fgaublog</description>
+    <title>Django on fgaublog</title>
+    <link>https://fgau.github.io/tags/django/</link>
+    <description>Recent content in Django on fgaublog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy;2017</copyright>
     <lastBuildDate>Tue, 03 Mar 2015 16:58:03 +0200</lastBuildDate>
     
-	<atom:link href="https://fgau.github.io/tags/programming/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://fgau.github.io/tags/django/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -30,27 +30,6 @@
       <description>for an android/server gps project, i have need to send some data to a server. in my case a django server. on my android app a HttpPost sends data to http://epydial.pyneo.org/receiver/. The HttpPost is embedded in a AsyncTask. After sucessfully post, a toast message is genereated.
  the receiver method on my django server:
  further information about the @csrf_exempt decorator you can find here. the rest of the receiver method is self-explanatory.</description>
-    </item>
-    
-    <item>
-      <title>python and the facebook api</title>
-      <link>https://fgau.github.io/posts/python-and-facebook-api/</link>
-      <pubDate>Thu, 12 Jun 2014 18:35:22 +0200</pubDate>
-      
-      <guid>https://fgau.github.io/posts/python-and-facebook-api/</guid>
-      <description>to run this example, you need at first a facebook app. this video shows the simple setup. pick the App ID and App Secret from there and insert it in the python code below.
-the program returns all comments from a single facebook post. you can limited the request and you can change the facebook post ID. the graph api explorer is the perfect starting point to learn more about the fb api.</description>
-    </item>
-    
-    <item>
-      <title>a simple d-bus daemon implemented with c</title>
-      <link>https://fgau.github.io/posts/a-simple-d-bus-daemon-implemented-with-c/</link>
-      <pubDate>Wed, 04 Jun 2014 10:50:31 +0200</pubDate>
-      
-      <guid>https://fgau.github.io/posts/a-simple-d-bus-daemon-implemented-with-c/</guid>
-      <description>first of all, you need a d-bus config file for the daemon. on a standard debian system it is saved in /etc/dbus-1/system.d/ as cneod.conf.
- and here you can find the daemon code. what can you do with the compiled code? with the d-bus rules above, you are able to:
- shutdown suspend reboot setbrightness getbrightness  your system without root access. if you have a closer look to the code, you will see, the program is intended for my openmoko GTA02 and for my laptop/netbook.</description>
     </item>
     
   </channel>

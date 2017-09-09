@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Events on fgaublog</title>
+    <link>https://fgau.github.io/tags/events/</link>
+    <description>Recent content in Events on fgaublog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy;2017</copyright>
+    <lastBuildDate>Fri, 09 Jan 2015 21:17:47 +0200</lastBuildDate>
+    
+	<atom:link href="https://fgau.github.io/tags/events/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>31c3 is over</title>
+      <link>https://fgau.github.io/posts/31c3-is-over/</link>
+      <pubDate>Fri, 09 Jan 2015 21:17:47 +0200</pubDate>
+      
+      <guid>https://fgau.github.io/posts/31c3-is-over/</guid>
+      <description>the pyneo project is very happy to be part of the 31c3 in hamburg. our small team had a lot of fun with hard and software. samsung phones, a special tizen phone, gps tracker with gsm modems, bus pirates, serial consol finder workshop and so on. cool guys on a cool loacation with very interesting talks, thats the spirit during entertaining congress. i like it and i&amp;rsquo;m looking forward to the next year.</description>
+    </item>
+    
+  </channel>
+</rss>
