@@ -3,6 +3,26 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://fgau.github.io/posts/33c3-work-for-me/</loc>
+    <lastmod>2017-01-01T15:37:07+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fgau.github.io/posts/trash-metal-yeah/</loc>
+    <lastmod>2016-06-25T22:42:44+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fgau.github.io/posts/slack-openweather-bot/</loc>
+    <lastmod>2015-09-24T18:41:34+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fgau.github.io/posts/django-1.7-update-django-database-to-reflect-changes-in-existing/</loc>
+    <lastmod>2015-04-25T12:09:06+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://fgau.github.io/posts/django-allow-only-requests-from-specific-ip/</loc>
     <lastmod>2015-03-03T16:58:03+02:00</lastmod>
   </url>
@@ -76,25 +96,25 @@
   
   <url>
     <loc>https://fgau.github.io/tags/databases/</loc>
-    <lastmod>2014-06-29T20:45:34+02:00</lastmod>
+    <lastmod>2015-04-25T12:09:06+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://fgau.github.io/tags/django/</loc>
-    <lastmod>2015-03-03T16:58:03+02:00</lastmod>
+    <lastmod>2015-04-25T12:09:06+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://fgau.github.io/tags/events/</loc>
-    <lastmod>2015-01-09T21:17:47+02:00</lastmod>
+    <lastmod>2017-01-01T15:37:07+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://fgau.github.io/tags/music/</loc>
-    <lastmod>2014-07-11T23:05:18+02:00</lastmod>
+    <lastmod>2016-06-25T22:42:44+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -112,19 +132,19 @@
   
   <url>
     <loc>https://fgau.github.io/posts/</loc>
-    <lastmod>2015-03-03T16:58:03+02:00</lastmod>
+    <lastmod>2017-01-01T15:37:07+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://fgau.github.io/tags/programming/</loc>
-    <lastmod>2015-03-03T16:58:03+02:00</lastmod>
+    <lastmod>2015-09-24T18:41:34+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://fgau.github.io/tags/python/</loc>
-    <lastmod>2015-03-03T16:58:03+02:00</lastmod>
+    <lastmod>2015-09-24T18:41:34+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -136,7 +156,7 @@
   
   <url>
     <loc>https://fgau.github.io/</loc>
-    <lastmod>2015-03-03T16:58:03+02:00</lastmod>
+    <lastmod>2017-01-01T15:37:07+02:00</lastmod>
     <priority>0</priority>
   </url>
   

@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy;2017</copyright>
-    <lastBuildDate>Tue, 03 Mar 2015 16:58:03 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 24 Sep 2015 18:41:34 +0200</lastBuildDate>
     
 	<atom:link href="https://fgau.github.io/tags/programming/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>slack openweather bot</title>
+      <link>https://fgau.github.io/posts/slack-openweather-bot/</link>
+      <pubDate>Thu, 24 Sep 2015 18:41:34 +0200</pubDate>
+      
+      <guid>https://fgau.github.io/posts/slack-openweather-bot/</guid>
+      <description>all the cool kids are working with which messaging app? - slack of course! from my point of view, the slack integrations is the best feature of that app, and my favorite integration are the incoming webhooks. all what you need is to define a channel to post in and copy the webhook url where you post your payload json staff. above a litte python example that request weather data from openweathermap and post it to my channel #general.</description>
+    </item>
     
     <item>
       <title>django allow only requests from specific IP</title>
