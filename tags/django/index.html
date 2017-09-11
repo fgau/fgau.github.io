@@ -58,9 +58,17 @@
 
         
         <div class="content">
-          python manage.py makemigrations app name python manage.py migrate 
- anyway, it&rsquo;s time to upgrade my projects to django 1.8.
-udate: it&rsquo;s really time &hellip; django 1.11
+          <pre>
+<p></p>
+python manage.py makemigrations app name
+python manage.py migrate
+<p></p>
+</pre>
+
+<p>anyway, it&rsquo;s time to upgrade my projects to <a href="https://docs.djangoproject.com/en/1.8/releases/1.8/">django 1.8</a>.</p>
+
+<p><strong>udate:</strong> it&rsquo;s really time &hellip; <a href="https://docs.djangoproject.com/en/1.11/">django 1.11</a></p>
+
           
         </div>
       </article>
@@ -81,7 +89,11 @@ udate: it&rsquo;s really time &hellip; django 1.11
 
         
         <div class="content">
-          for a django project i needed a exception for the rss feed requests. they are only allowed to request for a set of specific IP addresses. django&rsquo;s feed syndication framework is the base, and i have added a little snippet for receiving the remote address. the HttpRequest.META method reads all available HTTP header informations and for that case we read REMOTE_ADDR. only ip addresses in ip_allow are ready to receive the feed objects.
+          <p>for a django project i needed a exception for the rss feed requests. they are only allowed to request for a set of specific IP addresses.
+django&rsquo;s <a href="https://docs.djangoproject.com/en/1.7/ref/contrib/syndication/#a-simple-example">feed syndication framework</a> is the base, and i have added a little snippet for receiving the remote address. the <a href="https://docs.djangoproject.com/en/1.7/ref/request-response/#httprequest-objects">HttpRequest.META</a> method reads all available HTTP header informations and for that case we read REMOTE_ADDR. only ip addresses in ip_allow are ready to receive the feed objects.</p>
+
+<script src="https://gist.github.com/fgau/5cffe0d158d24caf3cd338d5c9942c98.js"></script>
+
           
           ...<a class="button is-link" href="https://fgau.github.io/posts/django-allow-only-requests-from-specific-ip/" style="height:28px">
             Read more
@@ -111,9 +123,26 @@ udate: it&rsquo;s really time &hellip; django 1.11
 
         
         <div class="content">
-          for an android/server gps project, i have need to send some data to a server. in my case a django server. on my android app a HttpPost sends data to http://epydial.pyneo.org/receiver/. The HttpPost is embedded in a AsyncTask. After sucessfully post, a toast message is genereated.
- the receiver method on my django server:
- further information about the @csrf_exempt decorator you can find here. the rest of the receiver method is self-explanatory.
+          <p>for an android/server gps project, i have need to send some data to a server. in my case a django server.
+on my android app a HttpPost sends data to <a href="http://epydial.pyneo.org/receiver/">http://epydial.pyneo.org/receiver/</a>. The HttpPost is embedded in a AsyncTask. After sucessfully post, a toast message is genereated.</p>
+
+<script src="https://gist.github.com/fgau/3dcefc7862cdcc1cfd16cdfabcc41266.js"></script>
+
+<p>the receiver method on my django server:</p>
+
+<script src="https://gist.github.com/fgau/ef42886e4a8f8effd6b5c92419e931fa.js"></script>
+
+<p>further information about the @csrf_exempt decorator you can find <a href="https://docs.djangoproject.com/en/dev/ref/csrf/#edge-cases">here</a>. the rest of the receiver method is self-explanatory. all my data, in that case longitude and latitude are saved in the myHttpData array and are written to a xml file for further web processing.</p>
+
+
+<figure >
+    
+        <img src="/img/gpstracker.jpg" />
+    
+    
+</figure>
+
+
           
           ...<a class="button is-link" href="https://fgau.github.io/posts/android-http-post-to-django-server/" style="height:28px">
             Read more

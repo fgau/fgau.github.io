@@ -60,9 +60,26 @@
 
         
         <div class="content">
-          for an android/server gps project, i have need to send some data to a server. in my case a django server. on my android app a HttpPost sends data to http://epydial.pyneo.org/receiver/. The HttpPost is embedded in a AsyncTask. After sucessfully post, a toast message is genereated.
- the receiver method on my django server:
- further information about the @csrf_exempt decorator you can find here. the rest of the receiver method is self-explanatory.
+          <p>for an android/server gps project, i have need to send some data to a server. in my case a django server.
+on my android app a HttpPost sends data to <a href="http://epydial.pyneo.org/receiver/">http://epydial.pyneo.org/receiver/</a>. The HttpPost is embedded in a AsyncTask. After sucessfully post, a toast message is genereated.</p>
+
+<script src="https://gist.github.com/fgau/3dcefc7862cdcc1cfd16cdfabcc41266.js"></script>
+
+<p>the receiver method on my django server:</p>
+
+<script src="https://gist.github.com/fgau/ef42886e4a8f8effd6b5c92419e931fa.js"></script>
+
+<p>further information about the @csrf_exempt decorator you can find <a href="https://docs.djangoproject.com/en/dev/ref/csrf/#edge-cases">here</a>. the rest of the receiver method is self-explanatory. all my data, in that case longitude and latitude are saved in the myHttpData array and are written to a xml file for further web processing.</p>
+
+
+<figure >
+    
+        <img src="/img/gpstracker.jpg" />
+    
+    
+</figure>
+
+
           
           ...<a class="button is-link" href="https://fgau.github.io/posts/android-http-post-to-django-server/" style="height:28px">
             Read more
