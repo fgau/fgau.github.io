@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy;2017</copyright>
-    <lastBuildDate>Sun, 01 Jan 2017 15:37:07 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 07 Jan 2018 21:37:35 +0100</lastBuildDate>
     
 	<atom:link href="https://fgau.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>34c3 tuwat</title>
+      <link>https://fgau.github.io/posts/34c3/</link>
+      <pubDate>Sun, 07 Jan 2018 21:37:35 +0100</pubDate>
+      
+      <guid>https://fgau.github.io/posts/34c3/</guid>
+      <description>first things first. i have my lost laptop again - thank you, thank you Deutsche Bahn!
+for the first time the messe (fair) leipzig was the new location for the nerds from all parts of the world. the size of the halls was impressive and offered space for all high and low tech, for art and design and of course all sorts of light and sound installations. we had a lot of fun again (am Gerät).</description>
+    </item>
     
     <item>
       <title>33c3 Work For Me</title>
@@ -47,7 +57,7 @@
       <guid>https://fgau.github.io/posts/django-1.7-update-django-database-to-reflect-changes-in-existing/</guid>
       <description>python manage.py makemigrations app name python manage.py migrate 
  anyway, it&amp;rsquo;s time to upgrade my projects to django 1.8.
-udate: it&amp;rsquo;s really time &amp;hellip; django 1.11</description>
+update: it&amp;rsquo;s really time &amp;hellip; django 1.11</description>
     </item>
     
     <item>
