@@ -2,171 +2,171 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>fgaublog</title>
-    <link>http://example.org/</link>
+    <link>https://fgau.github.io/</link>
     <description>Recent content on fgaublog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 23 Sep 2019 07:57:40 +0200</lastBuildDate>
     
-	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://fgau.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>cccamp19</title>
-      <link>http://example.org/cccamp19/</link>
+      <link>https://fgau.github.io/cccamp19/</link>
       <pubDate>Mon, 23 Sep 2019 07:57:40 +0200</pubDate>
       
-      <guid>http://example.org/cccamp19/</guid>
+      <guid>https://fgau.github.io/cccamp19/</guid>
       <description>climate-neutrally I biked this year to the chaos communication camp 2019. I didn&amp;rsquo;t notice that much, but the atmosphere was great.
   neuland    </description>
     </item>
     
     <item>
       <title>35c3 refreshing memories</title>
-      <link>http://example.org/35c3/</link>
+      <link>https://fgau.github.io/35c3/</link>
       <pubDate>Mon, 04 Mar 2019 11:31:45 +0100</pubDate>
       
-      <guid>http://example.org/35c3/</guid>
+      <guid>https://fgau.github.io/35c3/</guid>
       <description>for the second time, the messe (fair) leipzig was the the place to be for all hackers at the end of year 2018. fun, fun and spass am geraet.
   the main hall, atrium     fairy dust     sound     art     hacklab   </description>
     </item>
     
     <item>
       <title>34c3 tuwat</title>
-      <link>http://example.org/34c3/</link>
+      <link>https://fgau.github.io/34c3/</link>
       <pubDate>Sun, 07 Jan 2018 21:37:35 +0100</pubDate>
       
-      <guid>http://example.org/34c3/</guid>
+      <guid>https://fgau.github.io/34c3/</guid>
       <description>first things first. i have my lost laptop again - thank you, thank you Deutsche Bahn!
 for the first time the messe (fair) leipzig was the new location for the nerds from all parts of the world. the size of the halls was impressive and offered space for all high and low tech, for art and design and of course all sorts of light and sound installations. we had a lot of fun again (am Gerät).</description>
     </item>
     
     <item>
       <title>33c3 Work For Me</title>
-      <link>http://example.org/33c3-work-for-me/</link>
+      <link>https://fgau.github.io/33c3-work-for-me/</link>
       <pubDate>Sun, 01 Jan 2017 15:37:07 +0200</pubDate>
       
-      <guid>http://example.org/33c3-work-for-me/</guid>
+      <guid>https://fgau.github.io/33c3-work-for-me/</guid>
       <description>  light installation at the Radisson Blu Hotel Hamburg     sandbox, kinect, beamer and a little bit foo     a mate box over and over with high tech   </description>
     </item>
     
     <item>
       <title>trash metal, yeah</title>
-      <link>http://example.org/trash-metal-yeah/</link>
+      <link>https://fgau.github.io/trash-metal-yeah/</link>
       <pubDate>Sat, 25 Jun 2016 22:42:44 +0200</pubDate>
       
-      <guid>http://example.org/trash-metal-yeah/</guid>
+      <guid>https://fgau.github.io/trash-metal-yeah/</guid>
       <description>one of the best trash metal bands worldwide has the house rocked here in berlin, germany on 22th june 2016. megadeth with frontman dave mustaine have played new songs from the new released album Dystopia and fired up classic songs as well. love this metal genre!</description>
     </item>
     
     <item>
       <title>slack openweather bot</title>
-      <link>http://example.org/slack-openweather-bot/</link>
+      <link>https://fgau.github.io/slack-openweather-bot/</link>
       <pubDate>Thu, 24 Sep 2015 18:41:34 +0200</pubDate>
       
-      <guid>http://example.org/slack-openweather-bot/</guid>
+      <guid>https://fgau.github.io/slack-openweather-bot/</guid>
       <description>all the cool kids are working with which messaging app? - slack of course! from my point of view, the slack integrations is the best feature of that app, and my favorite integration are the incoming webhooks. all what you need is to define a channel to post in and copy the webhook url where you post your payload json staff. above a litte python example that request weather data from openweathermap and post it to my channel #general.</description>
     </item>
     
     <item>
       <title>django 1.7 update django database to reflect changes in existing models</title>
-      <link>http://example.org/django-1.7-update-django-database-to-reflect-changes-in-existing/</link>
+      <link>https://fgau.github.io/django-1.7-update-django-database-to-reflect-changes-in-existing/</link>
       <pubDate>Sat, 25 Apr 2015 12:09:06 +0200</pubDate>
       
-      <guid>http://example.org/django-1.7-update-django-database-to-reflect-changes-in-existing/</guid>
+      <guid>https://fgau.github.io/django-1.7-update-django-database-to-reflect-changes-in-existing/</guid>
       <description>anyway, it&amp;rsquo;s time to upgrade my projects to django 1.8.
 update: it&amp;rsquo;s really time &amp;hellip; django 1.11</description>
     </item>
     
     <item>
       <title>django allow only requests from specific IP</title>
-      <link>http://example.org/django-allow-only-requests-from-specific-ip/</link>
+      <link>https://fgau.github.io/django-allow-only-requests-from-specific-ip/</link>
       <pubDate>Tue, 03 Mar 2015 16:58:03 +0200</pubDate>
       
-      <guid>http://example.org/django-allow-only-requests-from-specific-ip/</guid>
+      <guid>https://fgau.github.io/django-allow-only-requests-from-specific-ip/</guid>
       <description>for a django project i needed a exception for the rss feed requests. they are only allowed to request for a set of specific IP addresses. django&amp;rsquo;s feed syndication framework is the base, and i have added a little snippet for receiving the remote address. the HttpRequest.META method reads all available HTTP header informations and for that case we read REMOTE_ADDR. only ip addresses in ip_allow are ready to receive the feed objects.</description>
     </item>
     
     <item>
       <title>31c3 is over</title>
-      <link>http://example.org/31c3-is-over/</link>
+      <link>https://fgau.github.io/31c3-is-over/</link>
       <pubDate>Fri, 09 Jan 2015 21:17:47 +0200</pubDate>
       
-      <guid>http://example.org/31c3-is-over/</guid>
+      <guid>https://fgau.github.io/31c3-is-over/</guid>
       <description>the pyneo project is very happy to be part of the 31c3 in hamburg. our small team had a lot of fun with hard and software. samsung phones, a special tizen phone, gps tracker with gsm modems, bus pirates, serial consol finder workshop and so on. cool guys on a cool loacation with very interesting talks, thats the spirit during entertaining congress. i like it and i&amp;rsquo;m looking forward to the next year.</description>
     </item>
     
     <item>
       <title>android http post to django server</title>
-      <link>http://example.org/android-http-post-to-django-server/</link>
+      <link>https://fgau.github.io/android-http-post-to-django-server/</link>
       <pubDate>Sun, 30 Nov 2014 00:16:50 +0200</pubDate>
       
-      <guid>http://example.org/android-http-post-to-django-server/</guid>
+      <guid>https://fgau.github.io/android-http-post-to-django-server/</guid>
       <description>for an android/server gps project, i have need to send some data to a server. in my case a django server. on my android app a HttpPost sends data to http://epydial.pyneo.org/receiver/. The HttpPost is embedded in a AsyncTask. After sucessfully post, a toast message is genereated.
 private class PostAsyncTask extends AsyncTask { @Override protected Double doInBackground(String... params) { // TODO Auto-generated method stub  postData(params[0]); return null; } protected void onPostExecute(Double result){ Toast.</description>
     </item>
     
     <item>
       <title>autumn 2014 berlin</title>
-      <link>http://example.org/autumn-2014-berlin/</link>
+      <link>https://fgau.github.io/autumn-2014-berlin/</link>
       <pubDate>Sat, 08 Nov 2014 19:13:28 +0200</pubDate>
       
-      <guid>http://example.org/autumn-2014-berlin/</guid>
+      <guid>https://fgau.github.io/autumn-2014-berlin/</guid>
       <description>this image is composed of 2 photos, and showing the gartenstrasse in northerly and southerly direction. and it is not the berlin wall.</description>
     </item>
     
     <item>
       <title>guitar hero</title>
-      <link>http://example.org/guitar-hero/</link>
+      <link>https://fgau.github.io/guitar-hero/</link>
       <pubDate>Fri, 11 Jul 2014 23:05:18 +0200</pubDate>
       
-      <guid>http://example.org/guitar-hero/</guid>
+      <guid>https://fgau.github.io/guitar-hero/</guid>
       <description>zakk wylde from black label society presented new songs from the new album &amp;lsquo;Catacombs Of The Black Vatican&amp;rsquo; in berlin &amp;lsquo;huxleys neue welt&amp;rsquo; on july 1st. the show and the sound was impressive. the berlin chapter says thank you for a great show!</description>
     </item>
     
     <item>
       <title>adminer - alternative to phpmyadmin</title>
-      <link>http://example.org/adminer-alternative-phpmyadmin/</link>
+      <link>https://fgau.github.io/adminer-alternative-phpmyadmin/</link>
       <pubDate>Sun, 29 Jun 2014 20:45:34 +0200</pubDate>
       
-      <guid>http://example.org/adminer-alternative-phpmyadmin/</guid>
+      <guid>https://fgau.github.io/adminer-alternative-phpmyadmin/</guid>
       <description>more security, more performance, better interface, which promises the database management tool adminer. the single php script can handle mysql, postgresql, sqlite, ms sql, mongodb and other. i have tested the functionality, and it does what it promise. a cool tool!</description>
     </item>
     
     <item>
       <title>python and the facebook api</title>
-      <link>http://example.org/python-and-facebook-api/</link>
+      <link>https://fgau.github.io/python-and-facebook-api/</link>
       <pubDate>Thu, 12 Jun 2014 18:35:22 +0200</pubDate>
       
-      <guid>http://example.org/python-and-facebook-api/</guid>
+      <guid>https://fgau.github.io/python-and-facebook-api/</guid>
       <description>to run this example, you need at first a facebook app. this video shows the simple setup. pick the App ID and App Secret from there and insert it in the python code below.
 the program returns all comments from a single facebook post. you can limited the request and you can change the facebook post ID. the graph api explorer is the perfect starting point to learn more about the fb api.</description>
     </item>
     
     <item>
       <title>what a night</title>
-      <link>http://example.org/what-a-night/</link>
+      <link>https://fgau.github.io/what-a-night/</link>
       <pubDate>Wed, 11 Jun 2014 08:45:23 +0200</pubDate>
       
-      <guid>http://example.org/what-a-night/</guid>
+      <guid>https://fgau.github.io/what-a-night/</guid>
       <description>  metallica in da house II   </description>
     </item>
     
     <item>
       <title>here we go</title>
-      <link>http://example.org/here-we-go/</link>
+      <link>https://fgau.github.io/here-we-go/</link>
       <pubDate>Wed, 04 Jun 2014 15:59:10 +0200</pubDate>
       
-      <guid>http://example.org/here-we-go/</guid>
+      <guid>https://fgau.github.io/here-we-go/</guid>
       <description>  metallica in da house I   </description>
     </item>
     
     <item>
       <title>a simple d-bus daemon implemented with c</title>
-      <link>http://example.org/a-simple-d-bus-daemon-implemented-with-c/</link>
+      <link>https://fgau.github.io/a-simple-d-bus-daemon-implemented-with-c/</link>
       <pubDate>Wed, 04 Jun 2014 10:50:31 +0200</pubDate>
       
-      <guid>http://example.org/a-simple-d-bus-daemon-implemented-with-c/</guid>
+      <guid>https://fgau.github.io/a-simple-d-bus-daemon-implemented-with-c/</guid>
       <description>first of all, you need a d-bus config file for the daemon. on a standard debian system it is saved in /etc/dbus-1/system.d/ as cneod.conf.
 and here you can find the daemon code. what can you do with the compiled code? with the d-bus rules above, you are able to:
  shutdown suspend reboot setbrightness getbrightness  your system without root access. if you have a closer look to the code, you will see, the program is intended for my openmoko GTA02 and for my laptop/netbook.</description>
@@ -174,10 +174,10 @@ and here you can find the daemon code. what can you do with the compiled code? w
     
     <item>
       <title>initial commit</title>
-      <link>http://example.org/initial-commit/</link>
+      <link>https://fgau.github.io/initial-commit/</link>
       <pubDate>Tue, 29 Apr 2014 10:55:09 +0200</pubDate>
       
-      <guid>http://example.org/initial-commit/</guid>
+      <guid>https://fgau.github.io/initial-commit/</guid>
       <description>  Berlin, Hackerstrasse   </description>
     </item>
     

@@ -10,13 +10,13 @@
 		<title>django allow only requests from specific IP</title>
 
 		
-		<link rel="stylesheet" href="http://example.org/css/colors-dark.min.0be49ce6cd9d4fb60d7ea4a8a43ccbd717c23ea596f9836b27c885ded978984a.css">
+		<link rel="stylesheet" href="https://fgau.github.io/css/colors-dark.min.0be49ce6cd9d4fb60d7ea4a8a43ccbd717c23ea596f9836b27c885ded978984a.css">
 
 		
 	</head>
 	<body>
 		<header id="header">
-			<h1><a href="http://example.org/">fgaublog</a></h1>
+			<h1><a href="https://fgau.github.io/">fgaublog</a></h1>
 			<p></p>
 		</header>
 
@@ -25,7 +25,7 @@
 			<div id="content">
 				
 	<article class="post">
-		<h1><a href="http://example.org/django-allow-only-requests-from-specific-ip/">django allow only requests from specific IP</a> </h1>
+		<h1><a href="https://fgau.github.io/django-allow-only-requests-from-specific-ip/">django allow only requests from specific IP</a> </h1>
 
 		<div class="post-content"><p>for a django project i needed a exception for the rss feed requests. they are only allowed to request for a set of specific IP addresses.
 django&rsquo;s <a href="https://docs.djangoproject.com/en/1.7/ref/contrib/syndication/#a-simple-example">feed syndication framework</a> is the base, and i have added a little snippet for receiving the remote address. the <a href="https://docs.djangoproject.com/en/1.7/ref/request-response/#httprequest-objects">HttpRequest.META</a> method reads all available HTTP header informations and for that case we read REMOTE_ADDR. only ip addresses in ip_allow are ready to receive the feed objects.</p>

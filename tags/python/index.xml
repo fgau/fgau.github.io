@@ -2,59 +2,59 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>python on fgaublog</title>
-    <link>http://example.org/tags/python/</link>
+    <link>https://fgau.github.io/tags/python/</link>
     <description>Recent content in python on fgaublog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 24 Sep 2015 18:41:34 +0200</lastBuildDate>
     
-	<atom:link href="http://example.org/tags/python/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://fgau.github.io/tags/python/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>slack openweather bot</title>
-      <link>http://example.org/slack-openweather-bot/</link>
+      <link>https://fgau.github.io/slack-openweather-bot/</link>
       <pubDate>Thu, 24 Sep 2015 18:41:34 +0200</pubDate>
       
-      <guid>http://example.org/slack-openweather-bot/</guid>
+      <guid>https://fgau.github.io/slack-openweather-bot/</guid>
       <description>all the cool kids are working with which messaging app? - slack of course! from my point of view, the slack integrations is the best feature of that app, and my favorite integration are the incoming webhooks. all what you need is to define a channel to post in and copy the webhook url where you post your payload json staff. above a litte python example that request weather data from openweathermap and post it to my channel #general.</description>
     </item>
     
     <item>
       <title>django 1.7 update django database to reflect changes in existing models</title>
-      <link>http://example.org/django-1.7-update-django-database-to-reflect-changes-in-existing/</link>
+      <link>https://fgau.github.io/django-1.7-update-django-database-to-reflect-changes-in-existing/</link>
       <pubDate>Sat, 25 Apr 2015 12:09:06 +0200</pubDate>
       
-      <guid>http://example.org/django-1.7-update-django-database-to-reflect-changes-in-existing/</guid>
+      <guid>https://fgau.github.io/django-1.7-update-django-database-to-reflect-changes-in-existing/</guid>
       <description>anyway, it&amp;rsquo;s time to upgrade my projects to django 1.8.
 update: it&amp;rsquo;s really time &amp;hellip; django 1.11</description>
     </item>
     
     <item>
       <title>django allow only requests from specific IP</title>
-      <link>http://example.org/django-allow-only-requests-from-specific-ip/</link>
+      <link>https://fgau.github.io/django-allow-only-requests-from-specific-ip/</link>
       <pubDate>Tue, 03 Mar 2015 16:58:03 +0200</pubDate>
       
-      <guid>http://example.org/django-allow-only-requests-from-specific-ip/</guid>
+      <guid>https://fgau.github.io/django-allow-only-requests-from-specific-ip/</guid>
       <description>for a django project i needed a exception for the rss feed requests. they are only allowed to request for a set of specific IP addresses. django&amp;rsquo;s feed syndication framework is the base, and i have added a little snippet for receiving the remote address. the HttpRequest.META method reads all available HTTP header informations and for that case we read REMOTE_ADDR. only ip addresses in ip_allow are ready to receive the feed objects.</description>
     </item>
     
     <item>
       <title>android http post to django server</title>
-      <link>http://example.org/android-http-post-to-django-server/</link>
+      <link>https://fgau.github.io/android-http-post-to-django-server/</link>
       <pubDate>Sun, 30 Nov 2014 00:16:50 +0200</pubDate>
       
-      <guid>http://example.org/android-http-post-to-django-server/</guid>
+      <guid>https://fgau.github.io/android-http-post-to-django-server/</guid>
       <description>for an android/server gps project, i have need to send some data to a server. in my case a django server. on my android app a HttpPost sends data to http://epydial.pyneo.org/receiver/. The HttpPost is embedded in a AsyncTask. After sucessfully post, a toast message is genereated.
 private class PostAsyncTask extends AsyncTask { @Override protected Double doInBackground(String... params) { // TODO Auto-generated method stub  postData(params[0]); return null; } protected void onPostExecute(Double result){ Toast.</description>
     </item>
     
     <item>
       <title>python and the facebook api</title>
-      <link>http://example.org/python-and-facebook-api/</link>
+      <link>https://fgau.github.io/python-and-facebook-api/</link>
       <pubDate>Thu, 12 Jun 2014 18:35:22 +0200</pubDate>
       
-      <guid>http://example.org/python-and-facebook-api/</guid>
+      <guid>https://fgau.github.io/python-and-facebook-api/</guid>
       <description>to run this example, you need at first a facebook app. this video shows the simple setup. pick the App ID and App Secret from there and insert it in the python code below.
 the program returns all comments from a single facebook post. you can limited the request and you can change the facebook post ID. the graph api explorer is the perfect starting point to learn more about the fb api.</description>
     </item>

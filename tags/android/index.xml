@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>android on fgaublog</title>
-    <link>http://example.org/tags/android/</link>
+    <link>https://fgau.github.io/tags/android/</link>
     <description>Recent content in android on fgaublog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 30 Nov 2014 00:16:50 +0200</lastBuildDate>
     
-	<atom:link href="http://example.org/tags/android/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://fgau.github.io/tags/android/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>android http post to django server</title>
-      <link>http://example.org/android-http-post-to-django-server/</link>
+      <link>https://fgau.github.io/android-http-post-to-django-server/</link>
       <pubDate>Sun, 30 Nov 2014 00:16:50 +0200</pubDate>
       
-      <guid>http://example.org/android-http-post-to-django-server/</guid>
+      <guid>https://fgau.github.io/android-http-post-to-django-server/</guid>
       <description>for an android/server gps project, i have need to send some data to a server. in my case a django server. on my android app a HttpPost sends data to http://epydial.pyneo.org/receiver/. The HttpPost is embedded in a AsyncTask. After sucessfully post, a toast message is genereated.
 private class PostAsyncTask extends AsyncTask { @Override protected Double doInBackground(String... params) { // TODO Auto-generated method stub  postData(params[0]); return null; } protected void onPostExecute(Double result){ Toast.</description>
     </item>
