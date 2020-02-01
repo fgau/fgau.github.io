@@ -1,324 +1,104 @@
 <!DOCTYPE html>
-<html lang="en">
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta content="" name="keywords">
-<meta content="Programming - fgaublog" property="og:title">
-<title>Programming | fgaublog</title>
-<link rel="stylesheet" href="https://fgau.github.io/css/style.css">
-<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		
+			<link href="/tags/programming/index.xml" rel="alternate" type="application/rss+xml" title="fgaublog" />
+			<link href="/tags/programming/index.xml" rel="feed" type="application/rss+xml" title="fgaublog" />
+		
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css" integrity="sha256-Zd1icfZ72UBmsId/mUcagrmN7IN5Qkrvh75ICHIQVTk=" crossorigin="anonymous" />
+		<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700&display=swap" rel="stylesheet">
 
+		<title>programming</title>
 
-<body>
-  <section class="section">
-  <div class="container">
-    <nav class="nav">
-      <div class="nav-left">
-        <a class="nav-item" href="https://fgau.github.io/"><h1 class="title is-4">fgaublog</h1></a>
-      </div>
-      <div class="nav-right">
-        <nav class="nav-item level is-mobile">
-          
-          <a class="level-item" href="https://github.com/fgau">
-            <span class="icon">
-              <i class="fa fa-github"></i>
-            </span>
-          </a>
-          
-          <a class="level-item" href="/index.xml">
-            <span class="icon">
-              <i class="fa fa-rss"></i>
-            </span>
-          </a>
-          
-        </nav>
-      </div>
-    </nav>
-  </div>
-</section>
+		
+		<link rel="stylesheet" href="http://example.org/css/colors-dark.min.0be49ce6cd9d4fb60d7ea4a8a43ccbd717c23ea596f9836b27c885ded978984a.css">
 
-  <section class="section">
-    <div class="container">
-      
-      
-      
-        
-          
-        
-      
-      
-      
-        
-          
-        
-      
-      
-      
-        
-          
-        
-      
-      
-      
-        
-          
-        
-      
-      
-      
-        
-          
-        
-      
-      
-      
-        
-          
-        
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      <article>
-        <h2 class="subtitle is-6">September 24, 2015</h2>
-        <h1 class="title"><a href="https://fgau.github.io/posts/slack-openweather-bot/">slack openweather bot</a></h1>
-        
-        <div class="tags">
-    
-        <a class="button is-link" href="/tags/programming">programming</a>
-    
-        <a class="button is-link" href="/tags/python">python</a>
-    
-</div>
+		
+	</head>
+	<body>
+		<header id="header">
+			<h1><a href="http://example.org/">fgaublog</a></h1>
+			<p></p>
+		</header>
 
-        
-        <div class="content">
-          <p>all the cool kids are working with which messaging app? - <a href="https://slack.com/">slack</a> of course!
-from my point of view, the <a href="https://slack.com/integrations">slack integrations</a> is the best feature of that app, and my favorite integration are the incoming webhooks. all what you need is to define a channel to post in and copy the webhook url where you post your payload json staff.
-above a litte python example that request weather data from <a href="http://openweathermap.org">openweathermap</a> and post it to my channel #general.
-configure a cron job on your machine and the weatherbot is ready to post weather data to a specified slack channel.</p>
+		<div id="page">
 
-<script src="https://gist.github.com/fgau/c8d48431b565f9dd7583f8a9bd3d6b8d.js"></script>
+			<div id="content">
+				
+	
+		<article class="post">
+			<p class="meta">Posted on <span class="postdate">24. September 2015</span> | programming, python</p>
+			<h1><a href="http://example.org/slack-openweather-bot/">slack openweather bot</a> </h1>
 
-          
-          ...<a class="button is-link" href="https://fgau.github.io/posts/slack-openweather-bot/" style="height:28px">
-            Read more
-            <span class="icon is-small">
-              <i class="fa fa-angle-double-right"></i>
-            </span>
-          </a>
-          
-        </div>
-      </article>
-      
-      <article>
-        <h2 class="subtitle is-6">March 3, 2015</h2>
-        <h1 class="title"><a href="https://fgau.github.io/posts/django-allow-only-requests-from-specific-ip/">django allow only requests from specific IP</a></h1>
-        
-        <div class="tags">
-    
-        <a class="button is-link" href="/tags/programming">programming</a>
-    
-        <a class="button is-link" href="/tags/python">python</a>
-    
-        <a class="button is-link" href="/tags/django">django</a>
-    
-</div>
+			<div class="post-content">
+				<p>all the cool kids are working with which messaging app? - slack of course! from my point of view, the slack integrations is the best feature of that app, and my favorite integration are the incoming webhooks. all what you need is to define a channel to post in and copy the webhook url where you post your payload json staff. above a litte python example that request weather data from openweathermap and post it to my channel #general.  … </p>
+			</div>
 
-        
-        <div class="content">
-          <p>for a django project i needed a exception for the rss feed requests. they are only allowed to request for a set of specific IP addresses.
-django&rsquo;s <a href="https://docs.djangoproject.com/en/1.7/ref/contrib/syndication/#a-simple-example">feed syndication framework</a> is the base, and i have added a little snippet for receiving the remote address. the <a href="https://docs.djangoproject.com/en/1.7/ref/request-response/#httprequest-objects">HttpRequest.META</a> method reads all available HTTP header informations and for that case we read REMOTE_ADDR. only ip addresses in ip_allow are ready to receive the feed objects.</p>
+		</article>
+	
+		<article class="post">
+			<p class="meta">Posted on <span class="postdate">03. March 2015</span> | programming, python, django</p>
+			<h1><a href="http://example.org/django-allow-only-requests-from-specific-ip/">django allow only requests from specific IP</a> </h1>
 
-<script src="https://gist.github.com/fgau/5cffe0d158d24caf3cd338d5c9942c98.js"></script>
+			<div class="post-content">
+				<p>for a django project i needed a exception for the rss feed requests. they are only allowed to request for a set of specific IP addresses. django&rsquo;s feed syndication framework is the base, and i have added a little snippet for receiving the remote address. the HttpRequest.META method reads all available HTTP header informations and for that case we read REMOTE_ADDR. only ip addresses in ip_allow are ready to receive the feed objects.  … </p>
+			</div>
 
-          
-          ...<a class="button is-link" href="https://fgau.github.io/posts/django-allow-only-requests-from-specific-ip/" style="height:28px">
-            Read more
-            <span class="icon is-small">
-              <i class="fa fa-angle-double-right"></i>
-            </span>
-          </a>
-          
-        </div>
-      </article>
-      
-      <article>
-        <h2 class="subtitle is-6">November 30, 2014</h2>
-        <h1 class="title"><a href="https://fgau.github.io/posts/android-http-post-to-django-server/">android http post to django server</a></h1>
-        
-        <div class="tags">
-    
-        <a class="button is-link" href="/tags/programming">programming</a>
-    
-        <a class="button is-link" href="/tags/python">python</a>
-    
-        <a class="button is-link" href="/tags/android">android</a>
-    
-        <a class="button is-link" href="/tags/django">django</a>
-    
-</div>
+		</article>
+	
+		<article class="post">
+			<p class="meta">Posted on <span class="postdate">30. November 2014</span> | programming, python, android, django</p>
+			<h1><a href="http://example.org/android-http-post-to-django-server/">android http post to django server</a> </h1>
 
-        
-        <div class="content">
-          <p>for an android/server gps project, i have need to send some data to a server. in my case a django server.
-on my android app a HttpPost sends data to <a href="http://epydial.pyneo.org/receiver/">http://epydial.pyneo.org/receiver/</a>. The HttpPost is embedded in a AsyncTask. After sucessfully post, a toast message is genereated.</p>
+			<div class="post-content">
+				<p>for an android/server gps project, i have need to send some data to a server. in my case a django server. on my android app a HttpPost sends data to http://epydial.pyneo.org/receiver/. The HttpPost is embedded in a AsyncTask. After sucessfully post, a toast message is genereated.
+private class PostAsyncTask extends AsyncTask { @Override protected Double doInBackground(String... params) { // TODO Auto-generated method stub  postData(params[0]); return null; } protected void onPostExecute(Double result){ Toast.  … </p>
+			</div>
 
-<script src="https://gist.github.com/fgau/3dcefc7862cdcc1cfd16cdfabcc41266.js"></script>
+		</article>
+	
+		<article class="post">
+			<p class="meta">Posted on <span class="postdate">12. June 2014</span> | programming, python</p>
+			<h1><a href="http://example.org/python-and-facebook-api/">python and the facebook api</a> </h1>
 
-<p>the receiver method on my django server:</p>
+			<div class="post-content">
+				<p>to run this example, you need at first a facebook app. this video shows the simple setup. pick the App ID and App Secret from there and insert it in the python code below.
+the program returns all comments from a single facebook post. you can limited the request and you can change the facebook post ID. the graph api explorer is the perfect starting point to learn more about the fb api.  … </p>
+			</div>
 
-<script src="https://gist.github.com/fgau/ef42886e4a8f8effd6b5c92419e931fa.js"></script>
+		</article>
+	
+		<article class="post">
+			<p class="meta">Posted on <span class="postdate">04. June 2014</span> | c, programming</p>
+			<h1><a href="http://example.org/a-simple-d-bus-daemon-implemented-with-c/">a simple d-bus daemon implemented with c</a> </h1>
 
-<p>further information about the @csrf_exempt decorator you can find <a href="https://docs.djangoproject.com/en/dev/ref/csrf/#edge-cases">here</a>. the rest of the receiver method is self-explanatory. all my data, in that case longitude and latitude are saved in the myHttpData array and are written to a xml file for further web processing.</p>
+			<div class="post-content">
+				<p>first of all, you need a d-bus config file for the daemon. on a standard debian system it is saved in /etc/dbus-1/system.d/ as cneod.conf.
+and here you can find the daemon code. what can you do with the compiled code? with the d-bus rules above, you are able to:
+ shutdown suspend reboot setbrightness getbrightness  your system without root access. if you have a closer look to the code, you will see, the program is intended for my openmoko GTA02 and for my laptop/netbook.  … </p>
+			</div>
+
+		</article>
+	
+
+	
 
 
-<figure >
-    
-        <img src="/img/gpstracker.jpg" />
-    
-    
-</figure>
+			</div>
 
+			<footer id="footer">
+				<p class="copyright">
+					
+						&copy; 2015 fgaublog |
+						Powered by <a href="https://gohugo.io/">Hugo</a> and the
+						<a href="https://github.com/bake/solar-theme-hugo">Solar</a>-theme.
+					
+				</p>
+			</footer>
+		</div>
 
-          
-          ...<a class="button is-link" href="https://fgau.github.io/posts/android-http-post-to-django-server/" style="height:28px">
-            Read more
-            <span class="icon is-small">
-              <i class="fa fa-angle-double-right"></i>
-            </span>
-          </a>
-          
-        </div>
-      </article>
-      
-      <article>
-        <h2 class="subtitle is-6">June 12, 2014</h2>
-        <h1 class="title"><a href="https://fgau.github.io/posts/python-and-facebook-api/">python and the facebook api</a></h1>
-        
-        <div class="tags">
-    
-        <a class="button is-link" href="/tags/programming">programming</a>
-    
-        <a class="button is-link" href="/tags/python">python</a>
-    
-</div>
-
-        
-        <div class="content">
-          <p>to run this example, you need at first a facebook app. this <a href="http://youtu.be/-0phgaiVJ4k">video</a> shows the simple setup. pick the <strong>App ID</strong> and <strong>App Secret</strong> from there and insert it in the python code below.</p>
-
-<p>the program returns all comments from a single facebook post. you can limited the request and you can change the facebook post ID. the <a href="https://developers.facebook.com/tools/explorer">graph api explorer</a> is the perfect starting point to learn more about the <a href="https://developers.facebook.com/docs/graph-api/reference/v2.0/">fb api</a>.</p>
-
-<p>the last part is for error handling and simple json parsing to get all the interesting information.</p>
-
-<script src="https://gist.github.com/fgau/8d77977a9657fa9220776c90e56d113a.js"></script>
-
-          
-          ...<a class="button is-link" href="https://fgau.github.io/posts/python-and-facebook-api/" style="height:28px">
-            Read more
-            <span class="icon is-small">
-              <i class="fa fa-angle-double-right"></i>
-            </span>
-          </a>
-          
-        </div>
-      </article>
-      
-      <article>
-        <h2 class="subtitle is-6">June 4, 2014</h2>
-        <h1 class="title"><a href="https://fgau.github.io/posts/a-simple-d-bus-daemon-implemented-with-c/">a simple d-bus daemon implemented with c</a></h1>
-        
-        <div class="tags">
-    
-        <a class="button is-link" href="/tags/c">c</a>
-    
-        <a class="button is-link" href="/tags/programming">programming</a>
-    
-</div>
-
-        
-        <div class="content">
-          <p>first of all, you need a d-bus config file for the daemon. on a standard debian system it is saved in /etc/dbus-1/system.d/ as cneod.conf.</p>
-
-<script src="https://gist.github.com/fgau/3a9cba82973bf0ddf313788f82aae5c7.js"></script>
-
-<p>and <a href="https://github.com/fgau/cneo/blob/master/src/cneod.c">here</a> you can find the daemon code. what can you do with the compiled code?
-with the d-bus rules above, you are able to:</p>
-
-<ul>
-<li>shutdown</li>
-<li>suspend</li>
-<li>reboot</li>
-<li>setbrightness</li>
-<li>getbrightness</li>
-</ul>
-
-<p>your system without root access. if you have a closer look to the code, you will see, the program is intended for my openmoko <a href="http://wiki.openmoko.org/wiki/GTA02">GTA02</a> and for my laptop/netbook. example d-bus calls and the gcc command are inline from cneod.c
-now its time to build your own system daemons. more about the architecture behind the d-bus concept you can find <a href="http://en.wikipedia.org/wiki/D-Bus">here</a>.</p>
-
-          
-          ...<a class="button is-link" href="https://fgau.github.io/posts/a-simple-d-bus-daemon-implemented-with-c/" style="height:28px">
-            Read more
-            <span class="icon is-small">
-              <i class="fa fa-angle-double-right"></i>
-            </span>
-          </a>
-          
-        </div>
-      </article>
-      
-    </div>
-  </section>
-  <section class="section">
-  <div class="container">
-    <nav class="level is-mobile">
-      <div class="level-left">
-        <div class="level-item">
-          
-          <a class="button is-disabled">
-            <span class="icon is-small is-marginless">
-              <i class="fa fa-angle-left"></i>
-            </span>
-            Newer
-          </a>
-          
-        </div>
-      </div>
-      <div class="level-right is-marginless">
-        <div class="level-item">
-          
-          <a class="button is-disabled">
-            Older
-            <span class="icon is-small is-marginless">
-              <i class="fa fa-angle-right"></i>
-            </span>
-          </a>
-          
-        </div>
-      </div>
-    </nav>
-  </div>
-</section>
-
-  <section class="section">
-  <div class="container has-text-centered">
-    <p>&copy;2017</p>
-  </div>
-</section>
-<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
-
-<script>hljs.initHighlightingOnLoad();</script>
-
-
-</body>
+		
+	</body>
+</html>

@@ -1,46 +1,43 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Django on fgaublog</title>
-    <link>https://fgau.github.io/tags/django/</link>
-    <description>Recent content in Django on fgaublog</description>
+    <title>django on fgaublog</title>
+    <link>http://example.org/tags/django/</link>
+    <description>Recent content in django on fgaublog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <copyright>&amp;copy;2017</copyright>
+    <language>en-us</language>
     <lastBuildDate>Sat, 25 Apr 2015 12:09:06 +0200</lastBuildDate>
     
-	<atom:link href="https://fgau.github.io/tags/django/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://example.org/tags/django/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>django 1.7 update django database to reflect changes in existing models</title>
-      <link>https://fgau.github.io/posts/django-1.7-update-django-database-to-reflect-changes-in-existing/</link>
+      <link>http://example.org/django-1.7-update-django-database-to-reflect-changes-in-existing/</link>
       <pubDate>Sat, 25 Apr 2015 12:09:06 +0200</pubDate>
       
-      <guid>https://fgau.github.io/posts/django-1.7-update-django-database-to-reflect-changes-in-existing/</guid>
-      <description>python manage.py makemigrations app name python manage.py migrate 
- anyway, it&amp;rsquo;s time to upgrade my projects to django 1.8.
+      <guid>http://example.org/django-1.7-update-django-database-to-reflect-changes-in-existing/</guid>
+      <description>anyway, it&amp;rsquo;s time to upgrade my projects to django 1.8.
 update: it&amp;rsquo;s really time &amp;hellip; django 1.11</description>
     </item>
     
     <item>
       <title>django allow only requests from specific IP</title>
-      <link>https://fgau.github.io/posts/django-allow-only-requests-from-specific-ip/</link>
+      <link>http://example.org/django-allow-only-requests-from-specific-ip/</link>
       <pubDate>Tue, 03 Mar 2015 16:58:03 +0200</pubDate>
       
-      <guid>https://fgau.github.io/posts/django-allow-only-requests-from-specific-ip/</guid>
+      <guid>http://example.org/django-allow-only-requests-from-specific-ip/</guid>
       <description>for a django project i needed a exception for the rss feed requests. they are only allowed to request for a set of specific IP addresses. django&amp;rsquo;s feed syndication framework is the base, and i have added a little snippet for receiving the remote address. the HttpRequest.META method reads all available HTTP header informations and for that case we read REMOTE_ADDR. only ip addresses in ip_allow are ready to receive the feed objects.</description>
     </item>
     
     <item>
       <title>android http post to django server</title>
-      <link>https://fgau.github.io/posts/android-http-post-to-django-server/</link>
+      <link>http://example.org/android-http-post-to-django-server/</link>
       <pubDate>Sun, 30 Nov 2014 00:16:50 +0200</pubDate>
       
-      <guid>https://fgau.github.io/posts/android-http-post-to-django-server/</guid>
+      <guid>http://example.org/android-http-post-to-django-server/</guid>
       <description>for an android/server gps project, i have need to send some data to a server. in my case a django server. on my android app a HttpPost sends data to http://epydial.pyneo.org/receiver/. The HttpPost is embedded in a AsyncTask. After sucessfully post, a toast message is genereated.
- the receiver method on my django server:
- further information about the @csrf_exempt decorator you can find here. the rest of the receiver method is self-explanatory.</description>
+private class PostAsyncTask extends AsyncTask { @Override protected Double doInBackground(String... params) { // TODO Auto-generated method stub  postData(params[0]); return null; } protected void onPostExecute(Double result){ Toast.</description>
     </item>
     
   </channel>
