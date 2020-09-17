@@ -56,7 +56,7 @@ the program returns all comments from a single facebook post. you can limited th
       
       <guid>https://fgau.github.io/a-simple-d-bus-daemon-implemented-with-c/</guid>
       <description>first of all, you need a d-bus config file for the daemon. on a standard debian system it is saved in /etc/dbus-1/system.d/ as cneod.conf.
-and here you can find the daemon code. what can you do with the compiled code? with the d-bus rules above, you are able to:
+ and here you can find the daemon code. what can you do with the compiled code? with the d-bus rules above, you are able to:
  shutdown suspend reboot setbrightness getbrightness  your system without root access. if you have a closer look to the code, you will see, the program is intended for my openmoko GTA02 and for my laptop/netbook.</description>
     </item>
     

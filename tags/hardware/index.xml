@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hardware on fgaublog</title>
+    <link>https://fgau.github.io/tags/hardware/</link>
+    <description>Recent content in hardware on fgaublog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 17 Sep 2020 21:14:54 +0200</lastBuildDate>
+    
+	<atom:link href="https://fgau.github.io/tags/hardware/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Recycled Laptop Usb Camera</title>
+      <link>https://fgau.github.io/recycled-laptop-usb-camera/</link>
+      <pubDate>Thu, 17 Sep 2020 21:14:54 +0200</pubDate>
+      
+      <guid>https://fgau.github.io/recycled-laptop-usb-camera/</guid>
+      <description>for a little side project, i needed small usb cams, preferably for free. i still had old hp elitebooks 8440p, and from their display, i removed the camera, see the picture below. the picture shows always the pinout. next, i soldered the 4 cables together, leaving the GPIO pin unused. no big deal, there is no faster way to get an usb-cam for raspberry and co.
+  laptop cam connector     Type-A pinout      Pin Name Wire color Description     1 V(Bus) Red +5 V   2 D- White Data-   3 D+ Green Data+   4 GND Black Ground       soldered with standard usb cable   </description>
+    </item>
+    
+  </channel>
+</rss>

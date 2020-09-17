@@ -1,0 +1,15 @@
+th {
+    padding: 10px;
+}
+
+td {
+    padding-left: 10px;
+}
+
+h1 {
+    text-transform: lowercase;
+}
+
+.meta {
+    text-transform: lowercase;
+}

@@ -12,6 +12,8 @@
 		
 		<link rel="stylesheet" href="https://fgau.github.io/css/colors-dark.min.0be49ce6cd9d4fb60d7ea4a8a43ccbd717c23ea596f9836b27c885ded978984a.css">
 
+		<link rel="stylesheet" href="https://fgau.github.io/css/my.css">
+
 		
 	</head>
 	<body>
@@ -27,6 +29,8 @@
 	<article class="post">
 		<h1><a href="https://fgau.github.io/android-http-post-to-django-server/">android http post to django server</a> </h1>
 
+		<p class="meta">Posted on <span class="postdate">30. November 2014</span></p>
+		
 		<div class="post-content"><p>for an android/server gps project, i have need to send some data to a server. in my case a django server.
 on my android app a HttpPost sends data to <a href="http://epydial.pyneo.org/receiver/">http://epydial.pyneo.org/receiver/</a>. The HttpPost is embedded in a AsyncTask. After sucessfully post, a toast message is genereated.</p>
 <div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#268bd2">private</span> <span style="color:#268bd2">class</span> PostAsyncTask <span style="color:#268bd2">extends</span> AsyncTask {
@@ -62,6 +66,12 @@ on my android app a HttpPost sends data to <a href="http://epydial.pyneo.org/rec
 }
 </code></pre></div>
 <p>the receiver method on my django server:</p>
+<div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#268bd2">@csrf_exempt</span>
+<span style="color:#719e07">def</span> <span style="color:#268bd2">receiver</span>(request):
+    <span style="color:#719e07">if</span> request<span style="color:#719e07">.</span>method <span style="color:#719e07">==</span> <span style="color:#2aa198"></span><span style="color:#2aa198">&#39;</span><span style="color:#2aa198">POST</span><span style="color:#2aa198">&#39;</span>:
+        <span style="color:#719e07">with</span> <span style="color:#b58900">open</span>(<span style="color:#2aa198"></span><span style="color:#2aa198">&#39;</span><span style="color:#2aa198">/var/www/qblog/static/xml/test.xml</span><span style="color:#2aa198">&#39;</span>, <span style="color:#2aa198"></span><span style="color:#2aa198">&#39;</span><span style="color:#2aa198">w</span><span style="color:#2aa198">&#39;</span>) <span style="color:#719e07">as</span> f:
+            f<span style="color:#719e07">.</span>write(request<span style="color:#719e07">.</span>POST<span style="color:#719e07">.</span>get(<span style="color:#2aa198"></span><span style="color:#2aa198">&#39;</span><span style="color:#2aa198">myHttpData</span><span style="color:#2aa198">&#39;</span>))
+            f<span style="color:#719e07">.</span>close()</code></pre></div>
 <!-- raw HTML omitted -->
 <p>further information about the @csrf_exempt decorator you can find <a href="https://docs.djangoproject.com/en/dev/ref/csrf/#edge-cases">here</a>. the rest of the receiver method is self-explanatory. all my data, in that case longitude and latitude are saved in the myHttpData array and are written to a xml file for further web processing.</p>
 <figure>
@@ -70,7 +80,6 @@ on my android app a HttpPost sends data to <a href="http://epydial.pyneo.org/rec
 
 </div>
 
-		<p class="meta">Posted on <span class="postdate">30. November 2014</span></p>
 	</article>
 
 			</div>
@@ -79,8 +88,8 @@ on my android app a HttpPost sends data to <a href="http://epydial.pyneo.org/rec
 				<p class="copyright">
 					
 						&copy; 2014 fgaublog |
-						Powered by <a href="https://gohugo.io/">Hugo</a> and the
-						<a href="https://github.com/bake/solar-theme-hugo">Solar</a>-theme.
+						powered by <a href="https://gohugo.io/">hugo</a> and the
+						<a href="https://github.com/bake/solar-theme-hugo">solar</a>-theme.
 					
 				</p>
 			</footer>

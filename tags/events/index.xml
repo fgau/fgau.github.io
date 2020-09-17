@@ -6,10 +6,20 @@
     <description>Recent content in events on fgaublog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 23 Sep 2019 07:57:40 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 02 Feb 2020 08:24:04 +0100</lastBuildDate>
     
 	<atom:link href="https://fgau.github.io/tags/events/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>36c3 Resource Exhaustion</title>
+      <link>https://fgau.github.io/36c3-resource-exhaustion/</link>
+      <pubDate>Sun, 02 Feb 2020 08:24:04 +0100</pubDate>
+      
+      <guid>https://fgau.github.io/36c3-resource-exhaustion/</guid>
+      <description>for the third time in a row the hacker community met for the 36c3 in leipzig. 4 days between christmas and new year, 4 days with and in a unique community. lots of inspiration, lots of good talks, lots of hardware and software hacking. we had a lot of fun again.
+  mate rack     main hall with fairy dust     hacker christmas tree     hack me on port 1337   </description>
+    </item>
     
     <item>
       <title>cccamp19</title>
