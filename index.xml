@@ -6,12 +6,17 @@
     <description>Recent content on fgaublog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+<<<<<<< HEAD
     <lastBuildDate>Thu, 17 Sep 2020 21:14:54 +0200</lastBuildDate>
+=======
+    <lastBuildDate>Sun, 02 Feb 2020 08:24:04 +0100</lastBuildDate>
+>>>>>>> 8c5e39f916fc40108c501a3f855e53dc4e3609a8
     
 	<atom:link href="https://fgau.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+<<<<<<< HEAD
       <title>Recycled Laptop Usb Camera</title>
       <link>https://fgau.github.io/recycled-laptop-usb-camera/</link>
       <pubDate>Thu, 17 Sep 2020 21:14:54 +0200</pubDate>
@@ -22,6 +27,8 @@
     </item>
     
     <item>
+=======
+>>>>>>> 8c5e39f916fc40108c501a3f855e53dc4e3609a8
       <title>36c3 Resource Exhaustion</title>
       <link>https://fgau.github.io/36c3-resource-exhaustion/</link>
       <pubDate>Sun, 02 Feb 2020 08:24:04 +0100</pubDate>
