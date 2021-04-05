@@ -6,18 +6,14 @@
     <description>Recent content in django on fgaublog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 25 Apr 2015 12:09:06 +0200</lastBuildDate>
-    
-	<atom:link href="https://fgau.github.io/tags/django/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 25 Apr 2015 12:09:06 +0200</lastBuildDate><atom:link href="https://fgau.github.io/tags/django/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>django 1.7 update django database to reflect changes in existing models</title>
       <link>https://fgau.github.io/django-1.7-update-django-database-to-reflect-changes-in-existing/</link>
       <pubDate>Sat, 25 Apr 2015 12:09:06 +0200</pubDate>
       
       <guid>https://fgau.github.io/django-1.7-update-django-database-to-reflect-changes-in-existing/</guid>
-      <description>1 2  python manage.py makemigrations app name python manage.py migrate   anyway, it&amp;rsquo;s time to upgrade my projects to django 1.8.
+      <description>1 2  python manage.py makemigrations app name python manage.py migrate    anyway, it&amp;rsquo;s time to upgrade my projects to django 1.8.
 update: it&amp;rsquo;s really time &amp;hellip; django 1.11</description>
     </item>
     

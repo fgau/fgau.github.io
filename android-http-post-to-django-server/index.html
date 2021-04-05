@@ -68,9 +68,9 @@ on my android app a HttpPost sends data to <a href="http://epydial.pyneo.org/rec
 <p>the receiver method on my django server:</p>
 <div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#268bd2">@csrf_exempt</span>
 <span style="color:#719e07">def</span> <span style="color:#268bd2">receiver</span>(request):
-    <span style="color:#719e07">if</span> request<span style="color:#719e07">.</span>method <span style="color:#719e07">==</span> <span style="color:#2aa198"></span><span style="color:#2aa198">&#39;</span><span style="color:#2aa198">POST</span><span style="color:#2aa198">&#39;</span>:
-        <span style="color:#719e07">with</span> <span style="color:#b58900">open</span>(<span style="color:#2aa198"></span><span style="color:#2aa198">&#39;</span><span style="color:#2aa198">/var/www/qblog/static/xml/test.xml</span><span style="color:#2aa198">&#39;</span>, <span style="color:#2aa198"></span><span style="color:#2aa198">&#39;</span><span style="color:#2aa198">w</span><span style="color:#2aa198">&#39;</span>) <span style="color:#719e07">as</span> f:
-            f<span style="color:#719e07">.</span>write(request<span style="color:#719e07">.</span>POST<span style="color:#719e07">.</span>get(<span style="color:#2aa198"></span><span style="color:#2aa198">&#39;</span><span style="color:#2aa198">myHttpData</span><span style="color:#2aa198">&#39;</span>))
+    <span style="color:#719e07">if</span> request<span style="color:#719e07">.</span>method <span style="color:#719e07">==</span> <span style="color:#2aa198">&#39;POST&#39;</span>:
+        <span style="color:#719e07">with</span> <span style="color:#b58900">open</span>(<span style="color:#2aa198">&#39;/var/www/qblog/static/xml/test.xml&#39;</span>, <span style="color:#2aa198">&#39;w&#39;</span>) <span style="color:#719e07">as</span> f:
+            f<span style="color:#719e07">.</span>write(request<span style="color:#719e07">.</span>POST<span style="color:#719e07">.</span>get(<span style="color:#2aa198">&#39;myHttpData&#39;</span>))
             f<span style="color:#719e07">.</span>close()</code></pre></div>
 <!-- raw HTML omitted -->
 <p>further information about the @csrf_exempt decorator you can find <a href="https://docs.djangoproject.com/en/dev/ref/csrf/#edge-cases">here</a>. the rest of the receiver method is self-explanatory. all my data, in that case longitude and latitude are saved in the myHttpData array and are written to a xml file for further web processing.</p>
@@ -87,9 +87,9 @@ on my android app a HttpPost sends data to <a href="http://epydial.pyneo.org/rec
 			<footer id="footer">
 				<p class="copyright">
 					
-						&copy; 2014 fgaublog |
+						&copy; 2021 fgaublog |
 						powered by <a href="https://gohugo.io/">hugo</a> and the
-						<a href="https://github.com/bake/solar-theme-hugo">solar</a>-theme.
+						<a href="https://github.com/bake/solar-theme-hugo">solar</a>theme.
 					
 				</p>
 			</footer>
