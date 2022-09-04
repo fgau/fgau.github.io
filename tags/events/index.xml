@@ -2,66 +2,226 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>events on fgaublog</title>
-    <link>https://fgau.github.io/tags/events/</link>
+    <link>/tags/events/</link>
     <description>Recent content in events on fgaublog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 02 Feb 2020 08:24:04 +0100</lastBuildDate><atom:link href="https://fgau.github.io/tags/events/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 02 Feb 2020 08:24:04 +0100</lastBuildDate><atom:link href="/tags/events/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>36c3 Resource Exhaustion</title>
-      <link>https://fgau.github.io/36c3-resource-exhaustion/</link>
+      <link>/posts/36c3-resource-exhaustion/</link>
       <pubDate>Sun, 02 Feb 2020 08:24:04 +0100</pubDate>
       
-      <guid>https://fgau.github.io/36c3-resource-exhaustion/</guid>
+      <guid>/posts/36c3-resource-exhaustion/</guid>
       <description>&lt;p&gt;for the third time in a row the hacker community met for the &lt;a href=&#34;https://events.ccc.de/congress/2019/wiki/index.php/Main_Page&#34;&gt;36c3&lt;/a&gt; in leipzig. 4 days between christmas and new year, 4 days with and in a unique community.&lt;/p&gt;</description>
+      <content>&lt;p&gt;for the third time in a row the hacker community met for the &lt;a href=&#34;https://events.ccc.de/congress/2019/wiki/index.php/Main_Page&#34;&gt;36c3&lt;/a&gt; in leipzig. 4 days between christmas and new year, 4 days with and in a unique community.&lt;/p&gt;
+&lt;p&gt;lots of inspiration, lots of good &lt;a href=&#34;https://media.ccc.de/c/36c3&#34;&gt;talks&lt;/a&gt;, lots of hardware and software hacking. we had a lot of fun again.&lt;/p&gt;
+&lt;p&gt;
+  &lt;figure class=&#34;left&#34; &gt;
+    &lt;img src=&#34;/img/36c3_1.jpg&#34;   /&gt;
+    
+  &lt;/figure&gt;
+
+
+
+  &lt;figure class=&#34;left&#34; &gt;
+    &lt;img src=&#34;/img/36c3_2.jpg&#34;   /&gt;
+    
+  &lt;/figure&gt;
+
+
+
+  &lt;figure class=&#34;left&#34; &gt;
+    &lt;img src=&#34;/img/36c3_3.jpg&#34;   /&gt;
+    
+  &lt;/figure&gt;
+
+
+
+  &lt;figure class=&#34;left&#34; &gt;
+    &lt;img src=&#34;/img/36c3_4.jpg&#34;   /&gt;
+    
+  &lt;/figure&gt;
+
+&lt;/p&gt;</content>
     </item>
     
     <item>
       <title>cccamp19</title>
-      <link>https://fgau.github.io/cccamp19/</link>
+      <link>/posts/cccamp19/</link>
       <pubDate>Mon, 23 Sep 2019 07:57:40 +0200</pubDate>
       
-      <guid>https://fgau.github.io/cccamp19/</guid>
-      <description>climate-neutrally I biked this year to the chaos communication camp 2019. I didn&amp;rsquo;t notice that much, but the atmosphere was great.
-  neuland    </description>
+      <guid>/posts/cccamp19/</guid>
+      <description>&lt;p&gt;climate-neutrally I biked this year to the &lt;a href=&#34;https://events.ccc.de/category/camp/camp-2019/&#34;&gt;chaos communication camp 2019&lt;/a&gt;.&lt;/p&gt;</description>
+      <content>&lt;p&gt;climate-neutrally I biked this year to the &lt;a href=&#34;https://events.ccc.de/category/camp/camp-2019/&#34;&gt;chaos communication camp 2019&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I didn&amp;rsquo;t notice that much, but the atmosphere was great.&lt;/p&gt;
+
+  &lt;figure class=&#34;left&#34; &gt;
+    &lt;img src=&#34;/img/camp1.jpg&#34;   /&gt;
+    
+  &lt;/figure&gt;
+
+
+
+&lt;div class=&#34;embed&#34;&gt;
+    &lt;iframe loading=&#34;lazy&#34; style=&#34;height: 700px; width: 100%; min-width: 360px; max-width: 800px; border: none;&#34; allowtransparency=&#34;true&#34; scrolling=&#34;no&#34; src=&#34;https://www.strava.com/activities/2646929670/embed/1c28327b9327085b84a5fac0cc186d1f17c81431&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;</content>
     </item>
     
     <item>
       <title>35c3 refreshing memories</title>
-      <link>https://fgau.github.io/35c3/</link>
+      <link>/posts/35c3/</link>
       <pubDate>Mon, 04 Mar 2019 11:31:45 +0100</pubDate>
       
-      <guid>https://fgau.github.io/35c3/</guid>
-      <description>for the second time, the messe (fair) leipzig was the the place to be for all hackers at the end of year 2018. fun, fun and spass am geraet.
-  the main hall, atrium     fairy dust     sound     art     hacklab   </description>
+      <guid>/posts/35c3/</guid>
+      <description>&lt;p&gt;for the second time, the &lt;a href=&#34;https://www.openstreetmap.de/karte.html?zoom=15&amp;amp;lat=51.39784&amp;amp;lon=12.39863&amp;amp;layers=B000&#34;&gt;messe (fair) leipzig&lt;/a&gt; was the the place to be for all hackers at the end of year 2018. fun, fun and spass am geraet.&lt;/p&gt;</description>
+      <content>&lt;p&gt;for the second time, the &lt;a href=&#34;https://www.openstreetmap.de/karte.html?zoom=15&amp;amp;lat=51.39784&amp;amp;lon=12.39863&amp;amp;layers=B000&#34;&gt;messe (fair) leipzig&lt;/a&gt; was the the place to be for all hackers at the end of year 2018. fun, fun and spass am geraet.&lt;/p&gt;
+  &lt;figure class=&#34;left&#34; &gt;
+    &lt;img src=&#34;/img/35c3_1.jpg&#34;   /&gt;
+    
+  &lt;/figure&gt;
+
+
+
+  &lt;figure class=&#34;left&#34; &gt;
+    &lt;img src=&#34;/img/35c3_2.jpg&#34;   /&gt;
+    
+  &lt;/figure&gt;
+
+
+
+  &lt;figure class=&#34;left&#34; &gt;
+    &lt;img src=&#34;/img/35c3_3.jpg&#34;   /&gt;
+    
+  &lt;/figure&gt;
+
+
+
+  &lt;figure class=&#34;left&#34; &gt;
+    &lt;img src=&#34;/img/35c3_4.jpg&#34;   /&gt;
+    
+  &lt;/figure&gt;
+
+
+
+  &lt;figure class=&#34;left&#34; &gt;
+    &lt;img src=&#34;/img/35c3_5.jpg&#34;   /&gt;
+    
+  &lt;/figure&gt;</content>
     </item>
     
     <item>
       <title>34c3 tuwat</title>
-      <link>https://fgau.github.io/34c3/</link>
+      <link>/posts/34c3/</link>
       <pubDate>Sun, 07 Jan 2018 21:37:35 +0100</pubDate>
       
-      <guid>https://fgau.github.io/34c3/</guid>
+      <guid>/posts/34c3/</guid>
       <description>&lt;p&gt;first things first. i have my lost laptop again - thank you, thank you &lt;a href=&#34;http://bahn.de&#34;&gt;Deutsche Bahn&lt;/a&gt;!&lt;/p&gt;
 &lt;p&gt;for the first time the messe (fair) leipzig was the new &lt;a href=&#34;https://www.openstreetmap.de/karte.html?zoom=15&amp;amp;lat=51.39784&amp;amp;lon=12.39863&amp;amp;layers=B000&#34;&gt;location&lt;/a&gt; for the nerds from all parts of the world.&lt;/p&gt;</description>
+      <content>&lt;p&gt;first things first. i have my lost laptop again - thank you, thank you &lt;a href=&#34;http://bahn.de&#34;&gt;Deutsche Bahn&lt;/a&gt;!&lt;/p&gt;
+&lt;p&gt;for the first time the messe (fair) leipzig was the new &lt;a href=&#34;https://www.openstreetmap.de/karte.html?zoom=15&amp;amp;lat=51.39784&amp;amp;lon=12.39863&amp;amp;layers=B000&#34;&gt;location&lt;/a&gt; for the nerds from all parts of the world.&lt;/p&gt;
+&lt;p&gt;the size of the halls was impressive and offered space for all high and low tech, for art and design and of course all sorts of light and sound installations. we had a lot of fun again (am Gerät).&lt;/p&gt;
+
+  &lt;figure class=&#34;left&#34; &gt;
+    &lt;img src=&#34;/img/34c3_1.jpg&#34;   /&gt;
+    
+  &lt;/figure&gt;
+
+
+
+  &lt;figure class=&#34;left&#34; &gt;
+    &lt;img src=&#34;/img/34c3_2.jpg&#34;   /&gt;
+    
+  &lt;/figure&gt;
+
+
+
+  &lt;figure class=&#34;left&#34; &gt;
+    &lt;img src=&#34;/img/34c3_3.jpg&#34;   /&gt;
+    
+  &lt;/figure&gt;
+
+
+
+  &lt;figure class=&#34;left&#34; &gt;
+    &lt;img src=&#34;/img/34c3_4.jpg&#34;   /&gt;
+    
+  &lt;/figure&gt;
+
+
+
+  &lt;figure class=&#34;left&#34; &gt;
+    &lt;img src=&#34;/img/34c3_5.jpg&#34;   /&gt;
+    
+  &lt;/figure&gt;
+
+
+
+  &lt;figure class=&#34;left&#34; &gt;
+    &lt;img src=&#34;/img/34c3_6.jpg&#34;   /&gt;
+    
+  &lt;/figure&gt;</content>
     </item>
     
     <item>
       <title>33c3 Work For Me</title>
-      <link>https://fgau.github.io/33c3-work-for-me/</link>
+      <link>/posts/33c3-work-for-me/</link>
       <pubDate>Sun, 01 Jan 2017 15:37:07 +0200</pubDate>
       
-      <guid>https://fgau.github.io/33c3-work-for-me/</guid>
-      <description>  light installation at the Radisson Blu Hotel Hamburg     sandbox, kinect, beamer and a little bit foo     a mate box over and over with high tech   </description>
+      <guid>/posts/33c3-work-for-me/</guid>
+      <description>&lt;figure class=&#34;left&#34; &gt;
+    &lt;img src=&#34;/img/33c3_1.jpg&#34;   /&gt;
+    
+  &lt;/figure&gt;</description>
+      <content>&lt;figure class=&#34;left&#34; &gt;
+    &lt;img src=&#34;/img/33c3_1.jpg&#34;   /&gt;
+    
+  &lt;/figure&gt;
+
+
+  &lt;figure class=&#34;left&#34; &gt;
+    &lt;img src=&#34;/img/33c3_2.jpg&#34;   /&gt;
+    
+  &lt;/figure&gt;
+
+
+
+  &lt;figure class=&#34;left&#34; &gt;
+    &lt;img src=&#34;/img/33c3_3.jpg&#34;   /&gt;
+    
+  &lt;/figure&gt;</content>
     </item>
     
     <item>
       <title>31c3 is over</title>
-      <link>https://fgau.github.io/31c3-is-over/</link>
+      <link>/posts/31c3-is-over/</link>
       <pubDate>Fri, 09 Jan 2015 21:17:47 +0200</pubDate>
       
-      <guid>https://fgau.github.io/31c3-is-over/</guid>
+      <guid>/posts/31c3-is-over/</guid>
       <description>the pyneo project is very happy to be part of the 31c3 in hamburg. our small team had a lot of fun with hard and software. samsung phones, a special tizen phone, gps tracker with gsm modems, bus pirates, serial consol finder workshop and so on. cool guys on a cool loacation with very interesting talks, thats the spirit during entertaining congress. i like it and i&amp;rsquo;m looking forward to the next year.</description>
+      <content>&lt;p&gt;the &lt;a href=&#34;http://pyneo.org&#34;&gt;pyneo&lt;/a&gt; project is very happy to be part of the &lt;a href=&#34;https://events.ccc.de/congress/2014/wiki/Main_Page&#34;&gt;31c3&lt;/a&gt; in hamburg. our small team had a lot of fun with hard and software. samsung phones, a special tizen phone, gps tracker with gsm modems, bus pirates, serial consol finder workshop and so on. cool guys on a cool loacation with very interesting &lt;a href=&#34;http://media.ccc.de/browse/congress/2014/&#34;&gt;talks&lt;/a&gt;, thats the spirit during entertaining congress. i like it and i&amp;rsquo;m looking forward to the next year. 31c3 a new dawn!&lt;/p&gt;
+
+  &lt;figure class=&#34;left&#34; &gt;
+    &lt;img src=&#34;/img/31c3_1.jpg&#34;   /&gt;
+    
+  &lt;/figure&gt;
+
+
+
+  &lt;figure class=&#34;left&#34; &gt;
+    &lt;img src=&#34;/img/31c3_2.jpg&#34;   /&gt;
+    
+  &lt;/figure&gt;
+
+
+
+  &lt;figure class=&#34;left&#34; &gt;
+    &lt;img src=&#34;/img/31c3_3.jpg&#34;   /&gt;
+    
+  &lt;/figure&gt;
+
+
+</content>
     </item>
     
   </channel>

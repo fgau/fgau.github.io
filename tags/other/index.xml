@@ -2,18 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>other on fgaublog</title>
-    <link>https://fgau.github.io/tags/other/</link>
+    <link>/tags/other/</link>
     <description>Recent content in other on fgaublog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 29 Apr 2014 10:55:09 +0200</lastBuildDate><atom:link href="https://fgau.github.io/tags/other/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 29 Apr 2014 10:55:09 +0200</lastBuildDate><atom:link href="/tags/other/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>initial commit</title>
-      <link>https://fgau.github.io/initial-commit/</link>
+      <link>/posts/initial-commit/</link>
       <pubDate>Tue, 29 Apr 2014 10:55:09 +0200</pubDate>
       
-      <guid>https://fgau.github.io/initial-commit/</guid>
-      <description>  Berlin, Hackerstrasse   </description>
+      <guid>/posts/initial-commit/</guid>
+      <description>&lt;figure class=&#34;left&#34; &gt;
+    &lt;img src=&#34;/img/test.jpg&#34;   /&gt;
+    
+  &lt;/figure&gt;</description>
+      <content>&lt;figure class=&#34;left&#34; &gt;
+    &lt;img src=&#34;/img/test.jpg&#34;   /&gt;
+    
+  &lt;/figure&gt;
+
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git commit -m &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;initial commit&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content>
     </item>
     
   </channel>

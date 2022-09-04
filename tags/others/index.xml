@@ -2,18 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>others on fgaublog</title>
-    <link>https://fgau.github.io/tags/others/</link>
+    <link>/tags/others/</link>
     <description>Recent content in others on fgaublog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 08 Nov 2014 19:13:28 +0200</lastBuildDate><atom:link href="https://fgau.github.io/tags/others/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 08 Nov 2014 19:13:28 +0200</lastBuildDate><atom:link href="/tags/others/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>autumn 2014 berlin</title>
-      <link>https://fgau.github.io/autumn-2014-berlin/</link>
+      <link>/posts/autumn-2014-berlin/</link>
       <pubDate>Sat, 08 Nov 2014 19:13:28 +0200</pubDate>
       
-      <guid>https://fgau.github.io/autumn-2014-berlin/</guid>
-      <description>this image is composed of 2 photos, and showing the gartenstrasse in northerly and southerly direction. and it is not the berlin wall.</description>
+      <guid>/posts/autumn-2014-berlin/</guid>
+      <description>&lt;figure class=&#34;left&#34; &gt;
+    &lt;img src=&#34;/img/autumn_2014_gartenstrasse_berlin.jpg&#34;   /&gt;
+    
+  &lt;/figure&gt;</description>
+      <content>&lt;figure class=&#34;left&#34; &gt;
+    &lt;img src=&#34;/img/autumn_2014_gartenstrasse_berlin.jpg&#34;   /&gt;
+    
+  &lt;/figure&gt;
+
+
+&lt;p&gt;this image is composed of 2 photos, and showing the gartenstrasse in northerly and southerly direction. and it is not the berlin wall.&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;</content>
     </item>
     
   </channel>

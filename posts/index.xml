@@ -1,0 +1,585 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on fgaublog</title>
+    <link>/posts/</link>
+    <description>Recent content in Posts on fgaublog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 17 Sep 2020 21:14:54 +0200</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Recycled Laptop Usb Camera</title>
+      <link>/posts/recycled-laptop-usb-camera/</link>
+      <pubDate>Thu, 17 Sep 2020 21:14:54 +0200</pubDate>
+      
+      <guid>/posts/recycled-laptop-usb-camera/</guid>
+      <description>&lt;p&gt;for a little side project, i needed small usb cams, preferably for free.
+i still had old hp elitebooks 8440p, and from their display, i removed the camera, see the picture below.
+the picture shows always the pinout.&lt;/p&gt;</description>
+      <content>&lt;p&gt;for a little side project, i needed small usb cams, preferably for free.
+i still had old hp elitebooks 8440p, and from their display, i removed the camera, see the picture below.
+the picture shows always the pinout.&lt;/p&gt;
+&lt;p&gt;next, i soldered the 4 cables together, leaving the GPIO pin unused. no big deal, there is no faster way to get an usb-cam for raspberry and co.&lt;/p&gt;
+&lt;p&gt;
+  &lt;figure class=&#34;left&#34; &gt;
+    &lt;img src=&#34;/img/laptop_cam2.jpg&#34;   /&gt;
+    
+  &lt;/figure&gt;
+
+
+
+  &lt;figure class=&#34;left&#34; &gt;
+    &lt;img src=&#34;https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/USB_2.0_connectors.svg/330px-USB_2.0_connectors.svg.png&#34;   /&gt;
+    
+  &lt;/figure&gt;
+
+&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;&lt;strong&gt;Pin&lt;/strong&gt;&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;&lt;strong&gt;Name&lt;/strong&gt;&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;&lt;strong&gt;Wire color&lt;/strong&gt;&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;&lt;strong&gt;Description&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;1&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;V(Bus)&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Red&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;+5 V&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;2&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;D-&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;White&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Data-&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;3&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;D+&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Green&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Data+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;4&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;GND&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Black&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Ground&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt; &lt;/p&gt;
+
+  &lt;figure class=&#34;left&#34; &gt;
+    &lt;img src=&#34;/img/laptop_cam1.jpg&#34;   /&gt;
+    
+  &lt;/figure&gt;</content>
+    </item>
+    
+    <item>
+      <title>36c3 Resource Exhaustion</title>
+      <link>/posts/36c3-resource-exhaustion/</link>
+      <pubDate>Sun, 02 Feb 2020 08:24:04 +0100</pubDate>
+      
+      <guid>/posts/36c3-resource-exhaustion/</guid>
+      <description>&lt;p&gt;for the third time in a row the hacker community met for the &lt;a href=&#34;https://events.ccc.de/congress/2019/wiki/index.php/Main_Page&#34;&gt;36c3&lt;/a&gt; in leipzig. 4 days between christmas and new year, 4 days with and in a unique community.&lt;/p&gt;</description>
+      <content>&lt;p&gt;for the third time in a row the hacker community met for the &lt;a href=&#34;https://events.ccc.de/congress/2019/wiki/index.php/Main_Page&#34;&gt;36c3&lt;/a&gt; in leipzig. 4 days between christmas and new year, 4 days with and in a unique community.&lt;/p&gt;
+&lt;p&gt;lots of inspiration, lots of good &lt;a href=&#34;https://media.ccc.de/c/36c3&#34;&gt;talks&lt;/a&gt;, lots of hardware and software hacking. we had a lot of fun again.&lt;/p&gt;
+&lt;p&gt;
+  &lt;figure class=&#34;left&#34; &gt;
+    &lt;img src=&#34;/img/36c3_1.jpg&#34;   /&gt;
+    
+  &lt;/figure&gt;
+
+
+
+  &lt;figure class=&#34;left&#34; &gt;
+    &lt;img src=&#34;/img/36c3_2.jpg&#34;   /&gt;
+    
+  &lt;/figure&gt;
+
+
+
+  &lt;figure class=&#34;left&#34; &gt;
+    &lt;img src=&#34;/img/36c3_3.jpg&#34;   /&gt;
+    
+  &lt;/figure&gt;
+
+
+
+  &lt;figure class=&#34;left&#34; &gt;
+    &lt;img src=&#34;/img/36c3_4.jpg&#34;   /&gt;
+    
+  &lt;/figure&gt;
+
+&lt;/p&gt;</content>
+    </item>
+    
+    <item>
+      <title>cccamp19</title>
+      <link>/posts/cccamp19/</link>
+      <pubDate>Mon, 23 Sep 2019 07:57:40 +0200</pubDate>
+      
+      <guid>/posts/cccamp19/</guid>
+      <description>&lt;p&gt;climate-neutrally I biked this year to the &lt;a href=&#34;https://events.ccc.de/category/camp/camp-2019/&#34;&gt;chaos communication camp 2019&lt;/a&gt;.&lt;/p&gt;</description>
+      <content>&lt;p&gt;climate-neutrally I biked this year to the &lt;a href=&#34;https://events.ccc.de/category/camp/camp-2019/&#34;&gt;chaos communication camp 2019&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I didn&amp;rsquo;t notice that much, but the atmosphere was great.&lt;/p&gt;
+
+  &lt;figure class=&#34;left&#34; &gt;
+    &lt;img src=&#34;/img/camp1.jpg&#34;   /&gt;
+    
+  &lt;/figure&gt;
+
+
+
+&lt;div class=&#34;embed&#34;&gt;
+    &lt;iframe loading=&#34;lazy&#34; style=&#34;height: 700px; width: 100%; min-width: 360px; max-width: 800px; border: none;&#34; allowtransparency=&#34;true&#34; scrolling=&#34;no&#34; src=&#34;https://www.strava.com/activities/2646929670/embed/1c28327b9327085b84a5fac0cc186d1f17c81431&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;</content>
+    </item>
+    
+    <item>
+      <title>35c3 refreshing memories</title>
+      <link>/posts/35c3/</link>
+      <pubDate>Mon, 04 Mar 2019 11:31:45 +0100</pubDate>
+      
+      <guid>/posts/35c3/</guid>
+      <description>&lt;p&gt;for the second time, the &lt;a href=&#34;https://www.openstreetmap.de/karte.html?zoom=15&amp;amp;lat=51.39784&amp;amp;lon=12.39863&amp;amp;layers=B000&#34;&gt;messe (fair) leipzig&lt;/a&gt; was the the place to be for all hackers at the end of year 2018. fun, fun and spass am geraet.&lt;/p&gt;</description>
+      <content>&lt;p&gt;for the second time, the &lt;a href=&#34;https://www.openstreetmap.de/karte.html?zoom=15&amp;amp;lat=51.39784&amp;amp;lon=12.39863&amp;amp;layers=B000&#34;&gt;messe (fair) leipzig&lt;/a&gt; was the the place to be for all hackers at the end of year 2018. fun, fun and spass am geraet.&lt;/p&gt;
+  &lt;figure class=&#34;left&#34; &gt;
+    &lt;img src=&#34;/img/35c3_1.jpg&#34;   /&gt;
+    
+  &lt;/figure&gt;
+
+
+
+  &lt;figure class=&#34;left&#34; &gt;
+    &lt;img src=&#34;/img/35c3_2.jpg&#34;   /&gt;
+    
+  &lt;/figure&gt;
+
+
+
+  &lt;figure class=&#34;left&#34; &gt;
+    &lt;img src=&#34;/img/35c3_3.jpg&#34;   /&gt;
+    
+  &lt;/figure&gt;
+
+
+
+  &lt;figure class=&#34;left&#34; &gt;
+    &lt;img src=&#34;/img/35c3_4.jpg&#34;   /&gt;
+    
+  &lt;/figure&gt;
+
+
+
+  &lt;figure class=&#34;left&#34; &gt;
+    &lt;img src=&#34;/img/35c3_5.jpg&#34;   /&gt;
+    
+  &lt;/figure&gt;</content>
+    </item>
+    
+    <item>
+      <title>34c3 tuwat</title>
+      <link>/posts/34c3/</link>
+      <pubDate>Sun, 07 Jan 2018 21:37:35 +0100</pubDate>
+      
+      <guid>/posts/34c3/</guid>
+      <description>&lt;p&gt;first things first. i have my lost laptop again - thank you, thank you &lt;a href=&#34;http://bahn.de&#34;&gt;Deutsche Bahn&lt;/a&gt;!&lt;/p&gt;
+&lt;p&gt;for the first time the messe (fair) leipzig was the new &lt;a href=&#34;https://www.openstreetmap.de/karte.html?zoom=15&amp;amp;lat=51.39784&amp;amp;lon=12.39863&amp;amp;layers=B000&#34;&gt;location&lt;/a&gt; for the nerds from all parts of the world.&lt;/p&gt;</description>
+      <content>&lt;p&gt;first things first. i have my lost laptop again - thank you, thank you &lt;a href=&#34;http://bahn.de&#34;&gt;Deutsche Bahn&lt;/a&gt;!&lt;/p&gt;
+&lt;p&gt;for the first time the messe (fair) leipzig was the new &lt;a href=&#34;https://www.openstreetmap.de/karte.html?zoom=15&amp;amp;lat=51.39784&amp;amp;lon=12.39863&amp;amp;layers=B000&#34;&gt;location&lt;/a&gt; for the nerds from all parts of the world.&lt;/p&gt;
+&lt;p&gt;the size of the halls was impressive and offered space for all high and low tech, for art and design and of course all sorts of light and sound installations. we had a lot of fun again (am Gerät).&lt;/p&gt;
+
+  &lt;figure class=&#34;left&#34; &gt;
+    &lt;img src=&#34;/img/34c3_1.jpg&#34;   /&gt;
+    
+  &lt;/figure&gt;
+
+
+
+  &lt;figure class=&#34;left&#34; &gt;
+    &lt;img src=&#34;/img/34c3_2.jpg&#34;   /&gt;
+    
+  &lt;/figure&gt;
+
+
+
+  &lt;figure class=&#34;left&#34; &gt;
+    &lt;img src=&#34;/img/34c3_3.jpg&#34;   /&gt;
+    
+  &lt;/figure&gt;
+
+
+
+  &lt;figure class=&#34;left&#34; &gt;
+    &lt;img src=&#34;/img/34c3_4.jpg&#34;   /&gt;
+    
+  &lt;/figure&gt;
+
+
+
+  &lt;figure class=&#34;left&#34; &gt;
+    &lt;img src=&#34;/img/34c3_5.jpg&#34;   /&gt;
+    
+  &lt;/figure&gt;
+
+
+
+  &lt;figure class=&#34;left&#34; &gt;
+    &lt;img src=&#34;/img/34c3_6.jpg&#34;   /&gt;
+    
+  &lt;/figure&gt;</content>
+    </item>
+    
+    <item>
+      <title>33c3 Work For Me</title>
+      <link>/posts/33c3-work-for-me/</link>
+      <pubDate>Sun, 01 Jan 2017 15:37:07 +0200</pubDate>
+      
+      <guid>/posts/33c3-work-for-me/</guid>
+      <description>&lt;figure class=&#34;left&#34; &gt;
+    &lt;img src=&#34;/img/33c3_1.jpg&#34;   /&gt;
+    
+  &lt;/figure&gt;</description>
+      <content>&lt;figure class=&#34;left&#34; &gt;
+    &lt;img src=&#34;/img/33c3_1.jpg&#34;   /&gt;
+    
+  &lt;/figure&gt;
+
+
+  &lt;figure class=&#34;left&#34; &gt;
+    &lt;img src=&#34;/img/33c3_2.jpg&#34;   /&gt;
+    
+  &lt;/figure&gt;
+
+
+
+  &lt;figure class=&#34;left&#34; &gt;
+    &lt;img src=&#34;/img/33c3_3.jpg&#34;   /&gt;
+    
+  &lt;/figure&gt;</content>
+    </item>
+    
+    <item>
+      <title>trash metal, yeah</title>
+      <link>/posts/trash-metal-yeah/</link>
+      <pubDate>Sat, 25 Jun 2016 22:42:44 +0200</pubDate>
+      
+      <guid>/posts/trash-metal-yeah/</guid>
+      <description>&lt;figure class=&#34;left&#34; &gt;
+    &lt;img src=&#34;/img/megadeth2016.jpg&#34;   /&gt;
+    
+  &lt;/figure&gt;
+
+
+&lt;p&gt;one of the best trash metal bands worldwide has &lt;a href=&#34;http://huxleysneuewelt.com/&#34;&gt;the house&lt;/a&gt; rocked here in berlin, germany on 22th june 2016.&lt;/p&gt;</description>
+      <content>&lt;figure class=&#34;left&#34; &gt;
+    &lt;img src=&#34;/img/megadeth2016.jpg&#34;   /&gt;
+    
+  &lt;/figure&gt;
+
+
+&lt;p&gt;one of the best trash metal bands worldwide has &lt;a href=&#34;http://huxleysneuewelt.com/&#34;&gt;the house&lt;/a&gt; rocked here in berlin, germany on 22th june 2016.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Megadeth&#34;&gt;megadeth&lt;/a&gt; with frontman &lt;a href=&#34;https://en.wikipedia.org/wiki/Dave_Mustaine&#34;&gt;dave mustaine&lt;/a&gt; have played new songs from the new released album Dystopia and fired up classic songs as well.
+love this metal genre!&lt;/p&gt;</content>
+    </item>
+    
+    <item>
+      <title>slack openweather bot</title>
+      <link>/posts/slack-openweather-bot/</link>
+      <pubDate>Thu, 24 Sep 2015 18:41:34 +0200</pubDate>
+      
+      <guid>/posts/slack-openweather-bot/</guid>
+      <description>all the cool kids are working with which messaging app? - slack of course! from my point of view, the slack integrations is the best feature of that app, and my favorite integration are the incoming webhooks. all what you need is to define a channel to post in and copy the webhook url where you post your payload json staff. above a litte python example that request weather data from openweathermap and post it to my channel #general.</description>
+      <content>&lt;p&gt;all the cool kids are working with which messaging app? - &lt;a href=&#34;https://slack.com/&#34;&gt;slack&lt;/a&gt; of course!
+from my point of view, the &lt;a href=&#34;https://slack.com/integrations&#34;&gt;slack integrations&lt;/a&gt; is the best feature of that app, and my favorite integration are the incoming webhooks. all what you need is to define a channel to post in and copy the webhook url where you post your payload json staff.
+above a litte python example that request weather data from &lt;a href=&#34;http://openweathermap.org&#34;&gt;openweathermap&lt;/a&gt; and post it to my channel #general.
+configure a cron job on your machine and the weatherbot is ready to post weather data to a specified slack channel.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/fgau/c8d48431b565f9dd7583f8a9bd3d6b8d.js&#34;&gt;&lt;/script&gt;
+
+</content>
+    </item>
+    
+    <item>
+      <title>django 1.7 update django database to reflect changes in existing models</title>
+      <link>/posts/django-1.7-update-django-database-to-reflect-changes-in-existing/</link>
+      <pubDate>Sat, 25 Apr 2015 12:09:06 +0200</pubDate>
+      
+      <guid>/posts/django-1.7-update-django-database-to-reflect-changes-in-existing/</guid>
+      <description>1 2 python manage.py makemigrations app name python manage.py migrate anyway, it&amp;rsquo;s time to upgrade my projects to django 1.8.
+update: it&amp;rsquo;s really time &amp;hellip; django 1.11</description>
+      <content>&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;python&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;manage&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;py&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;makemigrations&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;app&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;name&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;python&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;manage&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;py&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;migrate&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;anyway, it&amp;rsquo;s time to upgrade my projects to &lt;a href=&#34;https://docs.djangoproject.com/en/1.8/releases/1.8/&#34;&gt;django 1.8&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;update:&lt;/strong&gt; it&amp;rsquo;s really time &amp;hellip; &lt;a href=&#34;https://docs.djangoproject.com/en/1.11/&#34;&gt;django 1.11&lt;/a&gt;&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>django allow only requests from specific IP</title>
+      <link>/posts/django-allow-only-requests-from-specific-ip/</link>
+      <pubDate>Tue, 03 Mar 2015 16:58:03 +0200</pubDate>
+      
+      <guid>/posts/django-allow-only-requests-from-specific-ip/</guid>
+      <description>for a django project i needed a exception for the rss feed requests. they are only allowed to request for a set of specific IP addresses. django&amp;rsquo;s feed syndication framework is the base, and i have added a little snippet for receiving the remote address. the HttpRequest.META method reads all available HTTP header informations and for that case we read REMOTE_ADDR. only ip addresses in ip_allow are ready to receive the feed objects.</description>
+      <content>&lt;p&gt;for a django project i needed a exception for the rss feed requests. they are only allowed to request for a set of specific IP addresses.
+django&amp;rsquo;s &lt;a href=&#34;https://docs.djangoproject.com/en/1.7/ref/contrib/syndication/#a-simple-example&#34;&gt;feed syndication framework&lt;/a&gt; is the base, and i have added a little snippet for receiving the remote address. the &lt;a href=&#34;https://docs.djangoproject.com/en/1.7/ref/request-response/#httprequest-objects&#34;&gt;HttpRequest.META&lt;/a&gt; method reads all available HTTP header informations and for that case we read REMOTE_ADDR. only ip addresses in ip_allow are ready to receive the feed objects.&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/fgau/5cffe0d158d24caf3cd338d5c9942c98.js&#34;&gt;&lt;/script&gt;
+
+</content>
+    </item>
+    
+    <item>
+      <title>31c3 is over</title>
+      <link>/posts/31c3-is-over/</link>
+      <pubDate>Fri, 09 Jan 2015 21:17:47 +0200</pubDate>
+      
+      <guid>/posts/31c3-is-over/</guid>
+      <description>the pyneo project is very happy to be part of the 31c3 in hamburg. our small team had a lot of fun with hard and software. samsung phones, a special tizen phone, gps tracker with gsm modems, bus pirates, serial consol finder workshop and so on. cool guys on a cool loacation with very interesting talks, thats the spirit during entertaining congress. i like it and i&amp;rsquo;m looking forward to the next year.</description>
+      <content>&lt;p&gt;the &lt;a href=&#34;http://pyneo.org&#34;&gt;pyneo&lt;/a&gt; project is very happy to be part of the &lt;a href=&#34;https://events.ccc.de/congress/2014/wiki/Main_Page&#34;&gt;31c3&lt;/a&gt; in hamburg. our small team had a lot of fun with hard and software. samsung phones, a special tizen phone, gps tracker with gsm modems, bus pirates, serial consol finder workshop and so on. cool guys on a cool loacation with very interesting &lt;a href=&#34;http://media.ccc.de/browse/congress/2014/&#34;&gt;talks&lt;/a&gt;, thats the spirit during entertaining congress. i like it and i&amp;rsquo;m looking forward to the next year. 31c3 a new dawn!&lt;/p&gt;
+
+  &lt;figure class=&#34;left&#34; &gt;
+    &lt;img src=&#34;/img/31c3_1.jpg&#34;   /&gt;
+    
+  &lt;/figure&gt;
+
+
+
+  &lt;figure class=&#34;left&#34; &gt;
+    &lt;img src=&#34;/img/31c3_2.jpg&#34;   /&gt;
+    
+  &lt;/figure&gt;
+
+
+
+  &lt;figure class=&#34;left&#34; &gt;
+    &lt;img src=&#34;/img/31c3_3.jpg&#34;   /&gt;
+    
+  &lt;/figure&gt;
+
+
+</content>
+    </item>
+    
+    <item>
+      <title>android http post to django server</title>
+      <link>/posts/android-http-post-to-django-server/</link>
+      <pubDate>Sun, 30 Nov 2014 00:16:50 +0200</pubDate>
+      
+      <guid>/posts/android-http-post-to-django-server/</guid>
+      <description>&lt;p&gt;for an android/server gps project, i have need to send some data to a server. in my case a django server.&lt;/p&gt;</description>
+      <content>&lt;p&gt;for an android/server gps project, i have need to send some data to a server. in my case a django server.&lt;/p&gt;
+&lt;p&gt;on my android app a HttpPost sends data to &lt;a href=&#34;http://epydial.pyneo.org/receiver/&#34;&gt;http://epydial.pyneo.org/receiver/&lt;/a&gt;. The HttpPost is embedded in a AsyncTask. After sucessfully post, a toast message is genereated.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;display:grid;&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;private&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;PostAsyncTask&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;extends&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;AsyncTask&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;@&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;Override&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;protected&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Double&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;doInBackground&lt;/span&gt;(String... &lt;span style=&#34;color:#a6e22e&#34;&gt;params&lt;/span&gt;) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#75715e&#34;&gt;// TODO Auto-generated method stub
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;        &lt;span style=&#34;color:#a6e22e&#34;&gt;postData&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;params&lt;/span&gt;[&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;]);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;null&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;protected&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;onPostExecute&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;Double&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;result&lt;/span&gt;){
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#a6e22e&#34;&gt;Toast&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;makeText&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;getApplicationContext&lt;/span&gt;(), &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;successfully logged&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;Toast&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;LENGTH_SHORT&lt;/span&gt;).&lt;span style=&#34;color:#a6e22e&#34;&gt;show&lt;/span&gt;();
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;@&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;SuppressWarnings&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;unused&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;postData&lt;/span&gt;(String &lt;span style=&#34;color:#a6e22e&#34;&gt;valueIWantToSend&lt;/span&gt;) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#a6e22e&#34;&gt;HttpClient&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;httpclient&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;DefaultHttpClient&lt;/span&gt;();
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#a6e22e&#34;&gt;HttpPost&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;httppost&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;HttpPost&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;http://epydial.pyneo.org/receiver/&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;try&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            &lt;span style=&#34;color:#75715e&#34;&gt;// create a list to store HTTP variables and their values
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;            &lt;span style=&#34;color:#a6e22e&#34;&gt;List&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;nameValuePairs&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;ArrayList&lt;/span&gt;();
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            &lt;span style=&#34;color:#75715e&#34;&gt;// add an HTTP variable and value pair
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;            &lt;span style=&#34;color:#a6e22e&#34;&gt;nameValuePairs&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;add&lt;/span&gt;(&lt;span style=&#34;color:#66d9ef&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;BasicNameValuePair&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;myHttpData&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;valueIWantToSend&lt;/span&gt;));
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            &lt;span style=&#34;color:#a6e22e&#34;&gt;httppost&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;setEntity&lt;/span&gt;(&lt;span style=&#34;color:#66d9ef&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;UrlEncodedFormEntity&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;nameValuePairs&lt;/span&gt;));
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            &lt;span style=&#34;color:#75715e&#34;&gt;// send the variable and value, in other words post, to the URL
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;            &lt;span style=&#34;color:#a6e22e&#34;&gt;HttpResponse&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;response&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;httpclient&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;execute&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;httppost&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        } &lt;span style=&#34;color:#66d9ef&#34;&gt;catch&lt;/span&gt; (&lt;span style=&#34;color:#a6e22e&#34;&gt;ClientProtocolException&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;e&lt;/span&gt;) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            &lt;span style=&#34;color:#75715e&#34;&gt;// process exception
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;        } &lt;span style=&#34;color:#66d9ef&#34;&gt;catch&lt;/span&gt; (&lt;span style=&#34;color:#a6e22e&#34;&gt;IOException&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;e&lt;/span&gt;) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            &lt;span style=&#34;color:#75715e&#34;&gt;// process exception
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;        }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;the receiver method on my django server:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;display:grid;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;@csrf_exempt&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;receiver&lt;/span&gt;(request):
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; request&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;method &lt;span style=&#34;color:#f92672&#34;&gt;==&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;POST&amp;#39;&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;with&lt;/span&gt; open(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;/var/www/qblog/static/xml/test.xml&amp;#39;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;w&amp;#39;&lt;/span&gt;) &lt;span style=&#34;color:#66d9ef&#34;&gt;as&lt;/span&gt; f:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            f&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;write(request&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;POST&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;get(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;myHttpData&amp;#39;&lt;/span&gt;))
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            f&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;close()&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;further information about the @csrf_exempt decorator you can find &lt;a href=&#34;https://docs.djangoproject.com/en/dev/ref/csrf/#edge-cases&#34;&gt;here&lt;/a&gt;. the rest of the receiver method is self-explanatory. all my data, in that case longitude and latitude are saved in the myHttpData array and are written to a xml file for further web processing.&lt;/p&gt;
+
+  &lt;figure class=&#34;left&#34; &gt;
+    &lt;img src=&#34;/img/gpstracker.jpg&#34;   /&gt;
+    
+  &lt;/figure&gt;</content>
+    </item>
+    
+    <item>
+      <title>autumn 2014 berlin</title>
+      <link>/posts/autumn-2014-berlin/</link>
+      <pubDate>Sat, 08 Nov 2014 19:13:28 +0200</pubDate>
+      
+      <guid>/posts/autumn-2014-berlin/</guid>
+      <description>&lt;figure class=&#34;left&#34; &gt;
+    &lt;img src=&#34;/img/autumn_2014_gartenstrasse_berlin.jpg&#34;   /&gt;
+    
+  &lt;/figure&gt;</description>
+      <content>&lt;figure class=&#34;left&#34; &gt;
+    &lt;img src=&#34;/img/autumn_2014_gartenstrasse_berlin.jpg&#34;   /&gt;
+    
+  &lt;/figure&gt;
+
+
+&lt;p&gt;this image is composed of 2 photos, and showing the gartenstrasse in northerly and southerly direction. and it is not the berlin wall.&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;</content>
+    </item>
+    
+    <item>
+      <title>guitar hero</title>
+      <link>/posts/guitar-hero/</link>
+      <pubDate>Fri, 11 Jul 2014 23:05:18 +0200</pubDate>
+      
+      <guid>/posts/guitar-hero/</guid>
+      <description>&lt;figure class=&#34;left&#34; &gt;
+    &lt;img src=&#34;/img/blacklabelsociety2014.jpg&#34;   /&gt;
+    
+  &lt;/figure&gt;</description>
+      <content>&lt;figure class=&#34;left&#34; &gt;
+    &lt;img src=&#34;/img/blacklabelsociety2014.jpg&#34;   /&gt;
+    
+  &lt;/figure&gt;
+
+
+&lt;p&gt;&lt;a href=&#34;http://en.wikipedia.org/wiki/Zakk_Wylde&#34;&gt;zakk wylde&lt;/a&gt; from &lt;a href=&#34;http://en.wikipedia.org/wiki/Black_Label_Society&#34;&gt;black label society&lt;/a&gt; presented new songs from the new album &amp;lsquo;Catacombs Of The Black Vatican&amp;rsquo; in berlin &lt;a href=&#34;http://huxleysneuewelt.com/&#34;&gt;&amp;lsquo;huxleys neue welt&amp;rsquo;&lt;/a&gt; on july 1st. the show and the sound was impressive. the berlin chapter says thank you for a great show!&lt;/p&gt;</content>
+    </item>
+    
+    <item>
+      <title>adminer - alternative to phpmyadmin</title>
+      <link>/posts/adminer-alternative-phpmyadmin/</link>
+      <pubDate>Sun, 29 Jun 2014 20:45:34 +0200</pubDate>
+      
+      <guid>/posts/adminer-alternative-phpmyadmin/</guid>
+      <description>&lt;p&gt;more security, more performance, better interface, which promises the &lt;a href=&#34;http://adminer.org&#34;&gt;database management tool adminer&lt;/a&gt;.&lt;/p&gt;</description>
+      <content>&lt;p&gt;more security, more performance, better interface, which promises the &lt;a href=&#34;http://adminer.org&#34;&gt;database management tool adminer&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;the single php script can handle mysql, postgresql, sqlite, ms sql, mongodb and other. i have tested the functionality, and it does what it promise. a cool tool!&lt;/p&gt;</content>
+    </item>
+    
+    <item>
+      <title>python and the facebook api</title>
+      <link>/posts/python-and-facebook-api/</link>
+      <pubDate>Thu, 12 Jun 2014 18:35:22 +0200</pubDate>
+      
+      <guid>/posts/python-and-facebook-api/</guid>
+      <description>to run this example, you need at first a facebook app. this video shows the simple setup. pick the App ID and App Secret from there and insert it in the python code below.
+the program returns all comments from a single facebook post. you can limited the request and you can change the facebook post ID. the graph api explorer is the perfect starting point to learn more about the fb api.</description>
+      <content>&lt;p&gt;to run this example, you need at first a facebook app. this &lt;a href=&#34;http://youtu.be/-0phgaiVJ4k&#34;&gt;video&lt;/a&gt; shows the simple setup. pick the &lt;strong&gt;App ID&lt;/strong&gt; and &lt;strong&gt;App Secret&lt;/strong&gt; from there and insert it in the python code below.&lt;/p&gt;
+&lt;p&gt;the program returns all comments from a single facebook post. you can limited the request and you can change the facebook post ID. the &lt;a href=&#34;https://developers.facebook.com/tools/explorer&#34;&gt;graph api explorer&lt;/a&gt; is the perfect starting point to learn more about the &lt;a href=&#34;https://developers.facebook.com/docs/graph-api/reference/v2.0/&#34;&gt;fb api&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;the last part is for error handling and simple json parsing to get all the interesting information.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/fgau/8d77977a9657fa9220776c90e56d113a.js&#34;&gt;&lt;/script&gt;
+
+</content>
+    </item>
+    
+    <item>
+      <title>what a night</title>
+      <link>/posts/what-a-night/</link>
+      <pubDate>Wed, 11 Jun 2014 08:45:23 +0200</pubDate>
+      
+      <guid>/posts/what-a-night/</guid>
+      <description>&lt;figure class=&#34;left&#34; &gt;
+    &lt;img src=&#34;/img/sonisphere02.jpg&#34;   /&gt;
+    
+  &lt;/figure&gt;</description>
+      <content>&lt;figure class=&#34;left&#34; &gt;
+    &lt;img src=&#34;/img/sonisphere02.jpg&#34;   /&gt;
+    
+  &lt;/figure&gt;
+
+
+&lt;p&gt;&amp;hellip;&lt;/p&gt;</content>
+    </item>
+    
+    <item>
+      <title>here we go</title>
+      <link>/posts/here-we-go/</link>
+      <pubDate>Wed, 04 Jun 2014 15:59:10 +0200</pubDate>
+      
+      <guid>/posts/here-we-go/</guid>
+      <description>&lt;figure class=&#34;left&#34; &gt;
+    &lt;img src=&#34;/img/sonisphere01.jpg&#34;   /&gt;
+    
+  &lt;/figure&gt;</description>
+      <content>&lt;figure class=&#34;left&#34; &gt;
+    &lt;img src=&#34;/img/sonisphere01.jpg&#34;   /&gt;
+    
+  &lt;/figure&gt;
+
+
+&lt;p&gt;&amp;hellip;&lt;/p&gt;</content>
+    </item>
+    
+    <item>
+      <title>a simple d-bus daemon implemented with c</title>
+      <link>/posts/a-simple-d-bus-daemon-implemented-with-c/</link>
+      <pubDate>Wed, 04 Jun 2014 10:50:31 +0200</pubDate>
+      
+      <guid>/posts/a-simple-d-bus-daemon-implemented-with-c/</guid>
+      <description>first of all, you need a d-bus config file for the daemon. on a standard debian system it is saved in /etc/dbus-1/system.d/ as cneod.conf.
+and here you can find the daemon code. what can you do with the compiled code? with the d-bus rules above, you are able to:
+shutdown suspend reboot setbrightness getbrightness your system without root access. if you have a closer look to the code, you will see, the program is intended for my openmoko GTA02 and for my laptop/netbook.</description>
+      <content>&lt;p&gt;first of all, you need a d-bus config file for the daemon. on a standard debian system it is saved in /etc/dbus-1/system.d/ as cneod.conf.&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/fgau/3a9cba82973bf0ddf313788f82aae5c7.js&#34;&gt;&lt;/script&gt;
+
+&lt;p&gt;and &lt;a href=&#34;https://github.com/fgau/cneo/blob/master/src/cneod.c&#34;&gt;here&lt;/a&gt; you can find the daemon code. what can you do with the compiled code?
+with the d-bus rules above, you are able to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;shutdown&lt;/li&gt;
+&lt;li&gt;suspend&lt;/li&gt;
+&lt;li&gt;reboot&lt;/li&gt;
+&lt;li&gt;setbrightness&lt;/li&gt;
+&lt;li&gt;getbrightness&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;your system without root access. if you have a closer look to the code, you will see, the program is intended for my openmoko &lt;a href=&#34;http://wiki.openmoko.org/wiki/GTA02&#34;&gt;GTA02&lt;/a&gt; and for my laptop/netbook. example d-bus calls and the gcc command are inline from cneod.c
+now its time to build your own system daemons. more about the architecture behind the d-bus concept you can find &lt;a href=&#34;http://en.wikipedia.org/wiki/D-Bus&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>initial commit</title>
+      <link>/posts/initial-commit/</link>
+      <pubDate>Tue, 29 Apr 2014 10:55:09 +0200</pubDate>
+      
+      <guid>/posts/initial-commit/</guid>
+      <description>&lt;figure class=&#34;left&#34; &gt;
+    &lt;img src=&#34;/img/test.jpg&#34;   /&gt;
+    
+  &lt;/figure&gt;</description>
+      <content>&lt;figure class=&#34;left&#34; &gt;
+    &lt;img src=&#34;/img/test.jpg&#34;   /&gt;
+    
+  &lt;/figure&gt;
+
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git commit -m &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;initial commit&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content>
+    </item>
+    
+  </channel>
+</rss>

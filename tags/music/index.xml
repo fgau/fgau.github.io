@@ -2,45 +2,90 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>music on fgaublog</title>
-    <link>https://fgau.github.io/tags/music/</link>
+    <link>/tags/music/</link>
     <description>Recent content in music on fgaublog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 25 Jun 2016 22:42:44 +0200</lastBuildDate><atom:link href="https://fgau.github.io/tags/music/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 25 Jun 2016 22:42:44 +0200</lastBuildDate><atom:link href="/tags/music/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>trash metal, yeah</title>
-      <link>https://fgau.github.io/trash-metal-yeah/</link>
+      <link>/posts/trash-metal-yeah/</link>
       <pubDate>Sat, 25 Jun 2016 22:42:44 +0200</pubDate>
       
-      <guid>https://fgau.github.io/trash-metal-yeah/</guid>
-      <description>one of the best trash metal bands worldwide has the house rocked here in berlin, germany on 22th june 2016. megadeth with frontman dave mustaine have played new songs from the new released album Dystopia and fired up classic songs as well. love this metal genre!</description>
+      <guid>/posts/trash-metal-yeah/</guid>
+      <description>&lt;figure class=&#34;left&#34; &gt;
+    &lt;img src=&#34;/img/megadeth2016.jpg&#34;   /&gt;
+    
+  &lt;/figure&gt;
+
+
+&lt;p&gt;one of the best trash metal bands worldwide has &lt;a href=&#34;http://huxleysneuewelt.com/&#34;&gt;the house&lt;/a&gt; rocked here in berlin, germany on 22th june 2016.&lt;/p&gt;</description>
+      <content>&lt;figure class=&#34;left&#34; &gt;
+    &lt;img src=&#34;/img/megadeth2016.jpg&#34;   /&gt;
+    
+  &lt;/figure&gt;
+
+
+&lt;p&gt;one of the best trash metal bands worldwide has &lt;a href=&#34;http://huxleysneuewelt.com/&#34;&gt;the house&lt;/a&gt; rocked here in berlin, germany on 22th june 2016.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Megadeth&#34;&gt;megadeth&lt;/a&gt; with frontman &lt;a href=&#34;https://en.wikipedia.org/wiki/Dave_Mustaine&#34;&gt;dave mustaine&lt;/a&gt; have played new songs from the new released album Dystopia and fired up classic songs as well.
+love this metal genre!&lt;/p&gt;</content>
     </item>
     
     <item>
       <title>guitar hero</title>
-      <link>https://fgau.github.io/guitar-hero/</link>
+      <link>/posts/guitar-hero/</link>
       <pubDate>Fri, 11 Jul 2014 23:05:18 +0200</pubDate>
       
-      <guid>https://fgau.github.io/guitar-hero/</guid>
-      <description>zakk wylde from black label society presented new songs from the new album &amp;lsquo;Catacombs Of The Black Vatican&amp;rsquo; in berlin &amp;lsquo;huxleys neue welt&amp;rsquo; on july 1st. the show and the sound was impressive. the berlin chapter says thank you for a great show!</description>
+      <guid>/posts/guitar-hero/</guid>
+      <description>&lt;figure class=&#34;left&#34; &gt;
+    &lt;img src=&#34;/img/blacklabelsociety2014.jpg&#34;   /&gt;
+    
+  &lt;/figure&gt;</description>
+      <content>&lt;figure class=&#34;left&#34; &gt;
+    &lt;img src=&#34;/img/blacklabelsociety2014.jpg&#34;   /&gt;
+    
+  &lt;/figure&gt;
+
+
+&lt;p&gt;&lt;a href=&#34;http://en.wikipedia.org/wiki/Zakk_Wylde&#34;&gt;zakk wylde&lt;/a&gt; from &lt;a href=&#34;http://en.wikipedia.org/wiki/Black_Label_Society&#34;&gt;black label society&lt;/a&gt; presented new songs from the new album &amp;lsquo;Catacombs Of The Black Vatican&amp;rsquo; in berlin &lt;a href=&#34;http://huxleysneuewelt.com/&#34;&gt;&amp;lsquo;huxleys neue welt&amp;rsquo;&lt;/a&gt; on july 1st. the show and the sound was impressive. the berlin chapter says thank you for a great show!&lt;/p&gt;</content>
     </item>
     
     <item>
       <title>what a night</title>
-      <link>https://fgau.github.io/what-a-night/</link>
+      <link>/posts/what-a-night/</link>
       <pubDate>Wed, 11 Jun 2014 08:45:23 +0200</pubDate>
       
-      <guid>https://fgau.github.io/what-a-night/</guid>
-      <description>  metallica in da house II   </description>
+      <guid>/posts/what-a-night/</guid>
+      <description>&lt;figure class=&#34;left&#34; &gt;
+    &lt;img src=&#34;/img/sonisphere02.jpg&#34;   /&gt;
+    
+  &lt;/figure&gt;</description>
+      <content>&lt;figure class=&#34;left&#34; &gt;
+    &lt;img src=&#34;/img/sonisphere02.jpg&#34;   /&gt;
+    
+  &lt;/figure&gt;
+
+
+&lt;p&gt;&amp;hellip;&lt;/p&gt;</content>
     </item>
     
     <item>
       <title>here we go</title>
-      <link>https://fgau.github.io/here-we-go/</link>
+      <link>/posts/here-we-go/</link>
       <pubDate>Wed, 04 Jun 2014 15:59:10 +0200</pubDate>
       
-      <guid>https://fgau.github.io/here-we-go/</guid>
-      <description>  metallica in da house I   </description>
+      <guid>/posts/here-we-go/</guid>
+      <description>&lt;figure class=&#34;left&#34; &gt;
+    &lt;img src=&#34;/img/sonisphere01.jpg&#34;   /&gt;
+    
+  &lt;/figure&gt;</description>
+      <content>&lt;figure class=&#34;left&#34; &gt;
+    &lt;img src=&#34;/img/sonisphere01.jpg&#34;   /&gt;
+    
+  &lt;/figure&gt;
+
+
+&lt;p&gt;&amp;hellip;&lt;/p&gt;</content>
     </item>
     
   </channel>

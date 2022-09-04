@@ -1,106 +1,371 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width">
-		
-			<link href="/tags/programming/index.xml" rel="alternate" type="application/rss+xml" title="fgaublog" />
-			<link href="/tags/programming/index.xml" rel="feed" type="application/rss+xml" title="fgaublog" />
-		
-
-		<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700&display=swap" rel="stylesheet">
-
-		<title>programming</title>
-
-		
-		<link rel="stylesheet" href="https://fgau.github.io/css/colors-dark.min.0be49ce6cd9d4fb60d7ea4a8a43ccbd717c23ea596f9836b27c885ded978984a.css">
-
-		<link rel="stylesheet" href="https://fgau.github.io/css/my.css">
-
-		
-	</head>
-	<body>
-		<header id="header">
-			<h1><a href="https://fgau.github.io/">fgaublog</a></h1>
-			<p></p>
-		</header>
-
-		<div id="page">
-
-			<div id="content">
-				
-	
-		<article class="post">
-			<p class="meta">Posted on <span class="postdate">24. September 2015</span> | programming, python</p>
-			<h1><a href="https://fgau.github.io/slack-openweather-bot/">slack openweather bot</a> </h1>
-
-			<div class="post-content">
-				<p>all the cool kids are working with which messaging app? - slack of course! from my point of view, the slack integrations is the best feature of that app, and my favorite integration are the incoming webhooks. all what you need is to define a channel to post in and copy the webhook url where you post your payload json staff. above a litte python example that request weather data from openweathermap and post it to my channel #general.  … </p>
-			</div>
-
-		</article>
-	
-		<article class="post">
-			<p class="meta">Posted on <span class="postdate">03. March 2015</span> | programming, python, django</p>
-			<h1><a href="https://fgau.github.io/django-allow-only-requests-from-specific-ip/">django allow only requests from specific IP</a> </h1>
-
-			<div class="post-content">
-				<p>for a django project i needed a exception for the rss feed requests. they are only allowed to request for a set of specific IP addresses. django&rsquo;s feed syndication framework is the base, and i have added a little snippet for receiving the remote address. the HttpRequest.META method reads all available HTTP header informations and for that case we read REMOTE_ADDR. only ip addresses in ip_allow are ready to receive the feed objects.  … </p>
-			</div>
-
-		</article>
-	
-		<article class="post">
-			<p class="meta">Posted on <span class="postdate">30. November 2014</span> | programming, python, android, django</p>
-			<h1><a href="https://fgau.github.io/android-http-post-to-django-server/">android http post to django server</a> </h1>
-
-			<div class="post-content">
-				<p>for an android/server gps project, i have need to send some data to a server. in my case a django server. on my android app a HttpPost sends data to http://epydial.pyneo.org/receiver/. The HttpPost is embedded in a AsyncTask. After sucessfully post, a toast message is genereated.
-private class PostAsyncTask extends AsyncTask { @Override protected Double doInBackground(String... params) { // TODO Auto-generated method stub  postData(params[0]); return null; } protected void onPostExecute(Double result){ Toast.  … </p>
-			</div>
-
-		</article>
-	
-		<article class="post">
-			<p class="meta">Posted on <span class="postdate">12. June 2014</span> | programming, python</p>
-			<h1><a href="https://fgau.github.io/python-and-facebook-api/">python and the facebook api</a> </h1>
-
-			<div class="post-content">
-				<p>to run this example, you need at first a facebook app. this video shows the simple setup. pick the App ID and App Secret from there and insert it in the python code below.
-the program returns all comments from a single facebook post. you can limited the request and you can change the facebook post ID. the graph api explorer is the perfect starting point to learn more about the fb api.  … </p>
-			</div>
-
-		</article>
-	
-		<article class="post">
-			<p class="meta">Posted on <span class="postdate">04. June 2014</span> | c, programming</p>
-			<h1><a href="https://fgau.github.io/a-simple-d-bus-daemon-implemented-with-c/">a simple d-bus daemon implemented with c</a> </h1>
-
-			<div class="post-content">
-				<p>first of all, you need a d-bus config file for the daemon. on a standard debian system it is saved in /etc/dbus-1/system.d/ as cneod.conf.
- and here you can find the daemon code. what can you do with the compiled code? with the d-bus rules above, you are able to:
- shutdown suspend reboot setbrightness getbrightness  your system without root access. if you have a closer look to the code, you will see, the program is intended for my openmoko GTA02 and for my laptop/netbook.  … </p>
-			</div>
-
-		</article>
-	
-
-	
+<html lang="en">
+<head>
+  
+    <title>programming :: fgaublog</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<meta name="robots" content="noodp" />
+<link rel="canonical" href="/tags/programming/" />
 
 
-			</div>
 
-			<footer id="footer">
-				<p class="copyright">
-					
-						&copy; 2021 fgaublog |
-						powered by <a href="https://gohugo.io/">hugo</a> and the
-						<a href="https://github.com/bake/solar-theme-hugo">solar</a>theme.
-					
-				</p>
-			</footer>
-		</div>
 
-		
-	</body>
+<link rel="stylesheet" href="/assets/style.css">
+
+
+
+
+
+
+<link rel="apple-touch-icon" href="/img/apple-touch-icon-192x192.png">
+
+  <link rel="shortcut icon" href="/img/favicon/orange.png">
+
+
+
+<meta name="twitter:card" content="summary" />
+
+  
+    <meta name="twitter:site" content="" />
+  
+    <meta name="twitter:creator" content="" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="programming">
+<meta property="og:description" content="" />
+<meta property="og:url" content="/tags/programming/" />
+<meta property="og:site_name" content="fgaublog" />
+
+  
+    <meta property="og:image" content="/img/favicon/orange.png">
+  
+
+<meta property="og:image:width" content="2048">
+<meta property="og:image:height" content="1024">
+
+
+
+
+
+  <link href="/tags/programming/index.xml" rel="alternate" type="application/rss+xml" title="fgaublog" />
+
+
+
+
+
+
+
+
+
+</head>
+<body class="orange">
+
+
+<div class="container center headings--one-size">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    <img src="/img/pyneo.png">&nbsp;fgaublog
+  </div>
+</a>
+
+    </div>
+    
+      <div class="menu-trigger">menu</div>
+    
+  </div>
+  
+    <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="https://github.com/fgau">github</a></li>
+        
+      
+      
+    
+
+    
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="https://github.com/fgau">github</a></li>
+      
+    
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+  
+  <div class="posts">
+    
+      <div class="post on-list">
+        <h1 class="post-title">
+          <a href="/posts/slack-openweather-bot/">slack openweather bot</a>
+        </h1>
+        <div class="post-meta">
+          <span class="post-date">
+            2015-09-24
+          </span>
+          
+        </div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="/tags/programming/">programming</a>&nbsp;
+            
+            #<a href="/tags/python/">python</a>&nbsp;
+            
+          </span>
+        
+
+        
+
+
+      
+        <div class="post-content">
+          
+          
+          all the cool kids are working with which messaging app? - slack of course! from my point of view, the slack integrations is the best feature of that app, and my favorite integration are the incoming webhooks. all what you need is to define a channel to post in and copy the webhook url where you post your payload json staff. above a litte python example that request weather data from openweathermap and post it to my channel #general.
+          
+          
+        </div>
+
+        
+        <div>
+          <a class="read-more button"
+            href="/posts/slack-openweather-bot/">Read more →</a>
+        </div>
+        
+      </div>
+    
+      <div class="post on-list">
+        <h1 class="post-title">
+          <a href="/posts/django-allow-only-requests-from-specific-ip/">django allow only requests from specific IP</a>
+        </h1>
+        <div class="post-meta">
+          <span class="post-date">
+            2015-03-03
+          </span>
+          
+        </div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="/tags/programming/">programming</a>&nbsp;
+            
+            #<a href="/tags/python/">python</a>&nbsp;
+            
+            #<a href="/tags/django/">django</a>&nbsp;
+            
+          </span>
+        
+
+        
+
+
+      
+        <div class="post-content">
+          
+          
+          for a django project i needed a exception for the rss feed requests. they are only allowed to request for a set of specific IP addresses. django&rsquo;s feed syndication framework is the base, and i have added a little snippet for receiving the remote address. the HttpRequest.META method reads all available HTTP header informations and for that case we read REMOTE_ADDR. only ip addresses in ip_allow are ready to receive the feed objects.
+          
+          
+        </div>
+
+        
+        <div>
+          <a class="read-more button"
+            href="/posts/django-allow-only-requests-from-specific-ip/">Read more →</a>
+        </div>
+        
+      </div>
+    
+      <div class="post on-list">
+        <h1 class="post-title">
+          <a href="/posts/android-http-post-to-django-server/">android http post to django server</a>
+        </h1>
+        <div class="post-meta">
+          <span class="post-date">
+            2014-11-30
+          </span>
+          
+        </div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="/tags/programming/">programming</a>&nbsp;
+            
+            #<a href="/tags/python/">python</a>&nbsp;
+            
+            #<a href="/tags/android/">android</a>&nbsp;
+            
+            #<a href="/tags/django/">django</a>&nbsp;
+            
+          </span>
+        
+
+        
+
+
+      
+        <div class="post-content">
+          
+          
+          <p>for an android/server gps project, i have need to send some data to a server. in my case a django server.</p>
+          
+          
+        </div>
+
+        
+        <div>
+          <a class="read-more button"
+            href="/posts/android-http-post-to-django-server/">Read more →</a>
+        </div>
+        
+      </div>
+    
+      <div class="post on-list">
+        <h1 class="post-title">
+          <a href="/posts/python-and-facebook-api/">python and the facebook api</a>
+        </h1>
+        <div class="post-meta">
+          <span class="post-date">
+            2014-06-12
+          </span>
+          
+        </div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="/tags/programming/">programming</a>&nbsp;
+            
+            #<a href="/tags/python/">python</a>&nbsp;
+            
+          </span>
+        
+
+        
+
+
+      
+        <div class="post-content">
+          
+          
+          to run this example, you need at first a facebook app. this video shows the simple setup. pick the App ID and App Secret from there and insert it in the python code below.
+the program returns all comments from a single facebook post. you can limited the request and you can change the facebook post ID. the graph api explorer is the perfect starting point to learn more about the fb api.
+          
+          
+        </div>
+
+        
+        <div>
+          <a class="read-more button"
+            href="/posts/python-and-facebook-api/">Read more →</a>
+        </div>
+        
+      </div>
+    
+      <div class="post on-list">
+        <h1 class="post-title">
+          <a href="/posts/a-simple-d-bus-daemon-implemented-with-c/">a simple d-bus daemon implemented with c</a>
+        </h1>
+        <div class="post-meta">
+          <span class="post-date">
+            2014-06-04
+          </span>
+          
+        </div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="/tags/c/">c</a>&nbsp;
+            
+            #<a href="/tags/programming/">programming</a>&nbsp;
+            
+          </span>
+        
+
+        
+
+
+      
+        <div class="post-content">
+          
+          
+          first of all, you need a d-bus config file for the daemon. on a standard debian system it is saved in /etc/dbus-1/system.d/ as cneod.conf.
+and here you can find the daemon code. what can you do with the compiled code? with the d-bus rules above, you are able to:
+shutdown suspend reboot setbrightness getbrightness your system without root access. if you have a closer look to the code, you will see, the program is intended for my openmoko GTA02 and for my laptop/netbook.
+          
+          
+        </div>
+
+        
+        <div>
+          <a class="read-more button"
+            href="/posts/a-simple-d-bus-daemon-implemented-with-c/">Read more →</a>
+        </div>
+        
+      </div>
+    
+    <div class="pagination">
+  <div class="pagination__buttons">
+    
+    
+  </div>
+</div>
+
+  </div>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright">
+        <span>© 2022 Powered by <a href="http://gohugo.io">Hugo</a></span>
+    
+        <span>:: Theme made by <a href="https://twitter.com/panr">panr</a></span>
+      </div>
+  </div>
+</footer>
+
+<script src="/assets/main.js"></script>
+<script src="/assets/prism.js"></script>
+
+
+
+
+
+
+
+  
+</div>
+
+</body>
 </html>

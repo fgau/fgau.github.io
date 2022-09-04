@@ -2,108 +2,119 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on fgaublog</title>
-    <link>https://fgau.github.io/tags/</link>
+    <link>/tags/</link>
     <description>Recent content in Tags on fgaublog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 17 Sep 2020 21:14:54 +0200</lastBuildDate><atom:link href="https://fgau.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 17 Sep 2020 21:14:54 +0200</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>hardware</title>
-      <link>https://fgau.github.io/tags/hardware/</link>
+      <link>/tags/hardware/</link>
       <pubDate>Thu, 17 Sep 2020 21:14:54 +0200</pubDate>
       
-      <guid>https://fgau.github.io/tags/hardware/</guid>
+      <guid>/tags/hardware/</guid>
       <description></description>
+      <content></content>
     </item>
     
     <item>
       <title>events</title>
-      <link>https://fgau.github.io/tags/events/</link>
+      <link>/tags/events/</link>
       <pubDate>Sun, 02 Feb 2020 08:24:04 +0100</pubDate>
       
-      <guid>https://fgau.github.io/tags/events/</guid>
+      <guid>/tags/events/</guid>
       <description></description>
+      <content></content>
     </item>
     
     <item>
       <title>music</title>
-      <link>https://fgau.github.io/tags/music/</link>
+      <link>/tags/music/</link>
       <pubDate>Sat, 25 Jun 2016 22:42:44 +0200</pubDate>
       
-      <guid>https://fgau.github.io/tags/music/</guid>
+      <guid>/tags/music/</guid>
       <description></description>
+      <content></content>
     </item>
     
     <item>
       <title>programming</title>
-      <link>https://fgau.github.io/tags/programming/</link>
+      <link>/tags/programming/</link>
       <pubDate>Thu, 24 Sep 2015 18:41:34 +0200</pubDate>
       
-      <guid>https://fgau.github.io/tags/programming/</guid>
+      <guid>/tags/programming/</guid>
       <description></description>
+      <content></content>
     </item>
     
     <item>
       <title>python</title>
-      <link>https://fgau.github.io/tags/python/</link>
+      <link>/tags/python/</link>
       <pubDate>Thu, 24 Sep 2015 18:41:34 +0200</pubDate>
       
-      <guid>https://fgau.github.io/tags/python/</guid>
+      <guid>/tags/python/</guid>
       <description></description>
+      <content></content>
     </item>
     
     <item>
       <title>databases</title>
-      <link>https://fgau.github.io/tags/databases/</link>
+      <link>/tags/databases/</link>
       <pubDate>Sat, 25 Apr 2015 12:09:06 +0200</pubDate>
       
-      <guid>https://fgau.github.io/tags/databases/</guid>
+      <guid>/tags/databases/</guid>
       <description></description>
+      <content></content>
     </item>
     
     <item>
       <title>django</title>
-      <link>https://fgau.github.io/tags/django/</link>
+      <link>/tags/django/</link>
       <pubDate>Sat, 25 Apr 2015 12:09:06 +0200</pubDate>
       
-      <guid>https://fgau.github.io/tags/django/</guid>
+      <guid>/tags/django/</guid>
       <description></description>
+      <content></content>
     </item>
     
     <item>
       <title>android</title>
-      <link>https://fgau.github.io/tags/android/</link>
+      <link>/tags/android/</link>
       <pubDate>Sun, 30 Nov 2014 00:16:50 +0200</pubDate>
       
-      <guid>https://fgau.github.io/tags/android/</guid>
+      <guid>/tags/android/</guid>
       <description></description>
+      <content></content>
     </item>
     
     <item>
       <title>others</title>
-      <link>https://fgau.github.io/tags/others/</link>
+      <link>/tags/others/</link>
       <pubDate>Sat, 08 Nov 2014 19:13:28 +0200</pubDate>
       
-      <guid>https://fgau.github.io/tags/others/</guid>
+      <guid>/tags/others/</guid>
       <description></description>
+      <content></content>
     </item>
     
     <item>
       <title>c</title>
-      <link>https://fgau.github.io/tags/c/</link>
+      <link>/tags/c/</link>
       <pubDate>Wed, 04 Jun 2014 10:50:31 +0200</pubDate>
       
-      <guid>https://fgau.github.io/tags/c/</guid>
+      <guid>/tags/c/</guid>
       <description></description>
+      <content></content>
     </item>
     
     <item>
       <title>other</title>
-      <link>https://fgau.github.io/tags/other/</link>
+      <link>/tags/other/</link>
       <pubDate>Tue, 29 Apr 2014 10:55:09 +0200</pubDate>
       
-      <guid>https://fgau.github.io/tags/other/</guid>
+      <guid>/tags/other/</guid>
       <description></description>
+      <content></content>
     </item>
     
   </channel>

@@ -1,174 +1,109 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
-    <loc>https://fgau.github.io/</loc>
+    <loc>/</loc>
     <lastmod>2020-09-17T21:14:54+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://fgau.github.io/tags/hardware/</loc>
+  </url><url>
+    <loc>/tags/hardware/</loc>
     <lastmod>2020-09-17T21:14:54+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://fgau.github.io/recycled-laptop-usb-camera/</loc>
+  </url><url>
+    <loc>/posts/</loc>
     <lastmod>2020-09-17T21:14:54+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://fgau.github.io/tags/</loc>
+  </url><url>
+    <loc>/posts/recycled-laptop-usb-camera/</loc>
     <lastmod>2020-09-17T21:14:54+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://fgau.github.io/36c3-resource-exhaustion/</loc>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2020-09-17T21:14:54+02:00</lastmod>
+  </url><url>
+    <loc>/posts/36c3-resource-exhaustion/</loc>
     <lastmod>2020-02-02T08:24:04+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://fgau.github.io/tags/events/</loc>
+  </url><url>
+    <loc>/tags/events/</loc>
     <lastmod>2020-02-02T08:24:04+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://fgau.github.io/cccamp19/</loc>
+  </url><url>
+    <loc>/posts/cccamp19/</loc>
     <lastmod>2019-09-23T07:57:40+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://fgau.github.io/35c3/</loc>
+  </url><url>
+    <loc>/posts/35c3/</loc>
     <lastmod>2019-03-04T11:31:45+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://fgau.github.io/34c3/</loc>
+  </url><url>
+    <loc>/posts/34c3/</loc>
     <lastmod>2018-01-07T21:37:35+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://fgau.github.io/33c3-work-for-me/</loc>
+  </url><url>
+    <loc>/posts/33c3-work-for-me/</loc>
     <lastmod>2017-01-01T15:37:07+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://fgau.github.io/tags/music/</loc>
+  </url><url>
+    <loc>/tags/music/</loc>
     <lastmod>2016-06-25T22:42:44+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://fgau.github.io/trash-metal-yeah/</loc>
+  </url><url>
+    <loc>/posts/trash-metal-yeah/</loc>
     <lastmod>2016-06-25T22:42:44+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://fgau.github.io/tags/programming/</loc>
+  </url><url>
+    <loc>/tags/programming/</loc>
     <lastmod>2015-09-24T18:41:34+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://fgau.github.io/tags/python/</loc>
+  </url><url>
+    <loc>/tags/python/</loc>
     <lastmod>2015-09-24T18:41:34+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://fgau.github.io/slack-openweather-bot/</loc>
+  </url><url>
+    <loc>/posts/slack-openweather-bot/</loc>
     <lastmod>2015-09-24T18:41:34+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://fgau.github.io/tags/databases/</loc>
+  </url><url>
+    <loc>/tags/databases/</loc>
     <lastmod>2015-04-25T12:09:06+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://fgau.github.io/tags/django/</loc>
+  </url><url>
+    <loc>/tags/django/</loc>
     <lastmod>2015-04-25T12:09:06+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://fgau.github.io/django-1.7-update-django-database-to-reflect-changes-in-existing/</loc>
+  </url><url>
+    <loc>/posts/django-1.7-update-django-database-to-reflect-changes-in-existing/</loc>
     <lastmod>2015-04-25T12:09:06+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://fgau.github.io/django-allow-only-requests-from-specific-ip/</loc>
+  </url><url>
+    <loc>/posts/django-allow-only-requests-from-specific-ip/</loc>
     <lastmod>2015-03-03T16:58:03+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://fgau.github.io/31c3-is-over/</loc>
+  </url><url>
+    <loc>/posts/31c3-is-over/</loc>
     <lastmod>2015-01-09T21:17:47+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://fgau.github.io/tags/android/</loc>
+  </url><url>
+    <loc>/tags/android/</loc>
     <lastmod>2014-11-30T00:16:50+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://fgau.github.io/android-http-post-to-django-server/</loc>
+  </url><url>
+    <loc>/posts/android-http-post-to-django-server/</loc>
     <lastmod>2014-11-30T00:16:50+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://fgau.github.io/autumn-2014-berlin/</loc>
+  </url><url>
+    <loc>/posts/autumn-2014-berlin/</loc>
     <lastmod>2014-11-08T19:13:28+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://fgau.github.io/tags/others/</loc>
+  </url><url>
+    <loc>/tags/others/</loc>
     <lastmod>2014-11-08T19:13:28+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://fgau.github.io/guitar-hero/</loc>
+  </url><url>
+    <loc>/posts/guitar-hero/</loc>
     <lastmod>2014-07-11T23:05:18+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://fgau.github.io/adminer-alternative-phpmyadmin/</loc>
+  </url><url>
+    <loc>/posts/adminer-alternative-phpmyadmin/</loc>
     <lastmod>2014-06-29T20:45:34+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://fgau.github.io/python-and-facebook-api/</loc>
+  </url><url>
+    <loc>/posts/python-and-facebook-api/</loc>
     <lastmod>2014-06-12T18:35:22+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://fgau.github.io/what-a-night/</loc>
+  </url><url>
+    <loc>/posts/what-a-night/</loc>
     <lastmod>2014-06-11T08:45:23+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://fgau.github.io/here-we-go/</loc>
+  </url><url>
+    <loc>/posts/here-we-go/</loc>
     <lastmod>2014-06-04T15:59:10+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://fgau.github.io/a-simple-d-bus-daemon-implemented-with-c/</loc>
+  </url><url>
+    <loc>/posts/a-simple-d-bus-daemon-implemented-with-c/</loc>
     <lastmod>2014-06-04T10:50:31+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://fgau.github.io/tags/c/</loc>
+  </url><url>
+    <loc>/tags/c/</loc>
     <lastmod>2014-06-04T10:50:31+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://fgau.github.io/initial-commit/</loc>
+  </url><url>
+    <loc>/posts/initial-commit/</loc>
     <lastmod>2014-04-29T10:55:09+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://fgau.github.io/tags/other/</loc>
+  </url><url>
+    <loc>/tags/other/</loc>
     <lastmod>2014-04-29T10:55:09+02:00</lastmod>
+  </url><url>
+    <loc>/categories/</loc>
   </url>
-  
-  <url>
-    <loc>https://fgau.github.io/categories/</loc>
-  </url>
-  
 </urlset>

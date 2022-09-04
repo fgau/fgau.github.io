@@ -2,28 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>databases on fgaublog</title>
-    <link>https://fgau.github.io/tags/databases/</link>
+    <link>/tags/databases/</link>
     <description>Recent content in databases on fgaublog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 25 Apr 2015 12:09:06 +0200</lastBuildDate><atom:link href="https://fgau.github.io/tags/databases/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 25 Apr 2015 12:09:06 +0200</lastBuildDate><atom:link href="/tags/databases/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>django 1.7 update django database to reflect changes in existing models</title>
-      <link>https://fgau.github.io/django-1.7-update-django-database-to-reflect-changes-in-existing/</link>
+      <link>/posts/django-1.7-update-django-database-to-reflect-changes-in-existing/</link>
       <pubDate>Sat, 25 Apr 2015 12:09:06 +0200</pubDate>
       
-      <guid>https://fgau.github.io/django-1.7-update-django-database-to-reflect-changes-in-existing/</guid>
-      <description>1 2  python manage.py makemigrations app name python manage.py migrate    anyway, it&amp;rsquo;s time to upgrade my projects to django 1.8.
+      <guid>/posts/django-1.7-update-django-database-to-reflect-changes-in-existing/</guid>
+      <description>1 2 python manage.py makemigrations app name python manage.py migrate anyway, it&amp;rsquo;s time to upgrade my projects to django 1.8.
 update: it&amp;rsquo;s really time &amp;hellip; django 1.11</description>
+      <content>&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;python&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;manage&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;py&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;makemigrations&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;app&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;name&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;python&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;manage&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;py&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;migrate&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;anyway, it&amp;rsquo;s time to upgrade my projects to &lt;a href=&#34;https://docs.djangoproject.com/en/1.8/releases/1.8/&#34;&gt;django 1.8&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;update:&lt;/strong&gt; it&amp;rsquo;s really time &amp;hellip; &lt;a href=&#34;https://docs.djangoproject.com/en/1.11/&#34;&gt;django 1.11&lt;/a&gt;&lt;/p&gt;
+</content>
     </item>
     
     <item>
       <title>adminer - alternative to phpmyadmin</title>
-      <link>https://fgau.github.io/adminer-alternative-phpmyadmin/</link>
+      <link>/posts/adminer-alternative-phpmyadmin/</link>
       <pubDate>Sun, 29 Jun 2014 20:45:34 +0200</pubDate>
       
-      <guid>https://fgau.github.io/adminer-alternative-phpmyadmin/</guid>
-      <description>more security, more performance, better interface, which promises the database management tool adminer. the single php script can handle mysql, postgresql, sqlite, ms sql, mongodb and other. i have tested the functionality, and it does what it promise. a cool tool!</description>
+      <guid>/posts/adminer-alternative-phpmyadmin/</guid>
+      <description>&lt;p&gt;more security, more performance, better interface, which promises the &lt;a href=&#34;http://adminer.org&#34;&gt;database management tool adminer&lt;/a&gt;.&lt;/p&gt;</description>
+      <content>&lt;p&gt;more security, more performance, better interface, which promises the &lt;a href=&#34;http://adminer.org&#34;&gt;database management tool adminer&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;the single php script can handle mysql, postgresql, sqlite, ms sql, mongodb and other. i have tested the functionality, and it does what it promise. a cool tool!&lt;/p&gt;</content>
     </item>
     
   </channel>
