@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>Slack Openweather Bot Reloaded - Golang Version :: fgaublog</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="for more and more projects i use the very popular programming language golang. the language is small and easy to learn.
+" />
+<meta name="keywords" content=", " />
+<meta name="robots" content="noodp" />
+<link rel="canonical" href="/posts/slack-openweather-bot-reloaded/" />
+
+
+
+
+<link rel="stylesheet" href="/assets/style.css">
+
+
+
+
+
+
+<link rel="apple-touch-icon" href="/img/apple-touch-icon-192x192.png">
+
+  <link rel="shortcut icon" href="/img/favicon/orange.png">
+
+
+
+<meta name="twitter:card" content="summary" />
+
+  
+    <meta name="twitter:site" content="" />
+  
+    <meta name="twitter:creator" content="" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Slack Openweather Bot Reloaded - Golang Version">
+<meta property="og:description" content="for more and more projects i use the very popular programming language golang. the language is small and easy to learn.
+" />
+<meta property="og:url" content="/posts/slack-openweather-bot-reloaded/" />
+<meta property="og:site_name" content="fgaublog" />
+
+  <meta property="og:image" content="/">
+
+<meta property="og:image:width" content="2048">
+<meta property="og:image:height" content="1024">
+
+
+  <meta property="article:published_time" content="2022-10-16 14:12:34 &#43;0200 CEST" />
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body class="orange">
+
+
+<div class="container center headings--one-size">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    <img src="/img/pyneo.png">&nbsp;fgaublog
+  </div>
+</a>
+
+    </div>
+    
+      <div class="menu-trigger">menu</div>
+    
+  </div>
+  
+    <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="https://github.com/fgau">github</a></li>
+        
+      
+      
+    
+
+    
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="https://github.com/fgau">github</a></li>
+      
+    
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<div class="post">
+  <h1 class="post-title">
+    <a href="/posts/slack-openweather-bot-reloaded/">Slack Openweather Bot Reloaded - Golang Version</a></h1>
+  <div class="post-meta">
+    
+      <span class="post-date">
+        2022-10-16
+        
+      </span>
+    
+    
+    
+  </div>
+
+  
+  <span class="post-tags">
+    
+    #<a href="/tags/programming/">programming</a>&nbsp;
+    
+    #<a href="/tags/golang/">golang</a>&nbsp;
+    
+  </span>
+  
+  
+
+
+  
+
+  <div class="post-content"><div>
+        <p>for more and more projects i use the very popular programming language
+<a href="https://go.dev/">golang</a>. the language is small and easy to learn.</p>
+<p>the code below shows an example of concurrency in go. for this i use an already
+existing <a href="https://fgau.github.io/posts/slack-openweather-bot/">project</a> from
+2015, written in <a href="https://python.org">python</a>.</p>
+<p>in the example we iterate over the map &lsquo;cities&rsquo;. with &lsquo;go get_data()&rsquo; we create
+a goroutine, comparable to a thread in python. in &lsquo;get_data()&rsquo; we request the
+weather api via http request, the json response can be sometimes faster,
+sometimes slower. in the worst case 7 simultaneous requests could be executed at
+the same time in this example. this is called concurrency.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#66d9ef">for</span> <span style="color:#a6e22e">city</span>, <span style="color:#a6e22e">owid</span> <span style="color:#f92672">:=</span> <span style="color:#66d9ef">range</span> <span style="color:#a6e22e">cities</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">ch</span> <span style="color:#f92672">:=</span> make(<span style="color:#66d9ef">chan</span> <span style="color:#66d9ef">string</span>)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">go</span> <span style="color:#a6e22e">get_data</span>(<span style="color:#a6e22e">city</span>, <span style="color:#a6e22e">owid</span>, <span style="color:#a6e22e">ch</span>)
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">output</span> = append(<span style="color:#a6e22e">output</span>, []<span style="color:#66d9ef">string</span>{<span style="color:#f92672">&lt;-</span><span style="color:#a6e22e">ch</span>})
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>the function &lsquo;get_data()&rsquo; piped the response data into the variable &lsquo;ch&rsquo;, the
+order does not have to match the data in the map &lsquo;cities&rsquo;.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">get_data</span>(<span style="color:#a6e22e">city</span> <span style="color:#66d9ef">string</span>, <span style="color:#a6e22e">owid</span> <span style="color:#66d9ef">string</span>, <span style="color:#a6e22e">ch</span> <span style="color:#66d9ef">chan</span><span style="color:#f92672">&lt;-</span> <span style="color:#66d9ef">string</span>) {
+</span></span><span style="display:flex;"><span><span style="color:#f92672">...</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">ch</span> <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Sprintf</span>(<span style="color:#e6db74">&#34;%s, %.1f°C, temperature from %.1f to %.1f°C, wind %.1fm/s. clouds %d%%, %d hpa&#34;</span>,
+</span></span><span style="display:flex;"><span>		<span style="color:#a6e22e">city</span>,
+</span></span><span style="display:flex;"><span>		<span style="color:#a6e22e">oweather</span>.<span style="color:#a6e22e">Main</span>.<span style="color:#a6e22e">Temp</span><span style="color:#f92672">-</span><span style="color:#a6e22e">CONST_KELVIN</span>,
+</span></span><span style="display:flex;"><span>		<span style="color:#a6e22e">oweather</span>.<span style="color:#a6e22e">Main</span>.<span style="color:#a6e22e">TempMin</span><span style="color:#f92672">-</span><span style="color:#a6e22e">CONST_KELVIN</span>,
+</span></span><span style="display:flex;"><span>		<span style="color:#a6e22e">oweather</span>.<span style="color:#a6e22e">Main</span>.<span style="color:#a6e22e">TempMax</span><span style="color:#f92672">-</span><span style="color:#a6e22e">CONST_KELVIN</span>,
+</span></span><span style="display:flex;"><span>		<span style="color:#a6e22e">oweather</span>.<span style="color:#a6e22e">Wind</span>.<span style="color:#a6e22e">Speed</span>, <span style="color:#a6e22e">oweather</span>.<span style="color:#a6e22e">Clouds</span>.<span style="color:#a6e22e">All</span>,
+</span></span><span style="display:flex;"><span>		<span style="color:#a6e22e">oweather</span>.<span style="color:#a6e22e">Main</span>.<span style="color:#a6e22e">Pressure</span>)
+</span></span><span style="display:flex;"><span><span style="color:#f92672">...</span>
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>following the complete code, including post request in one of my slack
+monitoring channels.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#f92672">package</span> <span style="color:#a6e22e">main</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> (
+</span></span><span style="display:flex;"><span>	<span style="color:#e6db74">&#34;bytes&#34;</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#e6db74">&#34;encoding/json&#34;</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#e6db74">&#34;fmt&#34;</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#e6db74">&#34;log&#34;</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#e6db74">&#34;net/http&#34;</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#e6db74">&#34;strings&#34;</span>
+</span></span><span style="display:flex;"><span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">const</span> (
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">OWAPPID</span>            = <span style="color:#e6db74">&#34;XXXXXX&#34;</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">OPENWEATHERMAP_URL</span> = <span style="color:#e6db74">&#34;http://api.openweathermap.org/data/2.5/weather?APPID=&#34;</span> <span style="color:#f92672">+</span> <span style="color:#a6e22e">OWAPPID</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">SLACK_WEBHOOK_URL</span>  = <span style="color:#e6db74">&#34;https://hooks.slack.com/services/XXXXXX/XXXXXX/XXXXXX&#34;</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">CONST_KELVIN</span>       = <span style="color:#ae81ff">272.15</span>
+</span></span><span style="display:flex;"><span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">type</span> <span style="color:#a6e22e">OWeather</span> <span style="color:#66d9ef">struct</span> {
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">Coord</span> <span style="color:#66d9ef">struct</span> {
+</span></span><span style="display:flex;"><span>		<span style="color:#a6e22e">Lon</span> <span style="color:#66d9ef">float64</span> <span style="color:#e6db74">`json:&#34;lon&#34;`</span>
+</span></span><span style="display:flex;"><span>		<span style="color:#a6e22e">Lat</span> <span style="color:#66d9ef">float64</span> <span style="color:#e6db74">`json:&#34;lat&#34;`</span>
+</span></span><span style="display:flex;"><span>	} <span style="color:#e6db74">`json:&#34;coord&#34;`</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">Weather</span> []<span style="color:#66d9ef">struct</span> {
+</span></span><span style="display:flex;"><span>		<span style="color:#a6e22e">ID</span>          <span style="color:#66d9ef">int</span>    <span style="color:#e6db74">`json:&#34;id&#34;`</span>
+</span></span><span style="display:flex;"><span>		<span style="color:#a6e22e">Main</span>        <span style="color:#66d9ef">string</span> <span style="color:#e6db74">`json:&#34;main&#34;`</span>
+</span></span><span style="display:flex;"><span>		<span style="color:#a6e22e">Description</span> <span style="color:#66d9ef">string</span> <span style="color:#e6db74">`json:&#34;description&#34;`</span>
+</span></span><span style="display:flex;"><span>		<span style="color:#a6e22e">Icon</span>        <span style="color:#66d9ef">string</span> <span style="color:#e6db74">`json:&#34;icon&#34;`</span>
+</span></span><span style="display:flex;"><span>	} <span style="color:#e6db74">`json:&#34;weather&#34;`</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">Base</span> <span style="color:#66d9ef">string</span> <span style="color:#e6db74">`json:&#34;base&#34;`</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">Main</span> <span style="color:#66d9ef">struct</span> {
+</span></span><span style="display:flex;"><span>		<span style="color:#a6e22e">Temp</span>      <span style="color:#66d9ef">float64</span> <span style="color:#e6db74">`json:&#34;temp&#34;`</span>
+</span></span><span style="display:flex;"><span>		<span style="color:#a6e22e">FeelsLike</span> <span style="color:#66d9ef">float64</span> <span style="color:#e6db74">`json:&#34;feels_like&#34;`</span>
+</span></span><span style="display:flex;"><span>		<span style="color:#a6e22e">TempMin</span>   <span style="color:#66d9ef">float64</span> <span style="color:#e6db74">`json:&#34;temp_min&#34;`</span>
+</span></span><span style="display:flex;"><span>		<span style="color:#a6e22e">TempMax</span>   <span style="color:#66d9ef">float64</span> <span style="color:#e6db74">`json:&#34;temp_max&#34;`</span>
+</span></span><span style="display:flex;"><span>		<span style="color:#a6e22e">Pressure</span>  <span style="color:#66d9ef">int</span>     <span style="color:#e6db74">`json:&#34;pressure&#34;`</span>
+</span></span><span style="display:flex;"><span>		<span style="color:#a6e22e">Humidity</span>  <span style="color:#66d9ef">int</span>     <span style="color:#e6db74">`json:&#34;humidity&#34;`</span>
+</span></span><span style="display:flex;"><span>	} <span style="color:#e6db74">`json:&#34;main&#34;`</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">Visibility</span> <span style="color:#66d9ef">int</span> <span style="color:#e6db74">`json:&#34;visibility&#34;`</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">Wind</span>       <span style="color:#66d9ef">struct</span> {
+</span></span><span style="display:flex;"><span>		<span style="color:#a6e22e">Speed</span> <span style="color:#66d9ef">float64</span> <span style="color:#e6db74">`json:&#34;speed&#34;`</span>
+</span></span><span style="display:flex;"><span>		<span style="color:#a6e22e">Deg</span>   <span style="color:#66d9ef">int</span>     <span style="color:#e6db74">`json:&#34;deg&#34;`</span>
+</span></span><span style="display:flex;"><span>	} <span style="color:#e6db74">`json:&#34;wind&#34;`</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">Clouds</span> <span style="color:#66d9ef">struct</span> {
+</span></span><span style="display:flex;"><span>		<span style="color:#a6e22e">All</span> <span style="color:#66d9ef">int</span> <span style="color:#e6db74">`json:&#34;all&#34;`</span>
+</span></span><span style="display:flex;"><span>	} <span style="color:#e6db74">`json:&#34;clouds&#34;`</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">Dt</span>  <span style="color:#66d9ef">int</span> <span style="color:#e6db74">`json:&#34;dt&#34;`</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">Sys</span> <span style="color:#66d9ef">struct</span> {
+</span></span><span style="display:flex;"><span>		<span style="color:#a6e22e">Type</span>    <span style="color:#66d9ef">int</span>    <span style="color:#e6db74">`json:&#34;type&#34;`</span>
+</span></span><span style="display:flex;"><span>		<span style="color:#a6e22e">ID</span>      <span style="color:#66d9ef">int</span>    <span style="color:#e6db74">`json:&#34;id&#34;`</span>
+</span></span><span style="display:flex;"><span>		<span style="color:#a6e22e">Country</span> <span style="color:#66d9ef">string</span> <span style="color:#e6db74">`json:&#34;country&#34;`</span>
+</span></span><span style="display:flex;"><span>		<span style="color:#a6e22e">Sunrise</span> <span style="color:#66d9ef">int</span>    <span style="color:#e6db74">`json:&#34;sunrise&#34;`</span>
+</span></span><span style="display:flex;"><span>		<span style="color:#a6e22e">Sunset</span>  <span style="color:#66d9ef">int</span>    <span style="color:#e6db74">`json:&#34;sunset&#34;`</span>
+</span></span><span style="display:flex;"><span>	} <span style="color:#e6db74">`json:&#34;sys&#34;`</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">Timezone</span> <span style="color:#66d9ef">int</span>    <span style="color:#e6db74">`json:&#34;timezone&#34;`</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">ID</span>       <span style="color:#66d9ef">int</span>    <span style="color:#e6db74">`json:&#34;id&#34;`</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">Name</span>     <span style="color:#66d9ef">string</span> <span style="color:#e6db74">`json:&#34;name&#34;`</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">Cod</span>      <span style="color:#66d9ef">int</span>    <span style="color:#e6db74">`json:&#34;cod&#34;`</span>
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">get_data</span>(<span style="color:#a6e22e">city</span> <span style="color:#66d9ef">string</span>, <span style="color:#a6e22e">owid</span> <span style="color:#66d9ef">string</span>, <span style="color:#a6e22e">ch</span> <span style="color:#66d9ef">chan</span><span style="color:#f92672">&lt;-</span> <span style="color:#66d9ef">string</span>) {
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">var</span> <span style="color:#a6e22e">oweather</span> <span style="color:#a6e22e">OWeather</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">resp</span>, <span style="color:#a6e22e">err</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">http</span>.<span style="color:#a6e22e">Get</span>(<span style="color:#a6e22e">OPENWEATHERMAP_URL</span> <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;&amp;id=&#34;</span> <span style="color:#f92672">+</span> <span style="color:#a6e22e">owid</span>)
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">if</span> <span style="color:#a6e22e">err</span> <span style="color:#f92672">!=</span> <span style="color:#66d9ef">nil</span> {
+</span></span><span style="display:flex;"><span>		<span style="color:#a6e22e">log</span>.<span style="color:#a6e22e">Fatalln</span>(<span style="color:#a6e22e">err</span>)
+</span></span><span style="display:flex;"><span>		<span style="color:#a6e22e">ch</span> <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Sprintf</span>(<span style="color:#e6db74">&#34;%s, err: %s&#34;</span>, <span style="color:#a6e22e">city</span>, <span style="color:#a6e22e">err</span>)
+</span></span><span style="display:flex;"><span>	}
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">defer</span> <span style="color:#a6e22e">resp</span>.<span style="color:#a6e22e">Body</span>.<span style="color:#a6e22e">Close</span>()
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">json</span>.<span style="color:#a6e22e">NewDecoder</span>(<span style="color:#a6e22e">resp</span>.<span style="color:#a6e22e">Body</span>).<span style="color:#a6e22e">Decode</span>(<span style="color:#f92672">&amp;</span><span style="color:#a6e22e">oweather</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">ch</span> <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Sprintf</span>(<span style="color:#e6db74">&#34;%s, %.1f°C, temperature from %.1f to %.1f°C, wind %.1fm/s. clouds %d%%, %d hpa&#34;</span>,
+</span></span><span style="display:flex;"><span>		<span style="color:#a6e22e">city</span>,
+</span></span><span style="display:flex;"><span>		<span style="color:#a6e22e">oweather</span>.<span style="color:#a6e22e">Main</span>.<span style="color:#a6e22e">Temp</span><span style="color:#f92672">-</span><span style="color:#a6e22e">CONST_KELVIN</span>,
+</span></span><span style="display:flex;"><span>		<span style="color:#a6e22e">oweather</span>.<span style="color:#a6e22e">Main</span>.<span style="color:#a6e22e">TempMin</span><span style="color:#f92672">-</span><span style="color:#a6e22e">CONST_KELVIN</span>,
+</span></span><span style="display:flex;"><span>		<span style="color:#a6e22e">oweather</span>.<span style="color:#a6e22e">Main</span>.<span style="color:#a6e22e">TempMax</span><span style="color:#f92672">-</span><span style="color:#a6e22e">CONST_KELVIN</span>,
+</span></span><span style="display:flex;"><span>		<span style="color:#a6e22e">oweather</span>.<span style="color:#a6e22e">Wind</span>.<span style="color:#a6e22e">Speed</span>, <span style="color:#a6e22e">oweather</span>.<span style="color:#a6e22e">Clouds</span>.<span style="color:#a6e22e">All</span>,
+</span></span><span style="display:flex;"><span>		<span style="color:#a6e22e">oweather</span>.<span style="color:#a6e22e">Main</span>.<span style="color:#a6e22e">Pressure</span>)
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">post_data_to_slack</span>(<span style="color:#a6e22e">message</span> <span style="color:#66d9ef">string</span>) <span style="color:#66d9ef">error</span> {
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">payload</span> <span style="color:#f92672">:=</span> <span style="color:#66d9ef">map</span>[<span style="color:#66d9ef">string</span>]<span style="color:#66d9ef">string</span>{
+</span></span><span style="display:flex;"><span>		<span style="color:#e6db74">&#34;channel&#34;</span>:    <span style="color:#e6db74">&#34;#general&#34;</span>,
+</span></span><span style="display:flex;"><span>		<span style="color:#e6db74">&#34;username&#34;</span>:   <span style="color:#e6db74">&#34;weatherBOT&#34;</span>,
+</span></span><span style="display:flex;"><span>		<span style="color:#e6db74">&#34;text&#34;</span>:       <span style="color:#a6e22e">message</span>,
+</span></span><span style="display:flex;"><span>		<span style="color:#e6db74">&#34;icon_emoji&#34;</span>: <span style="color:#e6db74">&#34;:sun_with_face:&#34;</span>,
+</span></span><span style="display:flex;"><span>	}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">jsonValue</span>, <span style="color:#a6e22e">_</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">json</span>.<span style="color:#a6e22e">Marshal</span>(<span style="color:#a6e22e">payload</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">resp</span>, <span style="color:#a6e22e">err</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">http</span>.<span style="color:#a6e22e">Post</span>(<span style="color:#a6e22e">SLACK_WEBHOOK_URL</span>, <span style="color:#e6db74">&#34;application/json&#34;</span>, <span style="color:#a6e22e">bytes</span>.<span style="color:#a6e22e">NewBuffer</span>(<span style="color:#a6e22e">jsonValue</span>))
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">if</span> <span style="color:#a6e22e">err</span> <span style="color:#f92672">!=</span> <span style="color:#66d9ef">nil</span> {
+</span></span><span style="display:flex;"><span>		<span style="color:#a6e22e">log</span>.<span style="color:#a6e22e">Fatalln</span>(<span style="color:#a6e22e">err</span>)
+</span></span><span style="display:flex;"><span>	}
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">defer</span> <span style="color:#a6e22e">resp</span>.<span style="color:#a6e22e">Body</span>.<span style="color:#a6e22e">Close</span>()
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">return</span> <span style="color:#66d9ef">nil</span>
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">main</span>() {
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">var</span> <span style="color:#a6e22e">message</span> <span style="color:#66d9ef">string</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">cities</span> <span style="color:#f92672">:=</span> <span style="color:#66d9ef">map</span>[<span style="color:#66d9ef">string</span>]<span style="color:#66d9ef">string</span>{
+</span></span><span style="display:flex;"><span>		<span style="color:#e6db74">&#34;Berlin&#34;</span>:      <span style="color:#e6db74">&#34;2950159&#34;</span>,
+</span></span><span style="display:flex;"><span>		<span style="color:#e6db74">&#34;Frankfurt&#34;</span>:   <span style="color:#e6db74">&#34;2925533&#34;</span>,
+</span></span><span style="display:flex;"><span>		<span style="color:#e6db74">&#34;Cologne&#34;</span>:     <span style="color:#e6db74">&#34;6691073&#34;</span>,
+</span></span><span style="display:flex;"><span>		<span style="color:#e6db74">&#34;Munich&#34;</span>:      <span style="color:#e6db74">&#34;6940463&#34;</span>,
+</span></span><span style="display:flex;"><span>		<span style="color:#e6db74">&#34;Holzkirchen&#34;</span>: <span style="color:#e6db74">&#34;2899676&#34;</span>,
+</span></span><span style="display:flex;"><span>		<span style="color:#e6db74">&#34;Duesseldorf&#34;</span>: <span style="color:#e6db74">&#34;2934246&#34;</span>,
+</span></span><span style="display:flex;"><span>		<span style="color:#e6db74">&#34;Hamburg&#34;</span>:     <span style="color:#e6db74">&#34;2911298&#34;</span>,
+</span></span><span style="display:flex;"><span>	}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">output</span> <span style="color:#f92672">:=</span> make([][]<span style="color:#66d9ef">string</span>, <span style="color:#ae81ff">0</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">for</span> <span style="color:#a6e22e">city</span>, <span style="color:#a6e22e">owid</span> <span style="color:#f92672">:=</span> <span style="color:#66d9ef">range</span> <span style="color:#a6e22e">cities</span> {
+</span></span><span style="display:flex;"><span>		<span style="color:#a6e22e">ch</span> <span style="color:#f92672">:=</span> make(<span style="color:#66d9ef">chan</span> <span style="color:#66d9ef">string</span>)
+</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">go</span> <span style="color:#a6e22e">get_data</span>(<span style="color:#a6e22e">city</span>, <span style="color:#a6e22e">owid</span>, <span style="color:#a6e22e">ch</span>)
+</span></span><span style="display:flex;"><span>		<span style="color:#a6e22e">output</span> = append(<span style="color:#a6e22e">output</span>, []<span style="color:#66d9ef">string</span>{<span style="color:#f92672">&lt;-</span><span style="color:#a6e22e">ch</span>})
+</span></span><span style="display:flex;"><span>	}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">for</span> <span style="color:#a6e22e">_</span>, <span style="color:#a6e22e">value</span> <span style="color:#f92672">:=</span> <span style="color:#66d9ef">range</span> <span style="color:#a6e22e">output</span> {
+</span></span><span style="display:flex;"><span>		<span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Println</span>(<span style="color:#a6e22e">value</span>)
+</span></span><span style="display:flex;"><span>		<span style="color:#a6e22e">message</span> <span style="color:#f92672">+=</span> <span style="color:#a6e22e">strings</span>.<span style="color:#a6e22e">Join</span>(<span style="color:#a6e22e">value</span>, <span style="color:#e6db74">&#34;&#34;</span>) <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;\n&#34;</span>
+</span></span><span style="display:flex;"><span>	}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>	<span style="color:#75715e">//finally sent all data to my slack logging channel
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>	<span style="color:#a6e22e">err</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">post_data_to_slack</span>(<span style="color:#a6e22e">message</span>)
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">if</span> <span style="color:#a6e22e">err</span> <span style="color:#f92672">!=</span> <span style="color:#66d9ef">nil</span> {
+</span></span><span style="display:flex;"><span>		<span style="color:#a6e22e">log</span>.<span style="color:#a6e22e">Fatalln</span>()
+</span></span><span style="display:flex;"><span>	}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div>
+      </div></div>
+
+  
+  
+<div class="pagination">
+    <div class="pagination__title">
+        <span class="pagination__title-h">Read other posts</span>
+        <hr />
+    </div>
+    <div class="pagination__buttons">
+        
+        
+        <span class="button next">
+            <a href="/posts/blind-guardian-berlin/">
+                <span class="button__text">Blind Guardian in Berlin</span>
+                <span class="button__icon">→</span>
+            </a>
+        </span>
+        
+    </div>
+</div>
+
+  
+
+  
+
+</div>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright">
+        <span>© 2022 Powered by <a href="http://gohugo.io">Hugo</a></span>
+    
+        <span>:: Theme made by <a href="https://twitter.com/panr">panr</a></span>
+      </div>
+  </div>
+</footer>
+
+<script src="/assets/main.js"></script>
+<script src="/assets/prism.js"></script>
+
+
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>

@@ -6,7 +6,27 @@
     <description>Recent content in Tags on fgaublog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 29 Sep 2022 23:26:31 +0200</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 16 Oct 2022 14:12:34 +0200</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>golang</title>
+      <link>/tags/golang/</link>
+      <pubDate>Sun, 16 Oct 2022 14:12:34 +0200</pubDate>
+      
+      <guid>/tags/golang/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>programming</title>
+      <link>/tags/programming/</link>
+      <pubDate>Sun, 16 Oct 2022 14:12:34 +0200</pubDate>
+      
+      <guid>/tags/programming/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
     <item>
       <title>music</title>
       <link>/tags/music/</link>
@@ -33,16 +53,6 @@
       <pubDate>Sun, 02 Feb 2020 08:24:04 +0100</pubDate>
       
       <guid>/tags/events/</guid>
-      <description></description>
-      <content></content>
-    </item>
-    
-    <item>
-      <title>programming</title>
-      <link>/tags/programming/</link>
-      <pubDate>Thu, 24 Sep 2015 18:41:34 +0200</pubDate>
-      
-      <guid>/tags/programming/</guid>
       <description></description>
       <content></content>
     </item>
