@@ -5,8 +5,75 @@
     <link>/tags/events/</link>
     <description>Recent content in events on fgaublog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 02 Feb 2020 08:24:04 +0100</lastBuildDate><atom:link href="/tags/events/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Sat, 23 Mar 2024 13:00:00 +0200</lastBuildDate><atom:link href="/tags/events/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>37c3 Unlocked</title>
+      <link>/posts/37c3/</link>
+      <pubDate>Sat, 23 Mar 2024 13:00:00 +0200</pubDate>
+      
+      <guid>/posts/37c3/</guid>
+      <description>&lt;p&gt;the 37th chaos communication congress (37C3) in hamburg provided a stimulating
+environment for technology enthusiasts and nerds alike.&lt;/p&gt;</description>
+      <content>&lt;p&gt;the 37th chaos communication congress (37C3) in hamburg provided a stimulating
+environment for technology enthusiasts and nerds alike.&lt;/p&gt;
+&lt;p&gt;from december 27th to
+30th, 2023, thousands of individuals with a passion for technology gathered to
+delve into the latest advancements in security, cryptography, hardware and
+software hacking.&lt;/p&gt;
+&lt;p&gt;we had a lot of fun with a &amp;ldquo;hot or not&amp;rdquo; revival, as you can see from the pictures.&lt;/p&gt;
+&lt;p&gt;see you all at the 38c3!&lt;/p&gt;
+&lt;p&gt;
+  &lt;figure class=&#34;left&#34; &gt;
+    &lt;img src=&#34;/img/37c3_1.jpg&#34;   /&gt;
+    
+  &lt;/figure&gt;
+
+
+
+  &lt;figure class=&#34;left&#34; &gt;
+    &lt;img src=&#34;/img/37c3_2.jpg&#34;   /&gt;
+    
+  &lt;/figure&gt;
+
+
+
+  &lt;figure class=&#34;left&#34; &gt;
+    &lt;img src=&#34;/img/37c3_3.jpg&#34;   /&gt;
+    
+  &lt;/figure&gt;
+
+
+
+  &lt;figure class=&#34;left&#34; &gt;
+    &lt;img src=&#34;/img/37c3_4.jpg&#34;   /&gt;
+    
+  &lt;/figure&gt;
+
+
+
+  &lt;figure class=&#34;left&#34; &gt;
+    &lt;img src=&#34;/img/37c3_5.jpg&#34;   /&gt;
+    
+  &lt;/figure&gt;
+
+
+
+  &lt;figure class=&#34;left&#34; &gt;
+    &lt;img src=&#34;/img/37c3_6.jpg&#34;   /&gt;
+    
+  &lt;/figure&gt;
+
+
+
+  &lt;figure class=&#34;left&#34; &gt;
+    &lt;img src=&#34;/img/37c3_7.jpg&#34;   /&gt;
+    
+  &lt;/figure&gt;
+
+&lt;/p&gt;</content>
+    </item>
+    
     <item>
       <title>36c3 Resource Exhaustion</title>
       <link>/posts/36c3-resource-exhaustion/</link>

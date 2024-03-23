@@ -5,8 +5,75 @@
     <link>/</link>
     <description>Recent content on fgaublog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 16 Oct 2022 14:12:34 +0200</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Sat, 23 Mar 2024 13:00:00 +0200</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>37c3 Unlocked</title>
+      <link>/posts/37c3/</link>
+      <pubDate>Sat, 23 Mar 2024 13:00:00 +0200</pubDate>
+      
+      <guid>/posts/37c3/</guid>
+      <description>&lt;p&gt;the 37th chaos communication congress (37C3) in hamburg provided a stimulating
+environment for technology enthusiasts and nerds alike.&lt;/p&gt;</description>
+      <content>&lt;p&gt;the 37th chaos communication congress (37C3) in hamburg provided a stimulating
+environment for technology enthusiasts and nerds alike.&lt;/p&gt;
+&lt;p&gt;from december 27th to
+30th, 2023, thousands of individuals with a passion for technology gathered to
+delve into the latest advancements in security, cryptography, hardware and
+software hacking.&lt;/p&gt;
+&lt;p&gt;we had a lot of fun with a &amp;ldquo;hot or not&amp;rdquo; revival, as you can see from the pictures.&lt;/p&gt;
+&lt;p&gt;see you all at the 38c3!&lt;/p&gt;
+&lt;p&gt;
+  &lt;figure class=&#34;left&#34; &gt;
+    &lt;img src=&#34;/img/37c3_1.jpg&#34;   /&gt;
+    
+  &lt;/figure&gt;
+
+
+
+  &lt;figure class=&#34;left&#34; &gt;
+    &lt;img src=&#34;/img/37c3_2.jpg&#34;   /&gt;
+    
+  &lt;/figure&gt;
+
+
+
+  &lt;figure class=&#34;left&#34; &gt;
+    &lt;img src=&#34;/img/37c3_3.jpg&#34;   /&gt;
+    
+  &lt;/figure&gt;
+
+
+
+  &lt;figure class=&#34;left&#34; &gt;
+    &lt;img src=&#34;/img/37c3_4.jpg&#34;   /&gt;
+    
+  &lt;/figure&gt;
+
+
+
+  &lt;figure class=&#34;left&#34; &gt;
+    &lt;img src=&#34;/img/37c3_5.jpg&#34;   /&gt;
+    
+  &lt;/figure&gt;
+
+
+
+  &lt;figure class=&#34;left&#34; &gt;
+    &lt;img src=&#34;/img/37c3_6.jpg&#34;   /&gt;
+    
+  &lt;/figure&gt;
+
+
+
+  &lt;figure class=&#34;left&#34; &gt;
+    &lt;img src=&#34;/img/37c3_7.jpg&#34;   /&gt;
+    
+  &lt;/figure&gt;
+
+&lt;/p&gt;</content>
+    </item>
+    
     <item>
       <title>Slack Openweather Bot Reloaded - Golang Version</title>
       <link>/posts/slack-openweather-bot-reloaded/</link>
@@ -519,8 +586,8 @@ update: it&amp;rsquo;s really time &amp;hellip; django 1.11</description>
 &lt;!-- raw HTML omitted --&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;
 &lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
-&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;2
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;2
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;python&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;manage&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;py&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;makemigrations&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;app&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;name&lt;/span&gt;
