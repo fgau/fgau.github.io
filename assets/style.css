@@ -667,6 +667,7 @@ sup {
     margin: 0 0 15px;
     padding-bottom: 15px;
     position: relative;
+    text-transform: uppercase;
 }
 .post-title:after {
     border-bottom: var(--border);
