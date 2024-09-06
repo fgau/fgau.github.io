@@ -6,13 +6,23 @@
     <description>Recent content in Tags on fgaublog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 23 Mar 2024 13:00:00 +0200</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 06 Sep 2024 13:00:00 +0200</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>events</title>
       <link>/tags/events/</link>
-      <pubDate>Sat, 23 Mar 2024 13:00:00 +0200</pubDate>
+      <pubDate>Fri, 06 Sep 2024 13:00:00 +0200</pubDate>
       
       <guid>/tags/events/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>music</title>
+      <link>/tags/music/</link>
+      <pubDate>Fri, 06 Sep 2024 13:00:00 +0200</pubDate>
+      
+      <guid>/tags/music/</guid>
       <description></description>
       <content></content>
     </item>
@@ -33,16 +43,6 @@
       <pubDate>Sun, 16 Oct 2022 14:12:34 +0200</pubDate>
       
       <guid>/tags/programming/</guid>
-      <description></description>
-      <content></content>
-    </item>
-    
-    <item>
-      <title>music</title>
-      <link>/tags/music/</link>
-      <pubDate>Thu, 29 Sep 2022 23:26:31 +0200</pubDate>
-      
-      <guid>/tags/music/</guid>
       <description></description>
       <content></content>
     </item>
