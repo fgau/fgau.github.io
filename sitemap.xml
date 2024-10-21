@@ -2,31 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/posts/cutup/</loc>
+    <lastmod>2024-10-20T13:00:00+02:00</lastmod>
+  </url><url>
+    <loc>/</loc>
+    <lastmod>2024-10-20T13:00:00+02:00</lastmod>
+  </url><url>
+    <loc>/tags/music/</loc>
+    <lastmod>2024-10-20T13:00:00+02:00</lastmod>
+  </url><url>
+    <loc>/posts/</loc>
+    <lastmod>2024-10-20T13:00:00+02:00</lastmod>
+  </url><url>
+    <loc>/tags/programming/</loc>
+    <lastmod>2024-10-20T13:00:00+02:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2024-10-20T13:00:00+02:00</lastmod>
+  </url><url>
     <loc>/posts/a-long-long-metal-weekend/</loc>
     <lastmod>2024-09-06T13:00:00+02:00</lastmod>
   </url><url>
     <loc>/tags/events/</loc>
     <lastmod>2024-09-06T13:00:00+02:00</lastmod>
   </url><url>
-    <loc>/</loc>
-    <lastmod>2024-09-06T13:00:00+02:00</lastmod>
-  </url><url>
-    <loc>/tags/music/</loc>
-    <lastmod>2024-09-06T13:00:00+02:00</lastmod>
-  </url><url>
-    <loc>/posts/</loc>
-    <lastmod>2024-09-06T13:00:00+02:00</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
-    <lastmod>2024-09-06T13:00:00+02:00</lastmod>
-  </url><url>
     <loc>/posts/37c3/</loc>
     <lastmod>2024-03-23T13:00:00+02:00</lastmod>
   </url><url>
     <loc>/tags/golang/</loc>
-    <lastmod>2022-10-16T14:12:34+02:00</lastmod>
-  </url><url>
-    <loc>/tags/programming/</loc>
     <lastmod>2022-10-16T14:12:34+02:00</lastmod>
   </url><url>
     <loc>/posts/slack-openweather-bot-reloaded/</loc>
