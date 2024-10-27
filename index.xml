@@ -6,7 +6,45 @@
     <description>Recent content on fgaublog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 20 Oct 2024 13:00:00 +0200</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 27 Oct 2024 13:00:00 +0200</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>building a budget-friendly kubernetes cluster</title>
+      <link>/posts/my-kubernetes-cluster/</link>
+      <pubDate>Sun, 27 Oct 2024 13:00:00 +0200</pubDate>
+      
+      <guid>/posts/my-kubernetes-cluster/</guid>
+      <description>&lt;p&gt;turn four old dell laptop motherboards into a mini computing cluster with
+ubuntu! here’s how:&lt;/p&gt;</description>
+      <content>&lt;p&gt;turn four old dell laptop motherboards into a mini computing cluster with
+ubuntu! here’s how:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;prepare each node: strip down the laptops to essential parts and install
+ubuntu server. set up unique hostnames and static IPs&lt;/li&gt;
+&lt;li&gt;connect nodes: link each to a network switch using ethernet cables&lt;/li&gt;
+&lt;li&gt;i have used these excellent blog
+&lt;a href=&#34;https://computingforgeeks.com/install-kubernetes-cluster-ubuntu-jammy/?expand_article=1&#34;&gt;article&lt;/a&gt;
+to setup control-plane and nodes&lt;/li&gt;
+&lt;li&gt;to get really deep insights into your cluster,
+&lt;a href=&#34;https://github.com/derailed/k9s&#34;&gt;k9s&lt;/a&gt; is the tool of choice&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;this project is perfect for learning about clusters and giving old laptops a
+second life.&lt;/p&gt;
+&lt;p&gt;
+  &lt;figure class=&#34;left&#34; &gt;
+    &lt;img src=&#34;/img/cluster1.jpg&#34;   /&gt;
+    
+  &lt;/figure&gt;
+
+
+
+  &lt;figure class=&#34;left&#34; &gt;
+    &lt;img src=&#34;/img/cluster2.jpg&#34;   /&gt;
+    
+  &lt;/figure&gt;
+
+&lt;/p&gt;</content>
+    </item>
+    
     <item>
       <title>cutup</title>
       <link>/posts/cutup/</link>
