@@ -8,7 +8,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="first of all, you need a d-bus config file for the daemon. on a standard debian system it is saved in /etc/dbus-1/system.d/ as cneod.conf.
 and here you can find the daemon code. what can you do with the compiled code? with the d-bus rules above, you are able to:
-shutdown suspend reboot setbrightness getbrightness your system without root access. if you have a closer look to the code, you will see, the program is intended for my openmoko GTA02 and for my laptop/netbook." />
+shutdown suspend reboot setbrightness getbrightness your system without root access. if you have a closer look to the code, you will see, the program is intended for my openmoko GTA02 and for my laptop/netbook. example d-bus calls and the gcc command are inline from cneod.c now its time to build your own system daemons. more about the architecture behind the d-bus concept you can find here.
+" />
 <meta name="keywords" content="" />
 <meta name="robots" content="noodp" />
 <link rel="canonical" href="/posts/a-simple-d-bus-daemon-implemented-with-c/" />
@@ -45,7 +46,8 @@ shutdown suspend reboot setbrightness getbrightness your system without root acc
 <meta property="og:title" content="a simple d-bus daemon implemented with c">
 <meta property="og:description" content="first of all, you need a d-bus config file for the daemon. on a standard debian system it is saved in /etc/dbus-1/system.d/ as cneod.conf.
 and here you can find the daemon code. what can you do with the compiled code? with the d-bus rules above, you are able to:
-shutdown suspend reboot setbrightness getbrightness your system without root access. if you have a closer look to the code, you will see, the program is intended for my openmoko GTA02 and for my laptop/netbook." />
+shutdown suspend reboot setbrightness getbrightness your system without root access. if you have a closer look to the code, you will see, the program is intended for my openmoko GTA02 and for my laptop/netbook. example d-bus calls and the gcc command are inline from cneod.c now its time to build your own system daemons. more about the architecture behind the d-bus concept you can find here.
+" />
 <meta property="og:url" content="/posts/a-simple-d-bus-daemon-implemented-with-c/" />
 <meta property="og:site_name" content="fgaublog" />
 
@@ -151,7 +153,7 @@ shutdown suspend reboot setbrightness getbrightness your system without root acc
 
   <div class="post-content"><div>
         <p>first of all, you need a d-bus config file for the daemon. on a standard debian system it is saved in /etc/dbus-1/system.d/ as cneod.conf.</p>
-<script type="application/javascript" src="https://gist.github.com/fgau/3a9cba82973bf0ddf313788f82aae5c7.js"></script>
+<script src="https://gist.github.com/fgau/3a9cba82973bf0ddf313788f82aae5c7.js"></script>
 
 <p>and <a href="https://github.com/fgau/cneo/blob/master/src/cneod.c">here</a> you can find the daemon code. what can you do with the compiled code?
 with the d-bus rules above, you are able to:</p>
@@ -171,7 +173,7 @@ now its time to build your own system daemons. more about the architecture behin
   
 <div class="pagination">
     <div class="pagination__title">
-        <span class="pagination__title-h">Read other posts</span>
+        <span class="pagination__title-h"></span>
         <hr />
     </div>
     <div class="pagination__buttons">
@@ -207,7 +209,7 @@ now its time to build your own system daemons. more about the architecture behin
   <div class="footer__inner">
     
       <div class="copyright">
-        <span>© 2024 Powered by <a href="http://gohugo.io">Hugo</a></span>
+        <span>© 2025 Powered by <a href="http://gohugo.io">Hugo</a></span>
     
         <span>:: Theme made by <a href="https://twitter.com/panr">panr</a></span>
       </div>

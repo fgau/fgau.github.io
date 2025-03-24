@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>programming on fgaublog</title>
+    <title>Programming on fgaublog</title>
     <link>/tags/programming/</link>
-    <description>Recent content in programming on fgaublog</description>
+    <description>Recent content in Programming on fgaublog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sun, 20 Oct 2024 13:00:00 +0200</lastBuildDate><atom:link href="/tags/programming/index.xml" rel="self" type="application/rss+xml" />
@@ -190,8 +190,8 @@ monitoring channels.&lt;/p&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		&lt;span style=&#34;color:#a6e22e&#34;&gt;message&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;+=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;strings&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;Join&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;value&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&amp;#34;&lt;/span&gt;) &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;\n&amp;#34;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	}
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#75715e&#34;&gt;//finally sent all data to my slack logging channel
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;	&lt;span style=&#34;color:#a6e22e&#34;&gt;err&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;:=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;post_data_to_slack&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;message&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#75715e&#34;&gt;//finally sent all data to my slack logging channel&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#a6e22e&#34;&gt;err&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;:=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;post_data_to_slack&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;message&lt;/span&gt;)
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;err&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;!=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;nil&lt;/span&gt; {
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		&lt;span style=&#34;color:#a6e22e&#34;&gt;log&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;Fatalln&lt;/span&gt;()
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	}
@@ -206,12 +206,15 @@ monitoring channels.&lt;/p&gt;
       <pubDate>Thu, 24 Sep 2015 18:41:34 +0200</pubDate>
       
       <guid>/posts/slack-openweather-bot/</guid>
-      <description>all the cool kids are working with which messaging app? - slack of course! from my point of view, the slack integrations is the best feature of that app, and my favorite integration are the incoming webhooks. all what you need is to define a channel to post in and copy the webhook url where you post your payload json staff. above a litte python example that request weather data from openweathermap and post it to my channel #general.</description>
+      <description>&lt;p&gt;all the cool kids are working with which messaging app? - &lt;a href=&#34;https://slack.com/&#34;&gt;slack&lt;/a&gt; of course!
+from my point of view, the &lt;a href=&#34;https://slack.com/integrations&#34;&gt;slack integrations&lt;/a&gt; is the best feature of that app, and my favorite integration are the incoming webhooks. all what you need is to define a channel to post in and copy the webhook url where you post your payload json staff.
+above a litte python example that request weather data from &lt;a href=&#34;http://openweathermap.org&#34;&gt;openweathermap&lt;/a&gt; and post it to my channel #general.
+configure a cron job on your machine and the weatherbot is ready to post weather data to a specified slack channel.&lt;/p&gt;</description>
       <content>&lt;p&gt;all the cool kids are working with which messaging app? - &lt;a href=&#34;https://slack.com/&#34;&gt;slack&lt;/a&gt; of course!
 from my point of view, the &lt;a href=&#34;https://slack.com/integrations&#34;&gt;slack integrations&lt;/a&gt; is the best feature of that app, and my favorite integration are the incoming webhooks. all what you need is to define a channel to post in and copy the webhook url where you post your payload json staff.
 above a litte python example that request weather data from &lt;a href=&#34;http://openweathermap.org&#34;&gt;openweathermap&lt;/a&gt; and post it to my channel #general.
 configure a cron job on your machine and the weatherbot is ready to post weather data to a specified slack channel.&lt;/p&gt;
-&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/fgau/c8d48431b565f9dd7583f8a9bd3d6b8d.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://gist.github.com/fgau/c8d48431b565f9dd7583f8a9bd3d6b8d.js&#34;&gt;&lt;/script&gt;
 
 </content>
     </item>
@@ -222,11 +225,12 @@ configure a cron job on your machine and the weatherbot is ready to post weather
       <pubDate>Tue, 03 Mar 2015 16:58:03 +0200</pubDate>
       
       <guid>/posts/django-allow-only-requests-from-specific-ip/</guid>
-      <description>for a django project i needed a exception for the rss feed requests. they are only allowed to request for a set of specific IP addresses. django&amp;rsquo;s feed syndication framework is the base, and i have added a little snippet for receiving the remote address. the HttpRequest.META method reads all available HTTP header informations and for that case we read REMOTE_ADDR. only ip addresses in ip_allow are ready to receive the feed objects.</description>
+      <description>&lt;p&gt;for a django project i needed a exception for the rss feed requests. they are only allowed to request for a set of specific IP addresses.
+django&amp;rsquo;s &lt;a href=&#34;https://docs.djangoproject.com/en/1.7/ref/contrib/syndication/#a-simple-example&#34;&gt;feed syndication framework&lt;/a&gt; is the base, and i have added a little snippet for receiving the remote address. the &lt;a href=&#34;https://docs.djangoproject.com/en/1.7/ref/request-response/#httprequest-objects&#34;&gt;HttpRequest.META&lt;/a&gt; method reads all available HTTP header informations and for that case we read REMOTE_ADDR. only ip addresses in ip_allow are ready to receive the feed objects.&lt;/p&gt;</description>
       <content>&lt;p&gt;for a django project i needed a exception for the rss feed requests. they are only allowed to request for a set of specific IP addresses.
 django&amp;rsquo;s &lt;a href=&#34;https://docs.djangoproject.com/en/1.7/ref/contrib/syndication/#a-simple-example&#34;&gt;feed syndication framework&lt;/a&gt; is the base, and i have added a little snippet for receiving the remote address. the &lt;a href=&#34;https://docs.djangoproject.com/en/1.7/ref/request-response/#httprequest-objects&#34;&gt;HttpRequest.META&lt;/a&gt; method reads all available HTTP header informations and for that case we read REMOTE_ADDR. only ip addresses in ip_allow are ready to receive the feed objects.&lt;/p&gt;
 &lt;!-- raw HTML omitted --&gt;
-&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/fgau/5cffe0d158d24caf3cd338d5c9942c98.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://gist.github.com/fgau/5cffe0d158d24caf3cd338d5c9942c98.js&#34;&gt;&lt;/script&gt;
 
 </content>
     </item>
@@ -278,7 +282,6 @@ django&amp;rsquo;s &lt;a href=&#34;https://docs.djangoproject.com/en/1.7/ref/con
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;with&lt;/span&gt; open(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;/var/www/qblog/static/xml/test.xml&amp;#39;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;w&amp;#39;&lt;/span&gt;) &lt;span style=&#34;color:#66d9ef&#34;&gt;as&lt;/span&gt; f:
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            f&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;write(request&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;POST&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;get(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;myHttpData&amp;#39;&lt;/span&gt;))
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            f&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;close()&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;!-- raw HTML omitted --&gt;
 &lt;p&gt;further information about the @csrf_exempt decorator you can find &lt;a href=&#34;https://docs.djangoproject.com/en/dev/ref/csrf/#edge-cases&#34;&gt;here&lt;/a&gt;. the rest of the receiver method is self-explanatory. all my data, in that case longitude and latitude are saved in the myHttpData array and are written to a xml file for further web processing.&lt;/p&gt;
 
   &lt;figure class=&#34;left&#34; &gt;
@@ -293,12 +296,12 @@ django&amp;rsquo;s &lt;a href=&#34;https://docs.djangoproject.com/en/1.7/ref/con
       <pubDate>Thu, 12 Jun 2014 18:35:22 +0200</pubDate>
       
       <guid>/posts/python-and-facebook-api/</guid>
-      <description>to run this example, you need at first a facebook app. this video shows the simple setup. pick the App ID and App Secret from there and insert it in the python code below.
-the program returns all comments from a single facebook post. you can limited the request and you can change the facebook post ID. the graph api explorer is the perfect starting point to learn more about the fb api.</description>
+      <description>&lt;p&gt;to run this example, you need at first a facebook app. this &lt;a href=&#34;http://youtu.be/-0phgaiVJ4k&#34;&gt;video&lt;/a&gt; shows the simple setup. pick the &lt;strong&gt;App ID&lt;/strong&gt; and &lt;strong&gt;App Secret&lt;/strong&gt; from there and insert it in the python code below.&lt;/p&gt;
+&lt;p&gt;the program returns all comments from a single facebook post. you can limited the request and you can change the facebook post ID. the &lt;a href=&#34;https://developers.facebook.com/tools/explorer&#34;&gt;graph api explorer&lt;/a&gt; is the perfect starting point to learn more about the &lt;a href=&#34;https://developers.facebook.com/docs/graph-api/reference/v2.0/&#34;&gt;fb api&lt;/a&gt;.&lt;/p&gt;</description>
       <content>&lt;p&gt;to run this example, you need at first a facebook app. this &lt;a href=&#34;http://youtu.be/-0phgaiVJ4k&#34;&gt;video&lt;/a&gt; shows the simple setup. pick the &lt;strong&gt;App ID&lt;/strong&gt; and &lt;strong&gt;App Secret&lt;/strong&gt; from there and insert it in the python code below.&lt;/p&gt;
 &lt;p&gt;the program returns all comments from a single facebook post. you can limited the request and you can change the facebook post ID. the &lt;a href=&#34;https://developers.facebook.com/tools/explorer&#34;&gt;graph api explorer&lt;/a&gt; is the perfect starting point to learn more about the &lt;a href=&#34;https://developers.facebook.com/docs/graph-api/reference/v2.0/&#34;&gt;fb api&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;the last part is for error handling and simple json parsing to get all the interesting information.&lt;/p&gt;
-&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/fgau/8d77977a9657fa9220776c90e56d113a.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://gist.github.com/fgau/8d77977a9657fa9220776c90e56d113a.js&#34;&gt;&lt;/script&gt;
 
 </content>
     </item>
@@ -309,11 +312,22 @@ the program returns all comments from a single facebook post. you can limited th
       <pubDate>Wed, 04 Jun 2014 10:50:31 +0200</pubDate>
       
       <guid>/posts/a-simple-d-bus-daemon-implemented-with-c/</guid>
-      <description>first of all, you need a d-bus config file for the daemon. on a standard debian system it is saved in /etc/dbus-1/system.d/ as cneod.conf.
-and here you can find the daemon code. what can you do with the compiled code? with the d-bus rules above, you are able to:
-shutdown suspend reboot setbrightness getbrightness your system without root access. if you have a closer look to the code, you will see, the program is intended for my openmoko GTA02 and for my laptop/netbook.</description>
+      <description>&lt;p&gt;first of all, you need a d-bus config file for the daemon. on a standard debian system it is saved in /etc/dbus-1/system.d/ as cneod.conf.&lt;/p&gt;
+&lt;script src=&#34;https://gist.github.com/fgau/3a9cba82973bf0ddf313788f82aae5c7.js&#34;&gt;&lt;/script&gt;
+
+&lt;p&gt;and &lt;a href=&#34;https://github.com/fgau/cneo/blob/master/src/cneod.c&#34;&gt;here&lt;/a&gt; you can find the daemon code. what can you do with the compiled code?
+with the d-bus rules above, you are able to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;shutdown&lt;/li&gt;
+&lt;li&gt;suspend&lt;/li&gt;
+&lt;li&gt;reboot&lt;/li&gt;
+&lt;li&gt;setbrightness&lt;/li&gt;
+&lt;li&gt;getbrightness&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;your system without root access. if you have a closer look to the code, you will see, the program is intended for my openmoko &lt;a href=&#34;http://wiki.openmoko.org/wiki/GTA02&#34;&gt;GTA02&lt;/a&gt; and for my laptop/netbook. example d-bus calls and the gcc command are inline from cneod.c
+now its time to build your own system daemons. more about the architecture behind the d-bus concept you can find &lt;a href=&#34;http://en.wikipedia.org/wiki/D-Bus&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
       <content>&lt;p&gt;first of all, you need a d-bus config file for the daemon. on a standard debian system it is saved in /etc/dbus-1/system.d/ as cneod.conf.&lt;/p&gt;
-&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/fgau/3a9cba82973bf0ddf313788f82aae5c7.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://gist.github.com/fgau/3a9cba82973bf0ddf313788f82aae5c7.js&#34;&gt;&lt;/script&gt;
 
 &lt;p&gt;and &lt;a href=&#34;https://github.com/fgau/cneo/blob/master/src/cneod.c&#34;&gt;here&lt;/a&gt; you can find the daemon code. what can you do with the compiled code?
 with the d-bus rules above, you are able to:&lt;/p&gt;

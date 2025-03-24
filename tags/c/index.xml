@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>c on fgaublog</title>
+    <title>C on fgaublog</title>
     <link>/tags/c/</link>
-    <description>Recent content in c on fgaublog</description>
+    <description>Recent content in C on fgaublog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Wed, 04 Jun 2014 10:50:31 +0200</lastBuildDate><atom:link href="/tags/c/index.xml" rel="self" type="application/rss+xml" />
@@ -13,11 +13,22 @@
       <pubDate>Wed, 04 Jun 2014 10:50:31 +0200</pubDate>
       
       <guid>/posts/a-simple-d-bus-daemon-implemented-with-c/</guid>
-      <description>first of all, you need a d-bus config file for the daemon. on a standard debian system it is saved in /etc/dbus-1/system.d/ as cneod.conf.
-and here you can find the daemon code. what can you do with the compiled code? with the d-bus rules above, you are able to:
-shutdown suspend reboot setbrightness getbrightness your system without root access. if you have a closer look to the code, you will see, the program is intended for my openmoko GTA02 and for my laptop/netbook.</description>
+      <description>&lt;p&gt;first of all, you need a d-bus config file for the daemon. on a standard debian system it is saved in /etc/dbus-1/system.d/ as cneod.conf.&lt;/p&gt;
+&lt;script src=&#34;https://gist.github.com/fgau/3a9cba82973bf0ddf313788f82aae5c7.js&#34;&gt;&lt;/script&gt;
+
+&lt;p&gt;and &lt;a href=&#34;https://github.com/fgau/cneo/blob/master/src/cneod.c&#34;&gt;here&lt;/a&gt; you can find the daemon code. what can you do with the compiled code?
+with the d-bus rules above, you are able to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;shutdown&lt;/li&gt;
+&lt;li&gt;suspend&lt;/li&gt;
+&lt;li&gt;reboot&lt;/li&gt;
+&lt;li&gt;setbrightness&lt;/li&gt;
+&lt;li&gt;getbrightness&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;your system without root access. if you have a closer look to the code, you will see, the program is intended for my openmoko &lt;a href=&#34;http://wiki.openmoko.org/wiki/GTA02&#34;&gt;GTA02&lt;/a&gt; and for my laptop/netbook. example d-bus calls and the gcc command are inline from cneod.c
+now its time to build your own system daemons. more about the architecture behind the d-bus concept you can find &lt;a href=&#34;http://en.wikipedia.org/wiki/D-Bus&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
       <content>&lt;p&gt;first of all, you need a d-bus config file for the daemon. on a standard debian system it is saved in /etc/dbus-1/system.d/ as cneod.conf.&lt;/p&gt;
-&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/fgau/3a9cba82973bf0ddf313788f82aae5c7.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://gist.github.com/fgau/3a9cba82973bf0ddf313788f82aae5c7.js&#34;&gt;&lt;/script&gt;
 
 &lt;p&gt;and &lt;a href=&#34;https://github.com/fgau/cneo/blob/master/src/cneod.c&#34;&gt;here&lt;/a&gt; you can find the daemon code. what can you do with the compiled code?
 with the d-bus rules above, you are able to:&lt;/p&gt;

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>android on fgaublog</title>
+    <title>Android on fgaublog</title>
     <link>/tags/android/</link>
-    <description>Recent content in android on fgaublog</description>
+    <description>Recent content in Android on fgaublog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sun, 30 Nov 2014 00:16:50 +0200</lastBuildDate><atom:link href="/tags/android/index.xml" rel="self" type="application/rss+xml" />
@@ -54,7 +54,6 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;with&lt;/span&gt; open(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;/var/www/qblog/static/xml/test.xml&amp;#39;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;w&amp;#39;&lt;/span&gt;) &lt;span style=&#34;color:#66d9ef&#34;&gt;as&lt;/span&gt; f:
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            f&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;write(request&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;POST&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;get(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;myHttpData&amp;#39;&lt;/span&gt;))
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            f&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;close()&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;!-- raw HTML omitted --&gt;
 &lt;p&gt;further information about the @csrf_exempt decorator you can find &lt;a href=&#34;https://docs.djangoproject.com/en/dev/ref/csrf/#edge-cases&#34;&gt;here&lt;/a&gt;. the rest of the receiver method is self-explanatory. all my data, in that case longitude and latitude are saved in the myHttpData array and are written to a xml file for further web processing.&lt;/p&gt;
 
   &lt;figure class=&#34;left&#34; &gt;

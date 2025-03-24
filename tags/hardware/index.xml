@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>hardware on fgaublog</title>
+    <title>Hardware on fgaublog</title>
     <link>/tags/hardware/</link>
-    <description>Recent content in hardware on fgaublog</description>
+    <description>Recent content in Hardware on fgaublog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sun, 27 Oct 2024 13:00:00 +0200</lastBuildDate><atom:link href="/tags/hardware/index.xml" rel="self" type="application/rss+xml" />
@@ -73,40 +73,40 @@ the picture shows always the pinout.&lt;/p&gt;
 
 &lt;/p&gt;
 &lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th style=&#34;text-align:left&#34;&gt;&lt;strong&gt;Pin&lt;/strong&gt;&lt;/th&gt;
-&lt;th style=&#34;text-align:left&#34;&gt;&lt;strong&gt;Name&lt;/strong&gt;&lt;/th&gt;
-&lt;th style=&#34;text-align:left&#34;&gt;&lt;strong&gt;Wire color&lt;/strong&gt;&lt;/th&gt;
-&lt;th style=&#34;text-align:left&#34;&gt;&lt;strong&gt;Description&lt;/strong&gt;&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;1&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;V(Bus)&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;Red&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;+5 V&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;2&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;D-&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;White&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;Data-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;3&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;D+&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;Green&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;Data+&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;4&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;GND&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;Black&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;Ground&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Pin&lt;/strong&gt;&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Name&lt;/strong&gt;&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Wire color&lt;/strong&gt;&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Description&lt;/strong&gt;&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;V(Bus)&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Red&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;+5 V&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;2&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;D-&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;White&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Data-&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;3&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;D+&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Green&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Data+&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;4&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;GND&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Black&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Ground&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt; &lt;/p&gt;
 

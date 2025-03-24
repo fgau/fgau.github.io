@@ -8,7 +8,7 @@
     <language>en</language>
     <lastBuildDate>Sun, 27 Oct 2024 13:00:00 +0200</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>hardware</title>
+      <title>Hardware</title>
       <link>/tags/hardware/</link>
       <pubDate>Sun, 27 Oct 2024 13:00:00 +0200</pubDate>
       
@@ -18,7 +18,7 @@
     </item>
     
     <item>
-      <title>music</title>
+      <title>Music</title>
       <link>/tags/music/</link>
       <pubDate>Sun, 20 Oct 2024 13:00:00 +0200</pubDate>
       
@@ -28,7 +28,7 @@
     </item>
     
     <item>
-      <title>programming</title>
+      <title>Programming</title>
       <link>/tags/programming/</link>
       <pubDate>Sun, 20 Oct 2024 13:00:00 +0200</pubDate>
       
@@ -38,7 +38,7 @@
     </item>
     
     <item>
-      <title>events</title>
+      <title>Events</title>
       <link>/tags/events/</link>
       <pubDate>Fri, 06 Sep 2024 13:00:00 +0200</pubDate>
       
@@ -48,7 +48,7 @@
     </item>
     
     <item>
-      <title>golang</title>
+      <title>Golang</title>
       <link>/tags/golang/</link>
       <pubDate>Sun, 16 Oct 2022 14:12:34 +0200</pubDate>
       
@@ -58,7 +58,7 @@
     </item>
     
     <item>
-      <title>python</title>
+      <title>Python</title>
       <link>/tags/python/</link>
       <pubDate>Thu, 24 Sep 2015 18:41:34 +0200</pubDate>
       
@@ -68,7 +68,7 @@
     </item>
     
     <item>
-      <title>databases</title>
+      <title>Databases</title>
       <link>/tags/databases/</link>
       <pubDate>Sat, 25 Apr 2015 12:09:06 +0200</pubDate>
       
@@ -78,7 +78,7 @@
     </item>
     
     <item>
-      <title>django</title>
+      <title>Django</title>
       <link>/tags/django/</link>
       <pubDate>Sat, 25 Apr 2015 12:09:06 +0200</pubDate>
       
@@ -88,7 +88,7 @@
     </item>
     
     <item>
-      <title>android</title>
+      <title>Android</title>
       <link>/tags/android/</link>
       <pubDate>Sun, 30 Nov 2014 00:16:50 +0200</pubDate>
       
@@ -98,7 +98,7 @@
     </item>
     
     <item>
-      <title>others</title>
+      <title>Others</title>
       <link>/tags/others/</link>
       <pubDate>Sat, 08 Nov 2014 19:13:28 +0200</pubDate>
       
@@ -108,7 +108,7 @@
     </item>
     
     <item>
-      <title>c</title>
+      <title>C</title>
       <link>/tags/c/</link>
       <pubDate>Wed, 04 Jun 2014 10:50:31 +0200</pubDate>
       
@@ -118,7 +118,7 @@
     </item>
     
     <item>
-      <title>other</title>
+      <title>Other</title>
       <link>/tags/other/</link>
       <pubDate>Tue, 29 Apr 2014 10:55:09 +0200</pubDate>
       

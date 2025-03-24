@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   
-    <title>programming :: fgaublog</title>
+    <title>Programming :: fgaublog</title>
   
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -40,7 +40,7 @@
 
 <meta property="og:locale" content="en" />
 <meta property="og:type" content="website" />
-<meta property="og:title" content="programming">
+<meta property="og:title" content="Programming">
 <meta property="og:description" content="" />
 <meta property="og:url" content="/tags/programming/" />
 <meta property="og:site_name" content="fgaublog" />
@@ -158,7 +158,7 @@ for writers, poets, and creative enthusiasts</p>
         
         <div>
           <a class="read-more button"
-            href="/posts/cutup/">Read more →</a>
+            href="/posts/cutup/"> →</a>
         </div>
         
       </div>
@@ -200,7 +200,7 @@ for writers, poets, and creative enthusiasts</p>
         
         <div>
           <a class="read-more button"
-            href="/posts/slack-openweather-bot-reloaded/">Read more →</a>
+            href="/posts/slack-openweather-bot-reloaded/"> →</a>
         </div>
         
       </div>
@@ -233,7 +233,10 @@ for writers, poets, and creative enthusiasts</p>
         <div class="post-content">
           
           
-          all the cool kids are working with which messaging app? - slack of course! from my point of view, the slack integrations is the best feature of that app, and my favorite integration are the incoming webhooks. all what you need is to define a channel to post in and copy the webhook url where you post your payload json staff. above a litte python example that request weather data from openweathermap and post it to my channel #general.
+          <p>all the cool kids are working with which messaging app? - <a href="https://slack.com/">slack</a> of course!
+from my point of view, the <a href="https://slack.com/integrations">slack integrations</a> is the best feature of that app, and my favorite integration are the incoming webhooks. all what you need is to define a channel to post in and copy the webhook url where you post your payload json staff.
+above a litte python example that request weather data from <a href="http://openweathermap.org">openweathermap</a> and post it to my channel #general.
+configure a cron job on your machine and the weatherbot is ready to post weather data to a specified slack channel.</p>
           
           
         </div>
@@ -241,7 +244,7 @@ for writers, poets, and creative enthusiasts</p>
         
         <div>
           <a class="read-more button"
-            href="/posts/slack-openweather-bot/">Read more →</a>
+            href="/posts/slack-openweather-bot/"> →</a>
         </div>
         
       </div>
@@ -276,7 +279,8 @@ for writers, poets, and creative enthusiasts</p>
         <div class="post-content">
           
           
-          for a django project i needed a exception for the rss feed requests. they are only allowed to request for a set of specific IP addresses. django&rsquo;s feed syndication framework is the base, and i have added a little snippet for receiving the remote address. the HttpRequest.META method reads all available HTTP header informations and for that case we read REMOTE_ADDR. only ip addresses in ip_allow are ready to receive the feed objects.
+          <p>for a django project i needed a exception for the rss feed requests. they are only allowed to request for a set of specific IP addresses.
+django&rsquo;s <a href="https://docs.djangoproject.com/en/1.7/ref/contrib/syndication/#a-simple-example">feed syndication framework</a> is the base, and i have added a little snippet for receiving the remote address. the <a href="https://docs.djangoproject.com/en/1.7/ref/request-response/#httprequest-objects">HttpRequest.META</a> method reads all available HTTP header informations and for that case we read REMOTE_ADDR. only ip addresses in ip_allow are ready to receive the feed objects.</p>
           
           
         </div>
@@ -284,7 +288,7 @@ for writers, poets, and creative enthusiasts</p>
         
         <div>
           <a class="read-more button"
-            href="/posts/django-allow-only-requests-from-specific-ip/">Read more →</a>
+            href="/posts/django-allow-only-requests-from-specific-ip/"> →</a>
         </div>
         
       </div>
@@ -329,7 +333,7 @@ for writers, poets, and creative enthusiasts</p>
         
         <div>
           <a class="read-more button"
-            href="/posts/android-http-post-to-django-server/">Read more →</a>
+            href="/posts/android-http-post-to-django-server/"> →</a>
         </div>
         
       </div>
@@ -362,8 +366,8 @@ for writers, poets, and creative enthusiasts</p>
         <div class="post-content">
           
           
-          to run this example, you need at first a facebook app. this video shows the simple setup. pick the App ID and App Secret from there and insert it in the python code below.
-the program returns all comments from a single facebook post. you can limited the request and you can change the facebook post ID. the graph api explorer is the perfect starting point to learn more about the fb api.
+          <p>to run this example, you need at first a facebook app. this <a href="http://youtu.be/-0phgaiVJ4k">video</a> shows the simple setup. pick the <strong>App ID</strong> and <strong>App Secret</strong> from there and insert it in the python code below.</p>
+<p>the program returns all comments from a single facebook post. you can limited the request and you can change the facebook post ID. the <a href="https://developers.facebook.com/tools/explorer">graph api explorer</a> is the perfect starting point to learn more about the <a href="https://developers.facebook.com/docs/graph-api/reference/v2.0/">fb api</a>.</p>
           
           
         </div>
@@ -371,7 +375,7 @@ the program returns all comments from a single facebook post. you can limited th
         
         <div>
           <a class="read-more button"
-            href="/posts/python-and-facebook-api/">Read more →</a>
+            href="/posts/python-and-facebook-api/"> →</a>
         </div>
         
       </div>
@@ -404,9 +408,20 @@ the program returns all comments from a single facebook post. you can limited th
         <div class="post-content">
           
           
-          first of all, you need a d-bus config file for the daemon. on a standard debian system it is saved in /etc/dbus-1/system.d/ as cneod.conf.
-and here you can find the daemon code. what can you do with the compiled code? with the d-bus rules above, you are able to:
-shutdown suspend reboot setbrightness getbrightness your system without root access. if you have a closer look to the code, you will see, the program is intended for my openmoko GTA02 and for my laptop/netbook.
+          <p>first of all, you need a d-bus config file for the daemon. on a standard debian system it is saved in /etc/dbus-1/system.d/ as cneod.conf.</p>
+<script src="https://gist.github.com/fgau/3a9cba82973bf0ddf313788f82aae5c7.js"></script>
+
+<p>and <a href="https://github.com/fgau/cneo/blob/master/src/cneod.c">here</a> you can find the daemon code. what can you do with the compiled code?
+with the d-bus rules above, you are able to:</p>
+<ul>
+<li>shutdown</li>
+<li>suspend</li>
+<li>reboot</li>
+<li>setbrightness</li>
+<li>getbrightness</li>
+</ul>
+<p>your system without root access. if you have a closer look to the code, you will see, the program is intended for my openmoko <a href="http://wiki.openmoko.org/wiki/GTA02">GTA02</a> and for my laptop/netbook. example d-bus calls and the gcc command are inline from cneod.c
+now its time to build your own system daemons. more about the architecture behind the d-bus concept you can find <a href="http://en.wikipedia.org/wiki/D-Bus">here</a>.</p>
           
           
         </div>
@@ -414,7 +429,7 @@ shutdown suspend reboot setbrightness getbrightness your system without root acc
         
         <div>
           <a class="read-more button"
-            href="/posts/a-simple-d-bus-daemon-implemented-with-c/">Read more →</a>
+            href="/posts/a-simple-d-bus-daemon-implemented-with-c/"> →</a>
         </div>
         
       </div>
@@ -435,7 +450,7 @@ shutdown suspend reboot setbrightness getbrightness your system without root acc
   <div class="footer__inner">
     
       <div class="copyright">
-        <span>© 2024 Powered by <a href="http://gohugo.io">Hugo</a></span>
+        <span>© 2025 Powered by <a href="http://gohugo.io">Hugo</a></span>
     
         <span>:: Theme made by <a href="https://twitter.com/panr">panr</a></span>
       </div>
